@@ -97,3 +97,9 @@
 .link2 {
     height: 55px;
 }
+
+.tekst {
+    height: 1.3rem;
+    position: relative;
+    top: -3px;
+}
