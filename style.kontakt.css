@@ -90,8 +90,10 @@
     position: relative;
     font-size: 0.75rem;
     top: -17px;
+    width: 150px;
+    left: 55px;
 }
 
-#twits {
+.link2 {
     height: 55px;
 }
