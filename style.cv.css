@@ -187,6 +187,10 @@ ul {
     font-style: italic;
 }
 
+#grey {
+    color: rgba(160,160,160,0.9)
+}
+
 .semester {
     margin: 0;
     font-family: Tahoma, Geneva, sans-serif;
@@ -208,4 +212,13 @@ ul {
     font-style: italic;
     padding-top: 0.2rem;
     top: 89%;
+}
+
+.fag a {
+    text-decoration: none;
+    color: black;
+}
+
+.fag a:hover {
+    text-decoration: underline;
 }
