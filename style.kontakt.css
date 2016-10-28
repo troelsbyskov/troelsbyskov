@@ -15,7 +15,7 @@
 }
 
 #overdiv {
-    width: 85%;
+    width: 75%;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -26,6 +26,7 @@
     font-family: Tahoma, Geneva, sans-serif;
     margin: 0;
     font-size: 1.6rem;
+    text-align: left;
 }
 
 .liste {
@@ -72,4 +73,25 @@
 
 .socimg {
     height: 50px;
+}
+
+#dk {
+    height: 1.2rem;
+    position: relative;
+    top: 3px;
+}
+
+#fyld {
+    width: 38px;
+}
+
+.ubenyttet {
+    margin: 0;
+    position: relative;
+    font-size: 0.75rem;
+    top: -17px;
+}
+
+#twits {
+    height: 55px;
 }
