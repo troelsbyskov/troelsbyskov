@@ -1,0 +1,154 @@
+.cvli {
+    text-decoration: underline;
+}
+
+.scrollmenu {
+    position: fixed;
+    top: 18%;
+    left: 2%;
+    width: 10rem;
+    border: 1px solid rgba(130,130,130,1);
+    background-color: rgba(235,235,235,1);
+    z-index: 1;
+}
+
+.scrollmenu h3 {
+    margin: 0;
+    margin-top: 2%;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1rem;
+}
+
+.scrollmenu a {
+    text-decoration: none;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 0.78rem;
+}
+
+.scrollmenu a:hover {
+    text-decoration: underline;
+}
+
+.scrollmenu li {
+    margin-bottom: 0.4rem;
+}
+
+.scrollmenu ul {
+    position: relative;
+    left: 7%;
+}
+
+.hovedemne {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+.cvtekst {
+    position: relative;
+    width: 700px;
+    top: 70px;
+    margin: auto;
+}
+
+#inst {
+    margin-top: 3%;
+    margin-left: 8%;
+}
+
+.cvtekst h1, h2, .popup h3, .institution, .skole {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#uddannelse {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.liste, .fag {
+    list-style-type: disc;
+    position: relative;
+    left: 65px;
+}
+
+.institution {
+    margin-bottom: 0;
+    font-size: 1.18rem;
+}
+
+.skoleintro {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.3rem;
+}
+
+.skole {
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+    margin-bottom: 3px;
+    margin-top: 6px;
+}
+
+.grad {
+    position: relative;
+    left: 25px;
+}
+
+.black_overlay {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 9998;
+    cursor: default;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 30%;
+    top: 20%;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    border: 5px solid rgba(41,198,73,1);
+    border-radius: 5px;
+    background-color: rgba(240,240,240,1);
+    z-index: 9999;
+    overflow: auto;
+}
+
+.popup h3 {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#lukknap {
+    width: 25px;
+    height: 25px;
+}
+
+#luklink {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+#luklink:hover {
+    background-color: rgba(0,0,0,0.1)
+}
+
+.fag {
+    width: 210px;
+}
