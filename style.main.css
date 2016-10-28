@@ -66,14 +66,14 @@ body {
     background-image: url(Images/home.png);
 }
 
-.divcv, .divom {
+.divcv {
     width: 45px;
     border-radius: 5px;
     position: relative;
     margin: auto;
 }
 
-.divbilleder, .divkontakt {
+.divbilleder, .divkontakt, .divom {
     width: 80px;
     border-radius: 5px;
     position: relative;
