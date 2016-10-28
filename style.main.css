@@ -49,11 +49,7 @@ body {
     background-size: 128%;
     height: 75px;
     width: 75px;
-<<<<<<< HEAD
     z-index: 10001;
-=======
-    z-index: 10001;
->>>>>>> origin/master
     position: fixed;
     border: 3px solid rgba(255,255,255,1);
     border-radius: 100%;
@@ -92,11 +88,7 @@ body {
 
 #logo {
     font-family: 'Raleway', sans-serif;
-<<<<<<< HEAD
     font-size: 21px;
-=======
-    font-size: 21px;
->>>>>>> origin/master
     text-transform: uppercase;
     text-align: center;
 }
@@ -122,8 +114,4 @@ ul {
     margin: 3px;
     margin-bottom: 0;
     border-radius: 3px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master

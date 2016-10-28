@@ -69,11 +69,7 @@ ul {
 }
 
 .liste, .fag {
-<<<<<<< HEAD
     list-style-type: disc;
-=======
-    list-style-type: disc;
->>>>>>> origin/master
     position: relative;
     left: 65px;
 }
@@ -155,8 +151,4 @@ ul {
 
 .fag {
     width: 210px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master
