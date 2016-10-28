@@ -97,7 +97,7 @@ ul {
     padding: 0;
 }
 
-.divcv:hover, .divbilleder:hover, .divlogo:hover, .divkontakt:hover, .divom:hover {
+.divcv:hover, .divbilleder:hover, .divlogo:hover, .divkontakt:hover, .divom:hover, .links-logo:hover {
     background-color: rgba(0,0,0,0.1)
 }
 
@@ -114,8 +114,4 @@ ul {
     margin: 3px;
     margin-bottom: 0;
     border-radius: 3px;
-}
-
-.links-logo:hover {
-    background-color: rgba(0,0,0,0.1)
 }
