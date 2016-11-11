@@ -152,7 +152,7 @@ ul {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 1080px) {
+@media screen  and (max-width: 1080px) {
     .navigation {
         height: 45px;
     }
@@ -168,7 +168,7 @@ ul {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
     #cvid, #billederid, #kontaktid, #omid {
         display: none;
     }
