@@ -16,6 +16,7 @@ body {
 
 .navigation {
     width: 100%;
+    height: 45px;
     background-color: rgba(41,198,73,1);
     text-align: center;
     overflow: auto;
@@ -34,6 +35,8 @@ body {
     font-family: 'Abel';
     font-size: 18px;
     margin: auto;
+    top: 10px;
+    width: 100px;
     font-weight: 300;
 }
 
@@ -72,6 +75,8 @@ body {
     position: fixed;
     border: 3px solid rgba(255,255,255,1);
     border-radius: 100%;
+    height: 65px;
+    width: 65px;
     top: 2.5px;
     left: 5.5%;
 }
@@ -149,22 +154,6 @@ ul {
     #profpic {
     height: 75px;
     width: 75px;
-    }
-}
-
-@media screen and (max-width: 1080px) {
-    .navigation {
-        height: 45px;
-    }
-
-    .navigation li {
-        top: 10px;
-        width: 100px;
-    }
-
-    #profpic {
-    height: 65px;
-    width: 65px;
     }
 }
 
