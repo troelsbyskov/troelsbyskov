@@ -1,0 +1,6 @@
+/* FOR PHONES (PORTRAIT) */
+@media only screen and (max-device-width: 413px) and (orientation: portrait) {
+    .table {
+        top: 270px;
+    }
+}

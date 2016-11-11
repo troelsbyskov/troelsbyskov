@@ -1,0 +1,12 @@
+/* FOR PHONES (PORTRAIT) */
+@media only screen and (max-device-width: 413px) and (orientation: portrait) {
+    .welcome {
+        top: 250px;
+        font-size: 1.5rem;
+        width: 700px;
+    }
+
+    .welcome p {
+        top: -40px;
+    }
+}
