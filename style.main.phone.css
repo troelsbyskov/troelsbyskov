@@ -1,5 +1,6 @@
+/* FOR PHONES (PORTRAIT) */
 @media only screen and (max-device-width: 413px) and (orientation: portrait) {
-/* FOR PHONES */
+
     #cvid, #billederid, #kontaktid, #omid {
         display: none;
     }
@@ -41,7 +42,7 @@
     }
 
     .navigation li {
-        top: 33px;
+        top: 50px;
     }
 
     #dropli {
@@ -49,12 +50,8 @@
     }
 
     .links {
-        position: fixed;
         right: 10px;
         top: 160px;
-        z-index: 10000;
-        background-color: rgba(240,240,240,1);
-        border-radius: 10px;
     }
 
     .links tr {
@@ -66,5 +63,38 @@
         width: 75px;
         margin: 9px;
         margin-bottom: 0;
+    }
+}
+
+/* FOR PHONES (LANDSCAPE) */
+@media only screen and (max-device-width: 413px) and (orientation: landscape) {
+
+    .navigation {
+        height: 65px;
+    }
+
+    #profpic {
+        height: 90px;
+        width: 90px;
+        top: 8px;
+    }
+
+    .navigation li {
+        font-size: 22px;
+        top: 20px;
+        width: 120px;
+    }
+
+    #logo {
+        font-size: 23px;
+    }
+
+    .links {
+        top: 75px;
+    }
+
+    .links-logo {
+        height: 40px;
+        width: 40px;
     }
 }
