@@ -216,4 +216,24 @@ ul {
     #dropli {
         right: 10%;
     }
+
+    .links {
+        position: fixed;
+        right: 10px;
+        top: 150px;
+        z-index: 10000;
+        background-color: rgba(240,240,240,1);
+        border-radius: 10px;
+    }
+
+    #linkstable tr {
+        display: inline-block;
+    }
+
+    .links-logo {
+        height: 75px;
+        width: 75px;
+        margin: 9px;
+        margin-bottom: 0;
+    }
 }
