@@ -35,10 +35,12 @@
 
 #left {
     float: left;
+    left: 30%;
 }
 
 #right {
     float: right;
+    right: 30%;
 }
 
 .liste li {
