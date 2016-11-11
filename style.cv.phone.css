@@ -2,6 +2,7 @@
 @media only screen and (max-device-width: 413px) and (orientation: portrait) {
     .cvtekst {
         top: 0;
+        width: 78%;
     }
 
     .altekst {
