@@ -191,7 +191,12 @@ ul {
         font-size: 50px;
     }
 
+    #logoli {
+        width: 300px;
+    }
+
     #dropimg {
         height: 100px;
+        top: 25px;
     }
 }
