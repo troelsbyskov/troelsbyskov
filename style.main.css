@@ -178,6 +178,11 @@ ul {
     }
 
     .navigation {
-        height: 200px;
+        height: 180px;
+    }
+
+    #profpic {
+    height: 150px;
+    width: 150px;
     }
 }
