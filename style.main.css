@@ -202,10 +202,13 @@ ul {
     #dropimg {
         height: 100px;
         top: 25px;
-        right: 5.5%;
     }
 
     .navigation li {
-        top: 25px;
+        top: 50px;
+    }
+
+    #dropli {
+        right: 15.5%;
     }
 }
