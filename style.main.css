@@ -182,9 +182,9 @@ ul {
     }
 
     #profpic {
-        height: 100px;
-        width: 100px;
-        top: 10px;
+        height: 125px;
+        width: 125px;
+        top: 15px;
     }
 
     #logo {
@@ -201,7 +201,7 @@ ul {
 
     #dropimg {
         height: 80px;
-        top: 20px;
+        top: 30px;
     }
 
     .navigation li {
