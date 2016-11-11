@@ -40,4 +40,8 @@
         display: inline-block;
         position: relative;
     }
+
+    .mobilfyld {
+        display: block;
+    }
 }
