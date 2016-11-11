@@ -1,0 +1,70 @@
+@media only screen and (max-device-width: 770px) and (orientation: portrait) {
+/* FOR PHONES */
+    #cvid, #billederid, #kontaktid, #omid {
+        display: none;
+    }
+
+    #dropli {
+        display: inline-block;
+    }
+
+    .navigation {
+        height: 150px;
+    }
+
+    #profpic {
+        height: 125px;
+        width: 125px;
+        top: 15px;
+    }
+
+    #logo {
+        font-size: 50px;
+    }
+
+    #logoli {
+        width: 450px;
+    }
+
+    .divlogo {
+        width: 450px;
+    }
+
+    #dropimg {
+        height: 80px;
+    }
+
+    .divdrop {
+        height: 100px;
+        width: 110px;
+        top: 25px;
+    }
+
+    .navigation li {
+        top: 33px;
+    }
+
+    #dropli {
+        right: 10%;
+    }
+
+    .links {
+        position: fixed;
+        right: 10px;
+        top: 160px;
+        z-index: 10000;
+        background-color: rgba(240,240,240,1);
+        border-radius: 10px;
+    }
+
+    .links tr {
+        display: inline-block;
+    }
+
+    .links-logo {
+        height: 75px;
+        width: 75px;
+        margin: 9px;
+        margin-bottom: 0;
+    }
+}

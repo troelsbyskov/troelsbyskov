@@ -223,7 +223,7 @@ ul {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1100px) {
     .cvtekst {
         margin-left: 0;
         left: 200px;
