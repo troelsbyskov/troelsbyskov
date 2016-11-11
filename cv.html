@@ -96,7 +96,7 @@
         <div class="scrollmenu">
             <h3>Emner</h3>
             <ul>
-                <li>
+                <li class="hovedemneliste">
                     <a href="#uddannelse"><p class="hovedemne">Uddannelse</p></a> <!-- Når selve teksten kommer skal denne have et id der hedder id="uddannelse" eller et a med name="uddannelse" -->
                     <ul id="inst">
                         <li><a href="#universitet">Universitet</a></li>
@@ -106,17 +106,32 @@
                         <li><a href="#folkeskole">Folkeskole</a></li>
                     </ul>
                 </li>
-                <li>
+                <li class="hovedemneliste">
                     <a href="#erhverv"><p class="hovedemne">Erhvervserfaring</p></a>
+                    <ul id="inst">
+                        <li><a href="#Elgiganten">Elgiganten</a></li>
+                        <li><a href="#FONA">FONA</a></li>
+                        <li><a href="#bones">Bone's</a></li>
+                        <li class="mobilfyld"><br></li>
+                        <li class="mobilfyld"><br></li>
+                    </ul>
                 </li>
-                <li>
+                <li class="hovedemneliste">
                     <a href="#kompetencer"><p class="hovedemne">Kompetencer</p></a>
+                    <ul id="inst">
+                        <li class="mobilfyld"><br></li>
+                        <li class="mobilfyld"><br></li>
+                        <li class="mobilfyld"><br></li>
+                        <li class="mobilfyld"><br></li>
+                        <li class="mobilfyld"><br></li>
+                    </ul>
                 </li>
             </ul>
         </div>
 
         <div class="cvtekst">
             <h1 id="uddannelse">Mit CV</h1>
+            <span class="altekst">
             <h2 id="universitet"><br>Uddannelse</h2>
                 <p><!-- Noget tekst, som en intro til mit uddannelsesforløb? --></p>
                 <ul>
@@ -260,6 +275,7 @@
                     <li>CSS</li>
                     <li>Javascript</li>
                 </ul>
+                </span>
         </div>
 
         <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><div id="fade" class="black_overlay"></div></a>

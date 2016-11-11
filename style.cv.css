@@ -223,9 +223,13 @@ ul {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) and (min-device-width: 414px) {
     .cvtekst {
         margin-left: 0;
         left: 200px;
+    }
+
+    .mobilfyld {
+        display: none;
     }
 }

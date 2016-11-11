@@ -1,0 +1,42 @@
+/* FOR PHONES (PORTRAIT) */
+@media only screen and (max-device-width: 413px) and (orientation: portrait) {
+    .cvtekst {
+        top: 0;
+    }
+
+    .altekst {
+        position: relative;
+        top: 280px;
+    }
+
+    .cvtekst h1 {
+        font-size: 3rem;
+    }
+
+    .scrollmenu {
+        position: relative;
+        top: 400px;
+        margin: auto;
+        width: 34rem;
+        border: 1px solid rgba(130,130,130,1);
+        background-color: rgba(235,235,235,1);
+        z-index: 1;
+    }
+
+    .scrollmenu h3 {
+        font-size: 2rem;
+    }
+
+    .scrollmenu a {
+        font-size: 1.2rem;
+    }
+
+    .hovedemne {
+        font-size: 1.3rem;
+    }
+
+    .hovedemneliste {
+        display: inline-block;
+        position: relative;
+    }
+}

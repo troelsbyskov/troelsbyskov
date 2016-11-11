@@ -1,6 +1,16 @@
 /* FOR PHONES (PORTRAIT) */
 @media only screen and (max-device-width: 413px) and (orientation: portrait) {
     .table {
-        top: 270px;
+        top: 250px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .tdimg {
+        height: 160px;
+        width: 160px;
     }
 }
