@@ -155,6 +155,10 @@ ul {
         height: 75px;
         width: 75px;
     }
+
+    .links {
+        top: 50px;
+    }
 }
 
 @media only screen and (max-width: 770px) {
