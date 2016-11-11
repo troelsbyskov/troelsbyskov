@@ -188,6 +188,10 @@ ul {
     }
 
     #logo {
-        font-size: 75px;
+        font-size: 50px;
+    }
+
+    #dropimg {
+        height: 100px;
     }
 }
