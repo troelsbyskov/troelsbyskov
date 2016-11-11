@@ -141,7 +141,7 @@ ul {
     border-radius: 3px;
 }
 
-@media screen and (min-width: 1080px) {
+@media only screen and (min-width: 1080px) {
     .navigation {
         height: 55px;
     }
@@ -157,7 +157,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 770px) {
+@media only screen and (max-width: 770px) {
     #cvid, #billederid, #kontaktid, #omid {
         display: none;
     }
