@@ -168,11 +168,16 @@ ul {
 }
 
 @media only screen and (max-device-width: 770px) {
+/* FOR PHONES */
     #cvid, #billederid, #kontaktid, #omid {
         display: none;
     }
 
     #dropli {
         display: inline-block;
+    }
+
+    .navigation {
+        height: 200px;
     }
 }
