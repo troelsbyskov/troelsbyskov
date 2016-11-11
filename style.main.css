@@ -157,7 +157,17 @@ ul {
     }
 }
 
-@media only screen and (max-width: 770px) and (max-device-width: 770px) {
+@media only screen and (max-width: 770px) {
+    #cvid, #billederid, #kontaktid, #omid {
+        display: none;
+    }
+
+    #dropli {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-device-width: 770px) {
     #cvid, #billederid, #kontaktid, #omid {
         display: none;
     }
