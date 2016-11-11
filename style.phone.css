@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 750px) and (orientation: portrait) {
+@media only screen and (max-device-width: 413px) and (orientation: portrait) {
 /* FOR PHONES */
     #cvid, #billederid, #kontaktid, #omid {
         display: none;
