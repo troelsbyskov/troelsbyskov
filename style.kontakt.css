@@ -33,14 +33,18 @@
     text-align: center;
 }
 
-#left {
-    float: left;
-    left: 30%;
+#right {
+    position: absolute;
+    right: 0;
+    top: -16px;
 }
 
-#right {
-    float: right;
-    right: 30%;
+@media screen and (max-width: 1160px) {
+    #right {
+        position: inherit;
+        right: inherit;
+        top: inherit;
+    }
 }
 
 .liste li {
