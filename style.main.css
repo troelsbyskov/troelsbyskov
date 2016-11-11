@@ -167,7 +167,7 @@ ul {
     }
 }
 
-@media only screen and (max-device-width: 770px) {
+@media only screen and (max-device-width: 770px) and (orientation: portrait) {
 /* FOR PHONES */
     #cvid, #billederid, #kontaktid, #omid {
         display: none;
