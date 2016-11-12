@@ -18,10 +18,7 @@
         position: relative;
         top: 400px;
         margin: auto;
-        width: 34rem;
-        border: 1px solid rgba(130,130,130,1);
-        background-color: rgba(235,235,235,1);
-        z-index: 1;
+        width: 75%;
     }
 
     .scrollmenu h3 {
@@ -33,15 +30,40 @@
     }
 
     .hovedemne {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .hovedemneliste {
-        display: inline-block;
+        display: inline-table;
         position: relative;
+        padding-left: 7%;
     }
 
-    .mobilfyld {
-        display: block;
+    .grad {
+        font-size: 1.5rem;
+    }
+}
+
+/* FOR PHONES (LANDSCAPE) */
+@media only screen and (max-device-width: 413px) and (orientation: landscape) {
+
+    .cvtekst {
+        margin-left: 0;
+        left: 185px;
+        width: 68%;
+    }
+
+    .scrollmenu {
+        top: 130px;
+        margin: auto;
+        width: 150px;
+    }
+
+    .scrollmenu h3 {
+        font-size: 1.5rem;
+    }
+
+    .grad {
+        font-size: 1.5rem;
     }
 }
