@@ -2,6 +2,10 @@
     text-decoration: underline;
 }
 
+.kontakttekst h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
 .kontakttekst {
     position: relative;
     top: 70px;
@@ -15,7 +19,7 @@
 }
 
 #overdiv {
-    width: 75%;
+    text-align: center;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -31,20 +35,8 @@
 
 .liste {
     text-align: center;
-}
-
-#right {
-    position: absolute;
-    right: 0;
-    top: -16px;
-}
-
-@media screen and (max-width: 1160px) {
-    #right {
-        position: inherit;
-        right: inherit;
-        top: inherit;
-    }
+    display: inline-table;
+    padding: 10px;
 }
 
 .liste li {
@@ -57,6 +49,9 @@
     border: 1px solid rgba(0,0,0,0);
     margin: 15px 0;
     height: 55px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .link a {

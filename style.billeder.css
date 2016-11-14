@@ -2,6 +2,10 @@
     text-decoration: underline;
 }
 
+table h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
 .table {
     position: relative;
     top: 70px;

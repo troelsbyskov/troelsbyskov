@@ -1,0 +1,38 @@
+/* FOR PHONES (PORTRAIT) */
+@media only screen and (max-device-width: 413px) and (orientation: portrait) {
+    .kontakttekst {
+        top: 200px;
+    }
+
+    .kontakttekst h1 {
+        font-size: 5rem;
+    }
+
+    .kontakttekst h3 {
+        font-size: 3rem
+    }
+
+    .socimg {
+        height: 100px;
+    }
+
+    .link {
+        height: 105px;
+        width: 100%;
+    }
+
+    .link a {
+        font-size: 2rem;
+    }
+
+    #dk {
+        height: 1.9rem;
+    }
+
+    .ubenyttet {
+        font-size: 1.4rem;
+        top: -32px;
+        width: 250px;
+        left: 140px;
+    }
+}
