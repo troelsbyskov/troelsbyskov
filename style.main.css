@@ -1,5 +1,5 @@
 * {
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -52,20 +52,6 @@ body {
     top: 0;
     height: 45px;
     width: 45px;
-}
-
-#dropimg {
-    height: 25px;
-    position: relative;
-    top: 5px;
-}
-
-.divdrop {
-    height: 35px;
-    width: 40px;
-    position: relative;
-    top: 5px;
-    border-radius: 10px;
 }
 
 #profpic {
@@ -122,15 +108,15 @@ ul {
     padding: 0;
 }
 
-.divcv:hover, .divbilleder:hover, .divlogo:hover, .divkontakt:hover, .divom:hover, .links-logo:hover, .divdrop:hover {
-    background-color: rgba(0,0,0,0.1)
+.divcv:hover, .divbilleder:hover, .divlogo:hover, .divkontakt:hover, .divom:hover, .links-logo:hover, .dropdown:hover {
+    background-color: rgba(0,0,0,0.1);
 }
 
 .links {
     position: fixed;
     right: 10px;
     top: 60px;
-    z-index: 10000;
+    z-index: 9999;
     background-color: rgba(240,240,240,1);
     border-radius: 10px;
 }
@@ -141,6 +127,48 @@ ul {
     margin: 3px;
     margin-bottom: 0;
     border-radius: 3px;
+}
+
+.dropdown {
+    height: 35px;
+    width: 40px;
+    position: relative;
+    top: 5px;
+    border-radius: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    right: 75px;
+    background-color: rgba(235,235,235,1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 10000;
+    min-width: 150px;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    display: block;
+    line-height: 1.9rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.dropbtn {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    position: relative;
+    top: -7px;
+}
+
+.show {
+    display: block;
 }
 
 @media only screen and (max-width: 1080px) {

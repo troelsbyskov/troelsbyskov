@@ -53,10 +53,14 @@
                     </div>
                 </li>
                 <li id="dropli">
-                    <div class="divdrop">
-                        <a href="#" id="drop">
-                            <img src="Images/menu.png" id="dropimg" class="navp">
-                        </a>
+                    <div class="dropdown">
+                        <a onclick="myFunction()" href="javascript:void(0)" class="dropbtn">&#9776</a>
+                        <div class="dropdown-content" id="myDropdown">
+                            <a href="cv.html">CV</a>
+                            <a href="billeder.html">Billeder</a>
+                            <a href="kontakt.html">Kontakt</a>
+                            <a href="om.html">Om sitet</a>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -273,8 +277,30 @@
                 </span>
         </div>
 
+        <!-- Sort baggrund ved popup -->
         <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><div id="fade" class="black_overlay"></div></a>
         <a href="javascript:void(0)" onclick="document.getElementById('light2').style.display='none';document.getElementById('fade2').style.display='none'"><div id="fade2" class="black_overlay"></div></a>
+
+        <!-- Dropdown menu -->
+        <script>
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+        </script>
 
         <!-- Google Analytics -->
         <script>
