@@ -9,7 +9,7 @@
     }
 
     .kontakttekst h3 {
-        font-size: 3rem
+        font-size: 3.5rem;
     }
 
     .socimg {
@@ -22,7 +22,7 @@
     }
 
     .link a {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     #dk {
@@ -34,5 +34,9 @@
         top: -32px;
         width: 250px;
         left: 140px;
+    }
+
+    .overemne {
+        width: 800px;
     }
 }

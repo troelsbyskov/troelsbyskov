@@ -2,10 +2,6 @@
     text-decoration: underline;
 }
 
-.kontakttekst h1 {
-    font-family: 'Raleway', sans-serif;
-}
-
 .kontakttekst {
     position: relative;
     top: 70px;
@@ -14,7 +10,7 @@
 }
 
 .kontakttekst h1 {
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 
@@ -30,7 +26,7 @@
     font-family: Tahoma, Geneva, sans-serif;
     margin: 0;
     font-size: 1.6rem;
-    text-align: left;
+    text-align: center;
 }
 
 .liste {
