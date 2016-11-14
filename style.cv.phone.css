@@ -26,7 +26,7 @@
         font-size: 3rem;
     }
 
-    .scrollmenu {
+    .scrollmenu { /*Skal være her, muligvis som dropdown?*/
         position: relative;
         top: 500px;
         margin: auto;
@@ -124,5 +124,17 @@
 
     .grad {
         font-size: 1.5rem;
+    }
+
+    .fag {
+        font-size: 1.5rem;
+    }
+
+    .semester {
+        font-size: 1.3rem;
+    }
+
+    .cvtekst h3 {
+        font-size: 1.4rem;
     }
 }
