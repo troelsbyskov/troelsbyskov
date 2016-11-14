@@ -131,7 +131,7 @@
     }
 
     .semester {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .cvtekst h3 {
@@ -141,5 +141,9 @@
     .popup {
         width: 60%;
         border: 6px solid rgba(41,198,73,1);
+    }
+
+    .overlinks {
+        width: 102px;
     }
 }
