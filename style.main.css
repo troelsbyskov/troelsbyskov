@@ -69,8 +69,10 @@ body {
 }
 
 #profpic {
-    background-image: url(Images/profpic.jpg);
+    background-image: url(Images/home.png);
     background-size: 128%;
+    background-position: 0 0;
+    overflow: hidden;
     z-index: 10001;
     position: fixed;
     border: 3px solid rgba(255,255,255,1);
@@ -87,6 +89,7 @@ body {
 
 #profpic:hover {
     background-image: url(Images/home.png);
+    background-position: 0 -795px;
 }
 
 .divcv {
