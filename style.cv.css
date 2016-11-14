@@ -111,7 +111,7 @@ ul {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.6);
-    z-index: 9998;
+    z-index: 9997;
     cursor: default;
 }
 
@@ -162,11 +162,11 @@ ul {
 }
 
 .overlinks {
-    height: 100px;
+    height: 50px;
     width: 72px;
     position: fixed;
     right: 10px;
-    z-index: 9999;
+    z-index: 9998;
     background-color: rgba(240,240,240,1);
 }
 
