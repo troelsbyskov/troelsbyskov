@@ -1,7 +1,7 @@
 /* FOR PHONES (PORTRAIT) */
 @media only screen and (max-device-width: 413px) and (orientation: portrait) {
     .cvtekst {
-        top: 0;
+        top: 0px;
         width: 78%;
     }
 
@@ -11,12 +11,24 @@
     }
 
     .cvtekst h1 {
+        font-size: 5.5rem;
+    }
+
+    .cvtekst h2 {
+        font-size: 4rem;
+    }
+
+    .cvtekst h3 {
+        font-size: 3rem;
+    }
+
+    .cvtekst li {
         font-size: 3rem;
     }
 
     .scrollmenu {
         position: relative;
-        top: 400px;
+        top: 500px;
         margin: auto;
         width: 75%;
     }
@@ -42,6 +54,53 @@
     .grad {
         font-size: 1.5rem;
     }
+
+    .institution {
+        font-size: 3.5rem;
+    }
+
+    .skoleintro {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .skole {
+        margin-top: 2rem;
+    }
+
+    .liste {
+        left: 150px;
+        width: 500px;
+    }
+
+    .fag {
+        left: 75px;
+        width: 700px;
+        padding: 15px;
+    }
+
+    .semester {
+        font-size: 2.8rem;
+    }
+
+    .lille {
+        font-size: 1rem;
+    }
+
+    .popup {
+        width: 85%;
+        border: 10px solid rgba(41,198,73,1);
+    }
+
+    #lukknap {
+        width: 50px;
+        height: 50px;
+    }
+
+    #luklink {
+        right: 25px;
+    }
+
 }
 
 /* FOR PHONES (LANDSCAPE) */

@@ -56,7 +56,11 @@
     margin-left: 8%;
 }
 
-.cvtekst h1, h2, .popup h3, .institution, .skole {
+.cvtekst h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2, .popup h3, .institution, .skole {
     font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -117,7 +121,7 @@ ul {
     left: 50%;
     top: 20%;
     transform: translate(-50%);
-    width: 75%;
+    width: 450px;
     height: auto;
     max-height: 75%;
     padding: 10px;
