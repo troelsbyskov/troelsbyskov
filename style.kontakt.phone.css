@@ -1,7 +1,7 @@
 /* FOR PHONES (PORTRAIT) */
 @media only screen and (max-device-width: 413px) and (orientation: portrait) {
     .kontakttekst {
-        top: 200px;
+        top: 150px;
     }
 
     .kontakttekst h1 {
@@ -38,5 +38,17 @@
 
     .liste {
         width: 750px;
+    }
+}
+
+/* FOR PHONES (LANDSCAPE) */
+@media only screen and (max-device-width: 413px) and (orientation: landscape) {
+
+    .kontakttekst h1 {
+        font-size: 2.5rem;
+    }
+
+    .kontakttekst h3 {
+        font-size: 1.9rem;
     }
 }

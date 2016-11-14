@@ -1,7 +1,7 @@
 /* FOR PHONES (PORTRAIT) */
 @media only screen and (max-device-width: 413px) and (orientation: portrait) {
     .cvtekst {
-        top: 0px;
+        top: -80px;
         width: 78%;
     }
 
@@ -28,7 +28,7 @@
 
     .scrollmenu { /*Skal være her, muligvis som dropdown?*/
         position: relative;
-        top: 500px;
+        top: 400px;
         margin: auto;
         width: 75%;
     }
