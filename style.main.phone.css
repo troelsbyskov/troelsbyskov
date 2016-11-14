@@ -17,6 +17,7 @@
         height: 125px;
         width: 125px;
         top: 15px;
+        background-size: 150px;
     }
 
     #logo {
@@ -77,6 +78,7 @@
         height: 90px;
         width: 90px;
         top: 8px;
+        background-size: 105px;
     }
 
     .navigation li {
