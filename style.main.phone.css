@@ -67,9 +67,9 @@
     }
 
     .dropdown {
-        height: 35%;
-        width: 40%;
-        top: 5px;
+        height: 95px;
+        width: 95px;
+        top: 50%;
     }
 
     .dropdown-content {
@@ -84,7 +84,7 @@
 
     .dropbtn {
         font-size: 5rem;
-        top: 10px;
+        top: -10px;
     }
 }
 
