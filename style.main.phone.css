@@ -65,6 +65,32 @@
         margin: 9px;
         margin-bottom: 0;
     }
+
+    .dropdown {
+        height: 35%;
+        width: 40%;
+        top: 5px;
+    }
+
+    .dropdown-content {
+        display: block;
+        width: 300px;
+        right: 200px;
+    }
+
+    .dropdown-content a {
+        font-size: 3rem;
+        display: block;
+        line-height: 5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        color: black;
+    }
+
+    .dropbtn {
+        font-size: 5rem;
+        top: 10px;
+    }
 }
 
 /* FOR PHONES (LANDSCAPE) */
