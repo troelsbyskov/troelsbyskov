@@ -19,7 +19,7 @@ body {
     height: 55px;
     background-color: rgba(41,198,73,1);
     text-align: center;
-    overflow: auto;
+    overflow: visible;
     position: fixed;
     top: 0;
     left: 0;
@@ -116,7 +116,7 @@ ul {
     position: fixed;
     right: 10px;
     top: 60px;
-    z-index: 9999;
+    z-index: 9000;
     background-color: rgba(240,240,240,1);
     border-radius: 10px;
 }

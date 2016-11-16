@@ -73,18 +73,13 @@
     }
 
     .dropdown-content {
-        display: block;
         width: 300px;
         right: 200px;
     }
 
     .dropdown-content a {
         font-size: 3rem;
-        display: block;
         line-height: 5rem;
-        text-decoration: none;
-        border-radius: 5px;
-        color: black;
     }
 
     .dropbtn {
