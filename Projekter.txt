@@ -1,0 +1,2 @@
+1. Fjern .html fra URL
+2. Fjern javascript:void(0)
