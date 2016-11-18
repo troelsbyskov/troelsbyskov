@@ -129,6 +129,15 @@ ul {
     border-radius: 3px;
 }
 
+.overlinks {
+    height: 50px;
+    width: 72px;
+    position: fixed;
+    right: 10px;
+    z-index: 8999;
+    background-color: rgba(240,240,240,1);
+}
+
 .dropdown {
     height: 35px;
     width: 40px;
@@ -206,5 +215,13 @@ ul {
 
     #dropli {
         display: inline-block;
+    }
+
+    .links tr {
+        display: inline-block;
+    }
+
+    .overlinks {
+        width: 148px;
     }
 }
