@@ -140,7 +140,7 @@ ul {
 
 .overlinks {
     height: 50px;
-    width: 110px;
+    width: 72px;
     position: fixed;
     right: 10px;
     z-index: 8999;
@@ -231,6 +231,6 @@ ul {
     }
 
     .overlinks {
-        width: 148px;
+        width: 220px;
     }
 }
