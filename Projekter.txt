@@ -5,3 +5,4 @@ Tilføje flere detaljer til fag på gym fra beviset (latin, natur-halløj, fag (
 Tilføje kort oversigt over fag på AU à la LinkedIn
 Gøre det klart at AU fag er links man kan trykke på
 Lav en sidefod
+Fix noscript

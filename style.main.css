@@ -192,6 +192,22 @@ ul {
     display: block;
 }
 
+.noscript {
+    border: 2px dotted red;
+    border-radius: 5px;
+    background-color: rgba(255, 253, 145,0.8);
+    position: fixed;
+    height: 70px;
+    width: 150px;
+    top: 75px;
+    left: 10px;
+}
+
+noscript span {
+    position: relative;
+    left: 5px;
+}
+
 @media only screen and (max-width: 1080px) {
     .navigation {
         height: 45px;
