@@ -129,6 +129,15 @@ ul {
     border-radius: 3px;
 }
 
+#en, #dk {
+    border-radius: 100%;
+    filter: contrast(25%);
+}
+
+#en:hover, #dk:hover {
+    filter: contrast(100%);
+}
+
 .overlinks {
     height: 50px;
     width: 72px;
