@@ -1,3 +1,6 @@
-1. Fjern .html fra URL
-2. Fjern javascript:void(0)
-3. Tilføje flere detaljer til fag på gym fra beviset (latin, natur-halløj, fag (og emne?) til AT og SRP)
+Overset hele siden til Engelsk (CV mangler)
+Fjern .html fra URL
+Fjern javascript:void(0)
+Tilføje flere detaljer til fag på gym fra beviset (latin, natur-halløj, fag (og emne?) til AT og SRP)
+Ændr links til fag på AU på den engelske side
+Tilføje kort oversigt over fag på AU à la LinkedIn
