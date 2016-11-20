@@ -206,11 +206,7 @@ ul {
     left: 50%;
     transform: translate(-50%);
     z-index: 10000;
-}
-
-#noscriptspan {
-    position: relative;
-    left: 8px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1080px) {
