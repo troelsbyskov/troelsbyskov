@@ -23,7 +23,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 10000;
+    z-index: 9000;
     margin: 0;
 }
 
@@ -59,7 +59,7 @@ body {
     background-size: 85px;
     background-position: 0 0;
     overflow: hidden;
-    z-index: 10001;
+    z-index: 9001;
     position: fixed;
     border: 3px solid rgba(255,255,255,1);
     border-radius: 100%;
@@ -199,17 +199,18 @@ ul {
 .noscript {
     border: 2px dotted red;
     border-radius: 5px;
-    background-color: rgba(255, 253, 145,0.8);
+    background-color: rgba(255, 253, 145,0.9);
     position: fixed;
-    height: 70px;
-    width: 150px;
-    top: 75px;
-    left: 10px;
+    width: 440px;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10000;
 }
 
-noscript span {
+#noscriptspan {
     position: relative;
-    left: 5px;
+    left: 8px;
 }
 
 @media only screen and (max-width: 1080px) {
