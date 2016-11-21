@@ -201,12 +201,17 @@ ul {
     border-radius: 5px;
     background-color: rgba(255, 253, 145,0.9);
     position: fixed;
-    width: 440px;
+    width: 500px;
     top: 40px;
     left: 50%;
     transform: translate(-50%);
     z-index: 10000;
     text-align: center;
+}
+
+.noscriptwarn {
+    color: red;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 1080px) {
