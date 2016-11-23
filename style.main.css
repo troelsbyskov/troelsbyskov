@@ -116,7 +116,7 @@ ul {
     position: fixed;
     right: 10px;
     top: 60px;
-    z-index: 9000;
+    z-index: 8501;
     background-color: rgba(240,240,240,1);
     border-radius: 10px;
 }
@@ -147,7 +147,7 @@ ul {
     width: 72px;
     position: fixed;
     right: 10px;
-    z-index: 8999;
+    z-index: 8500;
     background-color: rgba(240,240,240,1);
 }
 
@@ -166,7 +166,7 @@ ul {
     top: -3px;
     background-color: rgba(235,235,235,1);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 10000;
+    z-index: 9999;
     width: 150px;
     border-radius: 5px;
     border: 3px solid rgba(41,198,73,1);
