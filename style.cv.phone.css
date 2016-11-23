@@ -92,13 +92,17 @@
         border: 10px solid rgba(41,198,73,1);
     }
 
+    #kryds {
+        width: 82%;
+    }
+
     #lukknap {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
     #luklink {
-        right: 25px;
+        right: 40px;
     }
 
 }
