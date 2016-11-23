@@ -1,7 +1,9 @@
 Fjern .html fra URL
 Fjern javascript:void(0)
 Tilføje flere detaljer til fag på gym fra beviset (latin, natur-halløj, fag (og emne?) til AT og SRP)
-Ændr links til fag på AU på den engelske side
+Skriv om Arbejdserfaring
+Skriv om kompetencer
 Tilføje kort oversigt over fag på AU à la LinkedIn
 Gøre det klart at AU fag er links man kan trykke på
+Fix krydset i popups, så det ikke scroller med
 Lav en sidefod
