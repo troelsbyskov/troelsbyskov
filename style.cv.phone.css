@@ -147,7 +147,16 @@
         border: 6px solid rgba(41,198,73,1);
     }
 
-    .overlinks {
-        width: 102px;
+    #kryds {
+        width: 59%;
+    }
+
+    #lukknap {
+        width: 32px;
+        height: 32px;
+    }
+
+    #luklink {
+        right: 10px;
     }
 }
