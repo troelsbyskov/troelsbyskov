@@ -128,7 +128,7 @@ ul {
     border: 5px solid rgba(41,198,73,1);
     border-radius: 5px;
     background-color: rgba(240,240,240,1);
-    z-index: 9999;
+    z-index: 8001;
     overflow: auto;
 }
 
@@ -140,19 +140,27 @@ ul {
 #lukknap {
     width: 25px;
     height: 25px;
-}
-
-#luklink {
-    position: fixed;
-    right: 0;
-    top: 0;
-    margin: 0;
-    height: 25px;
-    width: 25px;
     border-radius: 5px;
 }
 
-#luklink:hover {
+#luklink {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    float: right;
+}
+
+#kryds {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    top: 21%;
+    width: 488px;
+    display: none;
+    z-index: 8002;
+}
+
+#lukknap:hover {
     background-color: rgba(0,0,0,0.1);
 }
 
