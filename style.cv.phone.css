@@ -167,4 +167,13 @@
     #luklink {
         right: 10px;
     }
+
+    .underline {
+        width: 120px;
+    }
+
+    .done {
+        padding-left: 0rem;
+        text-indent: -0.75rem;
+    }
 }
