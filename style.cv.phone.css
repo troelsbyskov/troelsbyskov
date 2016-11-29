@@ -105,6 +105,14 @@
         right: 40px;
     }
 
+    .underline {
+        width: 280px;
+    }
+
+    .done {
+        padding-left: 0rem;
+        text-indent: -1.5rem;
+    }
 }
 
 /* FOR PHONES (LANDSCAPE) */
