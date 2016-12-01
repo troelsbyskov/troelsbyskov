@@ -2,6 +2,10 @@
     text-decoration: underline;
 }
 
+.kontaktli {
+    text-decoration-color: white;
+}
+
 .kontakttekst {
     position: relative;
     top: 70px;

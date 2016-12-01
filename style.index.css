@@ -2,6 +2,10 @@
     text-decoration: underline;
 }
 
+#logoli {
+    text-decoration-color: white;
+}
+
 .welcome h1 {
     font-family: 'Raleway', sans-serif;
 }
