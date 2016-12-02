@@ -258,11 +258,12 @@ ul {
 }
 
 .footleft a {
-    color: black;
+    color: rgba(120,120,120,1);
     text-decoration: none;
 }
 
 .footleft a:hover {
+    color: black;
     text-decoration: underline;
 }
 
