@@ -1,19 +1,20 @@
-.kontaktli, .dropdown-content a.kontaktli {
+.footleft a {
+    color: black;
     text-decoration: underline;
 }
 
-.kontaktli {
-    text-decoration-color: white;
+.footleft a:hover {
+    background-color: rgba(0,0,0,0.1);
 }
 
-.kontakttekst {
+.sitemaptekst {
     position: relative;
     top: 70px;
     width: 75%;
     margin: auto;
 }
 
-.kontakttekst h1 {
+.sitemaptekst h1 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
@@ -25,9 +26,10 @@
     transform: translate(-50%);
 }
 
-.kontakttekst h3 {
+.sitemaptekst h3 {
     font-family: Tahoma, Geneva, sans-serif;
     margin: 0;
+    margin-bottom: 5px;
     font-size: 1.6rem;
     text-align: center;
 }
@@ -43,27 +45,26 @@
 }
 
 .link {
-    width: 300px;
-    border-radius: 5px;
-    border: 1px solid rgba(0,0,0,0);
-    margin: 15px 0;
-    height: 55px;
+    width: 150px;
+    border: 1px solid rgba(0,0,0,1);
+    height: 25px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    margin-bottom: 5px;
+    padding-top: 5px;
 }
 
 .link a {
     text-decoration: none;
     color: black;
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 1.1rem
-}
-
-.link table {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    font-size: 1.1rem;
+    position: absolute;
+    width: 148px;
+    height: 23px;
+    left: 0;
+    top: 0;
 }
 
 .link:hover {
@@ -71,35 +72,18 @@
     border: 1px solid black;
 }
 
-.socimg {
-    height: 50px;
-}
-
-#dk2 {
-    height: 1.2rem;
-    position: relative;
-    top: 3px;
-}
-
-#fyld {
-    width: 33px;
-}
-
-.ubenyttet {
-    margin: 0;
-    position: relative;
-    font-size: 0.75rem;
-    top: -17px;
-    width: 150px;
-    left: 55px;
-}
-
 .link2 {
-    height: 55px;
+    height: 25px;
+    position: relative;
+    top: -18px;
+    background-color: rgba(0,0,0,0.1);
 }
 
-.tekst {
-    height: 1.3rem;
-    position: relative;
-    top: -3px;
+#streg {
+    width: 1px;
+    height: 250px;
+    background-color: black;
+    padding: 0;
+    position: absolute;
+    top: 20px;
 }

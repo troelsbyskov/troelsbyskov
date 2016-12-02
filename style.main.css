@@ -260,6 +260,7 @@ ul {
 .footleft a {
     color: rgba(120,120,120,1);
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .footleft a:hover {
