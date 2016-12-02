@@ -264,6 +264,33 @@
             </div>
             <!-- Slut på footer -->
 
+            <!-- Dropdown menu -->
+            <script>
+                function dropdownMenu() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
+
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
+                  }
+                }
+            </script>
+
+            <noscript>
+                <div class="noscript">
+                    <p>Some features on this site won't work properly without Javascript turned on.</p>
+                </div>
+            </noscript>
+
         </div>
 
     </body>
