@@ -26,241 +26,253 @@
 
 	<body>
 
-        <!-- Navigationsbar og links -->
-        <div>
-            <a href="/en/"><div id=profpic></div></a>
-            <ul class="navigation">
-                <li class="cvli" id="cvid">
-                    <div class="divcv">
-                        <a href="/en/cv.html" id="cv">
-                            <p class="navp">CV</p>
-                        </a>
-                    </div>
-                </li>
-                <li class="billederli" id="billederid">
-                    <div class="divbilleder">
-                        <a href="/en/pictures.html" id="billeder">
-                            <p class="navp">Pictures</p>
-                        </a>
-                    </div>
-                </li>
-                <Li id="logoli">
-                    <div class="divlogo">
-                        <a href="/en/" id="logo">
-                            <p class="navp">Troels Byskov</p>
-                        </a>
-                    </div>
-                </Li>
-                <li class="kontaktli" id="kontaktid">
-                    <div class="divkontakt">
-                        <a href="/en/contact.html" id="kontakt">
-                            <p class="navp">Contact</p>
-                        </a>
-                    </div>
-                </li>
-                <li class="omli" id="omid">
-                    <div class="divom">
-                        <a href="/en/about.html" id="om">
-                            <p class="navp">About</p>
-                        </a>
-                    </div>
-                </li>
-                <li id="dropli">
-                    <div class="dropdown">
-                        <a onclick="dropdownMenu();" href="javascript:void(0)" class="dropbtn">&#9776</a>
-                        <div class="dropdown-content" id="myDropdown">
-                            <a href="/en/" class="logoli">Frontpage</a>
-                            <a href="/en/cv.html" class="cvli">CV</a>
-                            <a href="/en/pictures.html" class="billederli">Pictures</a>
-                            <a href="/en/contact.html" class="kontaktli">Contact</a>
-                            <a href="/en/about.html" class="omli">About</a>
+        <div id="container">
+            <!-- Header og links -->
+            <div id="header">
+                <a href="/en/"><div id=profpic></div></a>
+                <ul class="navigation">
+                    <li class="cvli" id="cvid">
+                        <div class="divcv">
+                            <a href="/en/cv.html" id="cv">
+                                <p class="navp">CV</p>
+                            </a>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
+                    </li>
+                    <li class="billederli" id="billederid">
+                        <div class="divbilleder">
+                            <a href="/en/pictures.html" id="billeder">
+                                <p class="navp">Pictures</p>
+                            </a>
+                        </div>
+                    </li>
+                    <Li id="logoli">
+                        <div class="divlogo">
+                            <a href="/en/" id="logo">
+                                <p class="navp">Troels Byskov</p>
+                            </a>
+                        </div>
+                    </Li>
+                    <li class="kontaktli" id="kontaktid">
+                        <div class="divkontakt">
+                            <a href="/en/contact.html" id="kontakt">
+                                <p class="navp">Contact</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="omli" id="omid">
+                        <div class="divom">
+                            <a href="/en/about.html" id="om">
+                                <p class="navp">About</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li id="dropli">
+                        <div class="dropdown">
+                            <a onclick="dropdownMenu();" href="javascript:void(0)" class="dropbtn">&#9776</a>
+                            <div class="dropdown-content" id="myDropdown">
+                                <a href="/en/" class="logoli">Frontpage</a>
+                                <a href="/en/cv.html" class="cvli">CV</a>
+                                <a href="/en/pictures.html" class="billederli">Pictures</a>
+                                <a href="/en/contact.html" class="kontaktli">Contact</a>
+                                <a href="/en/about.html" class="omli">About</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="links">
-            <table>
-                <tr>
-                    <td><a href="/billeder.html"><img src="/Images/dk.png" class="links-logo" id="dk"/></a></td>
-                    <td><a href="/en/pictures.html"><img src="/Images/en.png" class="links-logo" id="en" style="filter:contrast(100%);"/></a></td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://linkedin.com/in/troelsbyskov" target="_blank">
-                            <img src="/Images/li.png" alt="LinkedIn-profil" class="links-logo" />
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://www.facebook.com/troels.byskov" target="_blank">
-                            <img src="/Images/fb.png" alt="Facebook-profil" class="links-logo" />
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="mailto:troels.byskov@gmail.com">
-                            <img src="/Images/email.png" alt="Send en e-mail" class="links-logo" />
-                        </a>
-                    </td>
-                    <td>
-                        <a href="tel:+4522441758">
-                            <img src="/Images/phone.png" alt="Ring op" class="links-logo" />
-                        </a>
-                    </td>
-                </tr>
+            <div class="links">
+                <table>
+                    <tr>
+                        <td><a href="/billeder.html"><img src="/Images/dk.png" class="links-logo" id="dk"/></a></td>
+                        <td><a href="/en/pictures.html"><img src="/Images/en.png" class="links-logo" id="en" style="filter:contrast(100%);"/></a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://linkedin.com/in/troelsbyskov" target="_blank">
+                                <img src="/Images/li.png" alt="LinkedIn-profil" class="links-logo" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com/troels.byskov" target="_blank">
+                                <img src="/Images/fb.png" alt="Facebook-profil" class="links-logo" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="mailto:troels.byskov@gmail.com">
+                                <img src="/Images/email.png" alt="Send en e-mail" class="links-logo" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="tel:+4522441758">
+                                <img src="/Images/phone.png" alt="Ring op" class="links-logo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="overlinks"></div>
+
+            <!-- Indhold -->
+            <table class="table">
+                <thead>
+                    <th colspan="4"><h1>Pictures<br><br></h1></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td">
+                            <!-- Lær jQuery før man kan lave slideshow... -->
+                            <a href="#">
+                               <img src="/Images/Mig/Ikoner/1.JPG" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                           <a href="#">
+                               <img src="/Images/profpic.jpg" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                           <a href="#">
+                               <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                           <a href="#">
+                               <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td">
+                           <a href="#">
+                               <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                           <a href="#">
+                               <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                           <a href="#">
+                               <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                           <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                        <td class="td">
+                            <a href="#">
+                                <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
             </table>
-        </div>
 
-        <div class="overlinks"></div>
+            <!-- Footer -->
+            <p><br><br><br><br><br><br><br><br><br><br></p>
+            <footer>
+                <div class="foot">
+                    <p class="footcenter">Skrevet af: Troels Byskov</p>
+                    <p class="footright">2016</p>
+                </div>
+            </footer>
 
-        <!-- Indhold -->
-	    <table class="table">
-	        <thead>
-	            <th colspan="4"><h1>Pictures<br><br></h1></th>
-	        </thead>
-	        <tbody>
-	            <tr>
-	                <td class="td">
-                        <!-- Lær jQuery før man kan lave slideshow... -->
-                        <a href="#">
-	                       <img src="/Images/Mig/Ikoner/1.JPG" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                   <a href="#">
-	                       <img src="/Images/profpic.jpg" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                   <a href="#">
-	                       <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-                    <td class="td">
-	                   <a href="#">
-	                       <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	            </tr>
-	            <tr>
-	                <td class="td">
-	                   <a href="#">
-	                       <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                   <a href="#">
-	                       <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                   <a href="#">
-	                       <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-                    <td class="td">
-	                   <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	            </tr>
-	            <tr>
-	                <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-                    <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	            </tr>
-                <tr>
-	                <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-                    <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	            </tr>
-                <tr>
-	                <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	                <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-                    <td class="td">
-	                    <a href="#">
-	                        <img src="http://icons.iconarchive.com/icons/kentagon/ios7-redesign-concept/128/ios7-stock-icon.png" class="tdimg" />
-                        </a>
-                    </td>
-	            </tr>
-	        </tbody>
-	    </table>
+            <!-- Dropdown menu -->
+            <script>
+                function dropdownMenu() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
 
-        <!-- Dropdown menu -->
-        <script>
-            function dropdownMenu() {
-                document.getElementById("myDropdown").classList.toggle("show");
-            }
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
 
-            window.onclick = function(event) {
-              if (!event.target.matches('.dropbtn')) {
-
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                  var openDropdown = dropdowns[i];
-                  if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
                   }
                 }
-              }
-            }
-        </script>
+            </script>
 
-        <noscript>
-            <div class="noscript">
-                <p>Some features on this site won't work properly without Javascript turned on.</p>
-            </div>
-        </noscript>
+            <noscript>
+                <div class="noscript">
+                    <p>Some features on this site won't work properly without Javascript turned on.</p>
+                </div>
+            </noscript>
+
+        </div>
 
 	</body>
 

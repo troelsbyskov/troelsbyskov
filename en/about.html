@@ -26,129 +26,141 @@
 
     <body>
 
-        <!-- Navigationsbar og links -->
-        <div>
-            <a href="/en/"><div id=profpic></div></a>
-            <ul class="navigation">
-                <li class="cvli" id="cvid">
-                    <div class="divcv">
-                        <a href="/en/cv.html" id="cv">
-                            <p class="navp">CV</p>
-                        </a>
-                    </div>
-                </li>
-                <li class="billederli" id="billederid">
-                    <div class="divbilleder">
-                        <a href="/en/pictures.html" id="billeder">
-                            <p class="navp">Pictures</p>
-                        </a>
-                    </div>
-                </li>
-                <Li id="logoli">
-                    <div class="divlogo">
-                        <a href="/en/" id="logo">
-                            <p class="navp">Troels Byskov</p>
-                        </a>
-                    </div>
-                </Li>
-                <li class="kontaktli" id="kontaktid">
-                    <div class="divkontakt">
-                        <a href="/en/contact.html" id="kontakt">
-                            <p class="navp">Contact</p>
-                        </a>
-                    </div>
-                </li>
-                <li class="omli" id="omid">
-                    <div class="divom">
-                        <a href="/en/about.html" id="om">
-                            <p class="navp">About</p>
-                        </a>
-                    </div>
-                </li>
-                <li id="dropli">
-                    <div class="dropdown">
-                        <a onclick="dropdownMenu();" href="javascript:void(0)" class="dropbtn">&#9776</a>
-                        <div class="dropdown-content" id="myDropdown">
-                            <a href="/en/" class="logoli">Frontpage</a>
-                            <a href="/en/cv.html" class="cvli">CV</a>
-                            <a href="/en/pictures.html" class="billederli">Pictures</a>
-                            <a href="/en/contact.html" class="kontaktli">Contact</a>
-                            <a href="/en/about.html" class="omli">About</a>
+        <div id="container">
+            <!-- Header og links -->
+            <div id="header">
+                <a href="/en/"><div id=profpic></div></a>
+                <ul class="navigation">
+                    <li class="cvli" id="cvid">
+                        <div class="divcv">
+                            <a href="/en/cv.html" id="cv">
+                                <p class="navp">CV</p>
+                            </a>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
+                    </li>
+                    <li class="billederli" id="billederid">
+                        <div class="divbilleder">
+                            <a href="/en/pictures.html" id="billeder">
+                                <p class="navp">Pictures</p>
+                            </a>
+                        </div>
+                    </li>
+                    <Li id="logoli">
+                        <div class="divlogo">
+                            <a href="/en/" id="logo">
+                                <p class="navp">Troels Byskov</p>
+                            </a>
+                        </div>
+                    </Li>
+                    <li class="kontaktli" id="kontaktid">
+                        <div class="divkontakt">
+                            <a href="/en/contact.html" id="kontakt">
+                                <p class="navp">Contact</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="omli" id="omid">
+                        <div class="divom">
+                            <a href="/en/about.html" id="om">
+                                <p class="navp">About</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li id="dropli">
+                        <div class="dropdown">
+                            <a onclick="dropdownMenu();" href="javascript:void(0)" class="dropbtn">&#9776</a>
+                            <div class="dropdown-content" id="myDropdown">
+                                <a href="/en/" class="logoli">Frontpage</a>
+                                <a href="/en/cv.html" class="cvli">CV</a>
+                                <a href="/en/pictures.html" class="billederli">Pictures</a>
+                                <a href="/en/contact.html" class="kontaktli">Contact</a>
+                                <a href="/en/about.html" class="omli">About</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="links">
-            <table>
-                <tr>
-                    <td><a href="/om.html"><img src="/Images/dk.png" class="links-logo" id="dk"/></a></td>
-                    <td><a href="/en/about.html"><img src="/Images/en.png" class="links-logo" id="en" style="filter:contrast(100%);"/></a></td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://linkedin.com/in/troelsbyskov" target="_blank">
-                            <img src="/Images/li.png" alt="LinkedIn-profil" class="links-logo" />
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://www.facebook.com/troels.byskov" target="_blank">
-                            <img src="/Images/fb.png" alt="Facebook-profil" class="links-logo" />
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="mailto:troels.byskov@gmail.com">
-                            <img src="/Images/email.png" alt="Send en e-mail" class="links-logo" />
-                        </a>
-                    </td>
-                    <td>
-                        <a href="tel:+4522441758">
-                            <img src="/Images/phone.png" alt="Ring op" class="links-logo" />
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </div>
+            <div class="links">
+                <table>
+                    <tr>
+                        <td><a href="/om.html"><img src="/Images/dk.png" class="links-logo" id="dk"/></a></td>
+                        <td><a href="/en/about.html"><img src="/Images/en.png" class="links-logo" id="en" style="filter:contrast(100%);"/></a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://linkedin.com/in/troelsbyskov" target="_blank">
+                                <img src="/Images/li.png" alt="LinkedIn-profil" class="links-logo" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com/troels.byskov" target="_blank">
+                                <img src="/Images/fb.png" alt="Facebook-profil" class="links-logo" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="mailto:troels.byskov@gmail.com">
+                                <img src="/Images/email.png" alt="Send en e-mail" class="links-logo" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="tel:+4522441758">
+                                <img src="/Images/phone.png" alt="Ring op" class="links-logo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
-        <div class="overlinks"></div>
+            <div class="overlinks"></div>
 
-        <!-- Indhold -->
-        <div class="presentation">
-            <span>
-                <h3>About this site</h3>
-                <p>This site is written from scratch by me. I'm autodidact, because I, in my sparetime, have taken courses on <a href="https://www.codecademy.com" class="ca-link" target="_blank">Codecademy</a>, through which I have learned to write html and css.<br><br>If you would like to see more, you can click <a href="https://www.codecademy.com/troels.byskov" class="ca-link" target="_blank">here</a> to go to my profile on Codecademy.<br><br>It is furthermore through that, I have learned to deploy websites through <a href="https://github.com/" class="ca-link" target="_blank">GitHub</a>.<br>If you want to see the code for this site, it is found <a href="https://github.com/troelsbyskov/troelsbyskov" class="ca-link" target="_blank">here</a>.</p>
-            </span>
-        </div>
+            <!-- Indhold -->
+            <div class="presentation">
+                <span>
+                    <h3>About this site</h3>
+                    <p>This site is written from scratch by me. I'm autodidact, because I, in my sparetime, have taken courses on <a href="https://www.codecademy.com" class="ca-link" target="_blank">Codecademy</a>, through which I have learned to write html and css.<br><br>If you would like to see more, you can click <a href="https://www.codecademy.com/troels.byskov" class="ca-link" target="_blank">here</a> to go to my profile on Codecademy.<br><br>It is furthermore through that, I have learned to deploy websites through <a href="https://github.com/" class="ca-link" target="_blank">GitHub</a>.<br>If you want to see the code for this site, it is found <a href="https://github.com/troelsbyskov/troelsbyskov" class="ca-link" target="_blank">here</a>.</p>
+                </span>
+            </div>
 
-        <!-- Dropdown menu -->
-        <script>
-            function dropdownMenu() {
-                document.getElementById("myDropdown").classList.toggle("show");
-            }
+            <!-- Footer -->
+            <p><br><br><br><br><br><br><br><br><br><br></p>
+            <footer>
+                <div class="foot">
+                    <p class="footcenter">Skrevet af: Troels Byskov</p>
+                    <p class="footright">2016</p>
+                </div>
+            </footer>
 
-            window.onclick = function(event) {
-              if (!event.target.matches('.dropbtn')) {
+            <!-- Dropdown menu -->
+            <script>
+                function dropdownMenu() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
 
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                  var openDropdown = dropdowns[i];
-                  if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
+
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
                   }
                 }
-              }
-            }
-        </script>
+            </script>
 
-        <noscript>
-            <div class="noscript">
-                <p>Some features on this site won't work properly without Javascript turned on.</p>
-            </div>
-        </noscript>
+            <noscript>
+                <div class="noscript">
+                    <p>Some features on this site won't work properly without Javascript turned on.</p>
+                </div>
+            </noscript>
+
+        </div>
 
     </body>
 

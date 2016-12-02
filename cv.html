@@ -26,362 +26,371 @@
 
     <body>
 
-        <!-- Navigationsbar og links -->
-        <div>
-            <a href="/"><div id=profpic></div></a>
-            <ul class="navigation">
-                <li class="cvli" id="cvid">
-                    <div class="divcv">
-                        <a href="/cv.html" id="cv">
-                            <p class="navp">CV</p>
-                        </a>
-                    </div>
-                </li>
-                <li class="billederli" id="billederid">
-                    <div class="divbilleder">
-                        <a href="/billeder.html" id="billeder">
-                            <p class="navp">Billeder</p>
-                        </a>
-                    </div>
-                </li>
-                <Li id="logoli">
-                    <div class="divlogo">
-                        <a href="/" id="logo">
-                            <p class="navp">Troels Byskov</p>
-                        </a>
-                    </div>
-                </Li>
-                <li class="kontaktli" id="kontaktid">
-                    <div class="divkontakt">
-                        <a href="/kontakt.html" id="kontakt">
-                            <p class="navp">Kontakt</p>
-                        </a>
-                    </div>
-                </li>
-                <li class="omli" id="omid">
-                    <div class="divom">
-                        <a href="/om.html" id="om">
-                            <p class="navp">Om sitet</p>
-                        </a>
-                    </div>
-                </li>
-                <li id="dropli">
-                    <div class="dropdown">
-                        <a onclick="dropdownMenu();" href="javascript:void(0)" class="dropbtn">&#9776</a>
-                        <div class="dropdown-content" id="myDropdown">
-                            <a href="/" class="logoli">Forside</a>
-                            <a href="/cv.html" class="cvli">CV</a>
-                            <a href="/billeder.html" class="billederli">Billeder</a>
-                            <a href="/kontakt.html" class="kontaktli">Kontakt</a>
-                            <a href="/om.html" class="omli">Om sitet</a>
+        <div id="container">
+            <!-- Header og links -->
+            <div id="header">
+                <a href="/"><div id=profpic></div></a>
+                <ul class="navigation">
+                    <li class="cvli" id="cvid">
+                        <div class="divcv">
+                            <a href="/cv.html" id="cv">
+                                <p class="navp">CV</p>
+                            </a>
                         </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-        <div class="links">
-            <table>
-                <tr>
-                    <td><a href="/cv.html"><img src="/Images/dk.png" class="links-logo" id="dk" style="filter:contrast(100%);"/></a></td>
-                    <td><a href="/en/cv.html"><img src="/Images/en.png" class="links-logo" id="en"/></a></td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://linkedin.com/in/troelsbyskov" target="_blank">
-                            <img src="/Images/li.png" alt="LinkedIn-profil" class="links-logo" />
-                        </a>
-                    </td>
-                    <td>
-                        <a href="https://www.facebook.com/troels.byskov" target="_blank">
-                            <img src="/Images/fb.png" alt="Facebook-profil" class="links-logo" />
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="mailto:troels.byskov@gmail.com">
-                            <img src="/Images/email.png" alt="Send en e-mail" class="links-logo" />
-                        </a>
-                    </td>
-                    <td>
-                        <a href="tel:+4522441758">
-                            <img src="/Images/phone.png" alt="Ring op" class="links-logo" />
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="overlinks"></div>
-
-        <!-- Indhold -->
-        <div class="scrollmenu">
-            <h3>Emner</h3>
-            <ul>
-                <li class="hovedemneliste">
-                    <a href="#uddannelse"><p class="hovedemne">Uddannelse</p></a> <!-- Når selve teksten kommer skal denne have et id der hedder id="uddannelse" eller et a med name="uddannelse" -->
-                    <ul id="inst">
-                        <li><a href="#universitet">Universitet</a></li>
-                        <li><a href="#højskole">Højskole</a></li>
-                        <li><a href="#gymnasie">Gymnasie</a></li>
-                        <li><a href="#efterskole">Efterskole</a></li>
-                        <li><a href="#folkeskole">Folkeskole</a></li>
-                    </ul>
-                </li>
-                <li class="hovedemneliste">
-                    <a href="#erhverv"><p class="hovedemne">Erhvervserfaring</p></a>
-                    <ul id="inst">
-                        <li><a href="#elgiganten">Elgiganten</a></li>
-                        <li><a href="#fona">FONA</a></li>
-                        <li><a href="#bones">Bone's</a></li>
-                        <li><a href="#kvickly">Kvickly</a></li>
-                    </ul>
-                </li>
-                <li class="hovedemneliste">
-                    <a href="#kompetencer"><p class="hovedemne">Kompetencer</p></a>
-                    <ul id="inst">
-                        <li><a href="#kurser">Kurser</a></li>
-                        <li><a href="#it">IT</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
-        <div class="cvtekst">
-            <h1 id="uddannelse">Mit CV</h1>
-            <span class="altekst">
-            <h2 id="universitet"><br>Uddannelse</h2>
-                <p><!-- Noget tekst, som en intro til mit uddannelsesforløb? --></p>
-                <ul>
-                    <li><h4 class="institution">Universitet</h4></li>
-                        <p class="skoleintro">Første gang jeg hørte om medievidenskab på Aarhus Universitet var på en uddannelsesmesse i Herning, og jeg var interesseret lige med det samme. Jeg har altid været meget analytisk anlagt, hvilket passede perfekt sammen med uddannelsen, som har hovedvægt på kommunikationsmodellen <strong>afsender&#10141;tekst&#10141;modtager</strong> med fagene medietekstanalyse, mediereceptionsanalyse og mediesystemanalyse. Jeg drømmer om at bruge min uddannelse til at blive ansat i enten et mediehus eller et marketingsfirma.<br><br>For en liste over fag på bacheloruddannelsen med ECTS-point og hvor langt jeg er nu, klik <a href="javascript:void(0)" onclick="myPopup();">her</a>. <noscript class="noscriptwarn">(Kræver at Javascript er slået til.)</noscript></p>
-
-                        <div id="light" class="popup">
-                            <h3 class="popupoverskrift">Liste over fag på bacheloruddannelsen medievidenskab på Aarhus Universitet</h3>
-                            <div class="underline"><p class="semester">1. semester</p></div>
-                            <ul class="fag">
-                                <li class="done"><a href="http://kursuskatalog.au.dk/da/course/58468" target="_blank">Akademisk genreforståelse og formidling (5 ECTS)</a></li>
-                                <li class="done"><a href="http://kursuskatalog.au.dk/da/course/58471" target="_blank">Medieudvikling (10 ECTS)</a></li>
-                                <li class="done"><a href="http://kursuskatalog.au.dk/da/course/58469" target="_blank">Medietekstanalyse I (15 ECTS)</a></li>
-                            </ul>
-                            <div class="underline"><p class="semester">2. semester</p></div>
-                            <ul class="fag">
-                                <li class="done"><a href="http://kursuskatalog.au.dk/da/course/62405" target="_blank">Medietekstanalyse II (10 ECTS)</a></li>
-                                <li class="done"><a href="http://kursuskatalog.au.dk/da/course/62406" target="_blank">Studium generale (10 ECTS)</a></li>
-                                <li class="done"><a href="http://kursuskatalog.au.dk/da/course/62407" target="_blank">Medie-, kultur- og samfundsteori I (10 ECTS)</a></li>
-                            </ul>
-                            <div class="underline"><p class="semester">3. semester</p></div>
-                            <ul class="fag">
-                                <li class="doing"><a href="http://kursuskatalog.au.dk/da/course/64792" target="_blank">Medie-, kultur- og samfundsteori II (10 ECTS)</a></li>
-                                <li class="doing"><a href="http://kursuskatalog.au.dk/da/course/66507" target="_blank">Markedskommunikation i et æstetisk, retorisk og digitalt perspektiv (Humanistisk valgfag) (10 ECTS)</a></li>
-                                <li class="done"><a href="http://kursuskatalog.au.dk/da/course/64793" target="_blank">Mediereceptionsanalyse I (10 ECTS)</a></li>
-                            </ul>
-                            <div class="underline"><p class="semester">4. semester</p></div>
-                            <ul class="fag">
-                                <li  class="next"><a href="http://kursuskatalog.au.dk/da/course/69780" target="_blank" id="grey">Mediereceptionsanalyse II (15 ECTS)</a></li>
-                                <li class="next"><a href="http://kursuskatalog.au.dk/da/course/69781" target="_blank" id="grey">Kvantitativ mediebrugsanalyse (5 ECTS)</a></li>
-                                <li class="next"><a href="http://kursuskatalog.au.dk/da/course/69782" target="_blank" id="grey">Mediesystemanalyse I (10 ECTS)</a></li>
-                            </ul>
-                                <div class="underline"><p class="semester">5. semester</p></div>
-                            <ul class="fag">
-                                <li class="next"><a href="#" target="_blank" id="grey">Mediesystemanalyse II (15 ECTS)</a></li>
-                                <li class="next"><a href="#" target="_blank" id="grey">Tilvalgsfag (15 ECTS)</a></li>
-                            </ul>
-                            <p class="lille"><br>Flueben symboliserer et bestået fag.<br>Fed skrift symboliserer et igangværende fag.<br>Grå og kursiv skrift symboliserer et kommende fag.</p>
-                            <p class="lille" id="updated">Opdateret pr. 29/11/16.</p>
+                    </li>
+                    <li class="billederli" id="billederid">
+                        <div class="divbilleder">
+                            <a href="/billeder.html" id="billeder">
+                                <p class="navp">Billeder</p>
+                            </a>
                         </div>
-
-                        <ul>
-                            <li class="skole">Aarhus Universitet</li>
-                                <ul>
-                                    <li class="grad">Bachelorgrad</li>
-                                        <ul class="liste">
-                                            <li id="højskole">August 2015 til nu</li>
-                                            <li>Årgang 2018</li>
-                                            <li>Bachelor of Arts (BA) i Medievidenskab</li>
-                                        </ul>
-                                </ul>
-                        </ul>
-                    <li><h4 class="institution">Højskole</h4></li>
-                        <p class="skoleintro">Da jeg ikke var ude at rejse i mit sabbatår efter gymnasiet, valgte jeg at bruge en måned af min første sommerferie fra universitet til at rejse. Jeg valgte at rejse med HöjskolenDK, da de udbød en sommerhøjskole, hvor fagene lød interessante og brugbare. Vi blev hovedsagligt undervist i de to fag <strong>projektstyring</strong> og <strong>teambuilding</strong>, hvor vi blandt andet lærte om hvordan man udvikler et frugtbart samarbejde og hvordan man styrer et projekt fra idé til udførelse.<br>Derudover brugte vi meget tid på <strong>frivilligt arbejde</strong> og <strong>kulturforståelse</strong>. Det frivillige arbejde foregik på den økologiske farm <a href="http://www.ridge2reef.org/" target="_blank">Ridge2Reef Farm</a> på St. Croix, hvor vi hjalp til med alt fra plantning af afgrøder til madlavning, praktisk talt alt hvad de selv lavede på farmen. Vi lærte meget om kulturen, ved at kigge på forskellige aspekter af deres kultur og sammenligne med vores egen. Den stille og rolige økultur, hvor alt nok skal gå og ting tager den tid ting tager blev sammenlignet med vores egen mere eller mindre hektiske hverdag derhjemme, som igen blev sammenlignet med New York Citys stress og jag, hvor alle har mere travlt end alle andre.</p>
-                        <ul>
-                            <li class="skole">HöjskolenDK</li>
-                                <ul class="liste">
-                                    <li>5. juni 2016 til 5. august 2016</li>
-                                    <li>Højskole</li>
-                                    <li id="gymnasie">Fag:
-                                        <ul>
-                                            <li>Projektstyring og teambuilding: 35 timer</li>
-                                            <li>Frivilligt arbejde og kulturforståelse: 40 timer</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                        </ul>
-                    <li><h4 class="institution">Gymnasie</h4></li>
-                        <p class="skoleintro">Da jeg skulle vælge ungdomsuddannelse var det naturlige valg for mig en STX-uddannelse på Holstebro Gymnasium og HF. Jeg valgte den samfundsvidenskabelige linje hvor jeg har haft fag som samfundsfag, dansk, engelsk og historie, alle på A-niveau. Jeg valgte desuden yderligere at hæve matematik fra B til A-niveau i 3.G. I 3.G blev jeg udvalgt til MasterClass i Engelsk, som var var et tilbud om ekstra undervisning for elever med særlige faglige talenter inden for det fag. Der blev udvalgt én samlet klasse ud fra elever fra både Holstebro Gymnasium og HF, Holstebro Handelsgymnasium og Holstebro Tekniske Gymnasium.<br><br>For en fuld liste over fag og fag-niveau jeg havde på gymnasiet, klik <a href="javascript:void(0)" onclick="myPopup2();">her</a>. <noscript class="noscriptwarn">(Kræver at Javascript er slået til.)</noscript></p>
-
-                        <div id="light2" class="popup">
-                            <h3 class="popupoverskrift">Liste over de fag jeg havde i gymnasiet</h3>
-                            <ul class="fag">
-                                <li>Samfundsfag A</li>
-                                <li>Dansk A</li>
-                                <li>Engelsk A (+ MasterClass)</li>
-                                <li>Historie A</li>
-                                <li>Matematik A</li>
-                                <li>Fysik B</li>
-                                <li>Tysk (fortsættersprog) B</li>
-                                <li>Biologi C</li>
-                                <li>Kemi C</li>
-                                <li>Idræt C</li>
-                                <li>Musik C</li>
-                                <li>Oldtidskundskab C</li>
-                                <li>Religion C</li>
-                                <li>Almen Studieforberedelse (AT)</li>
-                                <li>Studieretningsprojekt (SRP)</li>
-                            </ul>
+                    </li>
+                    <Li id="logoli">
+                        <div class="divlogo">
+                            <a href="/" id="logo">
+                                <p class="navp">Troels Byskov</p>
+                            </a>
                         </div>
-
-                        <ul>
-                            <li class="skole">Holstebro Gymnasium og HF</li>
-                                <ul class="liste">
-                                    <li>August 2011 til juni 2014</li>
-                                    <li>Årgang 2014</li>
-                                    <li>1.G - 3.G</li>
-                                    <li id="efterskole">Samfundsvidenskabelig linje</li>
-                                    <li>MasterClass i Engelsk</li>
-                                    <li>STX</li>
-                                </ul>
-                        </ul>
-                    <li><h4 class="institution">Efterskole</h4></li>
-                        <p class="skoleintro">Jeg valgte at tage et år på efterskole i 9. klasse. Mit valg faldt på Lomborg Gymnastik- og Idrætsefterskole (LGI) på grund af deres niveau-opdeling af alle fag, så man kom i klasse med nogle på sit eget niveau og dermed kunne optimere sin læring. Jeg havde A-niveau i alle fag. Jeg valgte desuden også ud fra LGI's store udvalg af sports- og fritidsaktiviteter. Jeg gik meget til håndbold, gymnastik og svømning under min tid på efterskolen, hvor jeg også prøvede kræfter med basketball og badminton.</p>
-                        <ul>
-                            <li class="skole">Lomborg Gymnastik- og Idrætsefterskole</li>
-                                <ul class="liste">
-                                    <li>August 2010 til juni 2011</li>
-                                    <li id="folkeskole">Årgang 10/11</li>
-                                    <li>9. klasse</li>
-                                    <li>Efterskole (afslutning på folkeskolen)</li>
-                                </ul>
-                        </ul>
-                    <li><h4 class="institution">Folkeskole</h4></li>
-                        <p class="skoleintro">Jeg har gået i folkeskole fra 0.-8. klasse og jeg har gennemført folkeskolens afgangseksamen for 9. klasse mens jeg gik på efterskole. Min folkeskoletid har været delt over to forskellige skoler, da Mejrup Skole kun havde elever op til 7. klasse da jeg gik der. Elever fra Mejrup Skole skulle dermed tage 8. klasse på en anden skole, hvor jeg valgte Skave Skole.</p>
-                        <ul>
-                            <li class="skole">Mejrup Skole</li>
-                                <ul class="liste">
-                                    <li>August 2001 til juni 2009</li>
-                                    <li>0. - 7. klasse</li>
-                                    <li>Folkeskole</li>
-                                </ul>
-                            <li class="skole">Skave Skole</li>
-                                <ul class="liste">
-                                    <li>August 2009 til juni 2010</li>
-                                    <li id="erhverv">8. klasse</li>
-                                    <li>Folkeskole</li>
-                                </ul>
-                        </ul>
+                    </Li>
+                    <li class="kontaktli" id="kontaktid">
+                        <div class="divkontakt">
+                            <a href="/kontakt.html" id="kontakt">
+                                <p class="navp">Kontakt</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="omli" id="omid">
+                        <div class="divom">
+                            <a href="/om.html" id="om">
+                                <p class="navp">Om sitet</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li id="dropli">
+                        <div class="dropdown">
+                            <a onclick="dropdownMenu();" href="javascript:void(0)" class="dropbtn">&#9776</a>
+                            <div class="dropdown-content" id="myDropdown">
+                                <a href="/" class="logoli">Forside</a>
+                                <a href="/cv.html" class="cvli">CV</a>
+                                <a href="/billeder.html" class="billederli">Billeder</a>
+                                <a href="/kontakt.html" class="kontaktli">Kontakt</a>
+                                <a href="/om.html" class="omli">Om sitet</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-            <h2><br>Erhvervserfaring</h2>
-            <p><!-- Noget tekst, som en intro til min erhvervserfaring? --></p>
-                <ul>
-                    <li>Elgiganten</li>
-                    <li>Fona</li>
-                    <li>Bone's</li>
-                    <li>Kvickly</li>
-                </ul>
+            </div>
 
-            <h2><br>Kompetencer</h2>
-            <p><!-- Noget tekst, som en intro til mine kompetencer? --></p>
-                <h4 class="institution">Kurser</h4>
-                    <p class="skoleintro">De følgende kurser er alle nogle jeg frivilligt og velvilligt har taget i min fritid af ren og skær interesse for emnet og lyst til at lære noget eller mere om det.<br><br>For gennemførte arbejdsrelaterede kurser, se <a href="#erhverv">erhvervserfaring</a>.</p>
+            <div class="links">
+                <table>
+                    <tr>
+                        <td><a href="/cv.html"><img src="/Images/dk.png" class="links-logo" id="dk" style="filter:contrast(100%);"/></a></td>
+                        <td><a href="/en/cv.html"><img src="/Images/en.png" class="links-logo" id="en"/></a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://linkedin.com/in/troelsbyskov" target="_blank">
+                                <img src="/Images/li.png" alt="LinkedIn-profil" class="links-logo" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com/troels.byskov" target="_blank">
+                                <img src="/Images/fb.png" alt="Facebook-profil" class="links-logo" />
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="mailto:troels.byskov@gmail.com">
+                                <img src="/Images/email.png" alt="Send en e-mail" class="links-logo" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="tel:+4522441758">
+                                <img src="/Images/phone.png" alt="Ring op" class="links-logo" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="overlinks"></div>
+
+            <!-- Indhold -->
+            <div class="scrollmenu">
+                <h3>Emner</h3>
+                <ul>
+                    <li class="hovedemneliste">
+                        <a href="#uddannelse"><p class="hovedemne">Uddannelse</p></a> <!-- Når selve teksten kommer skal denne have et id der hedder id="uddannelse" eller et a med name="uddannelse" -->
+                        <ul id="inst">
+                            <li><a href="#universitet">Universitet</a></li>
+                            <li><a href="#højskole">Højskole</a></li>
+                            <li><a href="#gymnasie">Gymnasie</a></li>
+                            <li><a href="#efterskole">Efterskole</a></li>
+                            <li><a href="#folkeskole">Folkeskole</a></li>
+                        </ul>
+                    </li>
+                    <li class="hovedemneliste">
+                        <a href="#erhverv"><p class="hovedemne">Erhvervserfaring</p></a>
+                        <ul id="inst">
+                            <li><a href="#elgiganten">Elgiganten</a></li>
+                            <li><a href="#fona">FONA</a></li>
+                            <li><a href="#bones">Bone's</a></li>
+                            <li><a href="#kvickly">Kvickly</a></li>
+                        </ul>
+                    </li>
+                    <li class="hovedemneliste">
+                        <a href="#kompetencer"><p class="hovedemne">Kompetencer</p></a>
+                        <ul id="inst">
+                            <li><a href="#kurser">Kurser</a></li>
+                            <li><a href="#it">IT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="cvtekst">
+                <h1 id="uddannelse">Mit CV</h1>
+                <span class="altekst">
+                <h2 id="universitet"><br>Uddannelse</h2>
+                    <p><!-- Noget tekst, som en intro til mit uddannelsesforløb? --></p>
                     <ul>
-                        <li class="skole">Klasser</li>
-                            <ul class="liste">
-                                <li>Photoshopkursus</li>
-                            </ul>
-                        <li class="skole">Online kurser</li>
+                        <li><h4 class="institution">Universitet</h4></li>
+                            <p class="skoleintro">Første gang jeg hørte om medievidenskab på Aarhus Universitet var på en uddannelsesmesse i Herning, og jeg var interesseret lige med det samme. Jeg har altid været meget analytisk anlagt, hvilket passede perfekt sammen med uddannelsen, som har hovedvægt på kommunikationsmodellen <strong>afsender&#10141;tekst&#10141;modtager</strong> med fagene medietekstanalyse, mediereceptionsanalyse og mediesystemanalyse. Jeg drømmer om at bruge min uddannelse til at blive ansat i enten et mediehus eller et marketingsfirma.<br><br>For en liste over fag på bacheloruddannelsen med ECTS-point og hvor langt jeg er nu, klik <a href="javascript:void(0)" onclick="myPopup();">her</a>. <noscript class="noscriptwarn">(Kræver at Javascript er slået til.)</noscript></p>
+
+                            <div id="light" class="popup">
+                                <h3 class="popupoverskrift">Liste over fag på bacheloruddannelsen medievidenskab på Aarhus Universitet</h3>
+                                <div class="underline"><p class="semester">1. semester</p></div>
+                                <ul class="fag">
+                                    <li class="done"><a href="http://kursuskatalog.au.dk/da/course/58468" target="_blank">Akademisk genreforståelse og formidling (5 ECTS)</a></li>
+                                    <li class="done"><a href="http://kursuskatalog.au.dk/da/course/58471" target="_blank">Medieudvikling (10 ECTS)</a></li>
+                                    <li class="done"><a href="http://kursuskatalog.au.dk/da/course/58469" target="_blank">Medietekstanalyse I (15 ECTS)</a></li>
+                                </ul>
+                                <div class="underline"><p class="semester">2. semester</p></div>
+                                <ul class="fag">
+                                    <li class="done"><a href="http://kursuskatalog.au.dk/da/course/62405" target="_blank">Medietekstanalyse II (10 ECTS)</a></li>
+                                    <li class="done"><a href="http://kursuskatalog.au.dk/da/course/62406" target="_blank">Studium generale (10 ECTS)</a></li>
+                                    <li class="done"><a href="http://kursuskatalog.au.dk/da/course/62407" target="_blank">Medie-, kultur- og samfundsteori I (10 ECTS)</a></li>
+                                </ul>
+                                <div class="underline"><p class="semester">3. semester</p></div>
+                                <ul class="fag">
+                                    <li class="doing"><a href="http://kursuskatalog.au.dk/da/course/64792" target="_blank">Medie-, kultur- og samfundsteori II (10 ECTS)</a></li>
+                                    <li class="doing"><a href="http://kursuskatalog.au.dk/da/course/66507" target="_blank">Markedskommunikation i et æstetisk, retorisk og digitalt perspektiv (Humanistisk valgfag) (10 ECTS)</a></li>
+                                    <li class="done"><a href="http://kursuskatalog.au.dk/da/course/64793" target="_blank">Mediereceptionsanalyse I (10 ECTS)</a></li>
+                                </ul>
+                                <div class="underline"><p class="semester">4. semester</p></div>
+                                <ul class="fag">
+                                    <li  class="next"><a href="http://kursuskatalog.au.dk/da/course/69780" target="_blank" id="grey">Mediereceptionsanalyse II (15 ECTS)</a></li>
+                                    <li class="next"><a href="http://kursuskatalog.au.dk/da/course/69781" target="_blank" id="grey">Kvantitativ mediebrugsanalyse (5 ECTS)</a></li>
+                                    <li class="next"><a href="http://kursuskatalog.au.dk/da/course/69782" target="_blank" id="grey">Mediesystemanalyse I (10 ECTS)</a></li>
+                                </ul>
+                                    <div class="underline"><p class="semester">5. semester</p></div>
+                                <ul class="fag">
+                                    <li class="next"><a href="#" target="_blank" id="grey">Mediesystemanalyse II (15 ECTS)</a></li>
+                                    <li class="next"><a href="#" target="_blank" id="grey">Tilvalgsfag (15 ECTS)</a></li>
+                                </ul>
+                                <p class="lille"><br>Flueben symboliserer et bestået fag.<br>Fed skrift symboliserer et igangværende fag.<br>Grå og kursiv skrift symboliserer et kommende fag.</p>
+                                <p class="lille" id="updated">Opdateret pr. 29/11/16.</p>
+                            </div>
+
                             <ul>
-                                <li class="tredje">Online markedsføring</li>
-                                    <p class="tekst">Jeg er på nuværende tidspunkt i gang med at tage et certifikat i online markedsføring fra Google med deres program <a href="https://succesonline.withgoogle.com/" target="_blank">Succes Online</a>.</p>
-                                <li class="tredje">Codecademy</li>
-                                    <ul class="liste2">
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>Javascript</li>
+                                <li class="skole">Aarhus Universitet</li>
+                                    <ul>
+                                        <li class="grad">Bachelorgrad</li>
+                                            <ul class="liste">
+                                                <li id="højskole">August 2015 til nu</li>
+                                                <li>Årgang 2018</li>
+                                                <li>Bachelor of Arts (BA) i Medievidenskab</li>
+                                            </ul>
                                     </ul>
-                                <li class="tredje">Onlinekurser.dk</li>
-                                    <p class="tekst">Jeg har gennem CA A-kasse adgang til hjemmesiden <a href="http://www.onlinekurser.dk/" target="_blank">onlinekurser.dk</a>, hvor jeg er i gang med at tage følgende kursus:</p>
-                                    <ul class="liste2">
-                                        <li>Adobe Photoshop</li>
+                            </ul>
+                        <li><h4 class="institution">Højskole</h4></li>
+                            <p class="skoleintro">Da jeg ikke var ude at rejse i mit sabbatår efter gymnasiet, valgte jeg at bruge en måned af min første sommerferie fra universitet til at rejse. Jeg valgte at rejse med HöjskolenDK, da de udbød en sommerhøjskole, hvor fagene lød interessante og brugbare. Vi blev hovedsagligt undervist i de to fag <strong>projektstyring</strong> og <strong>teambuilding</strong>, hvor vi blandt andet lærte om hvordan man udvikler et frugtbart samarbejde og hvordan man styrer et projekt fra idé til udførelse.<br>Derudover brugte vi meget tid på <strong>frivilligt arbejde</strong> og <strong>kulturforståelse</strong>. Det frivillige arbejde foregik på den økologiske farm <a href="http://www.ridge2reef.org/" target="_blank">Ridge2Reef Farm</a> på St. Croix, hvor vi hjalp til med alt fra plantning af afgrøder til madlavning, praktisk talt alt hvad de selv lavede på farmen. Vi lærte meget om kulturen, ved at kigge på forskellige aspekter af deres kultur og sammenligne med vores egen. Den stille og rolige økultur, hvor alt nok skal gå og ting tager den tid ting tager blev sammenlignet med vores egen mere eller mindre hektiske hverdag derhjemme, som igen blev sammenlignet med New York Citys stress og jag, hvor alle har mere travlt end alle andre.</p>
+                            <ul>
+                                <li class="skole">HöjskolenDK</li>
+                                    <ul class="liste">
+                                        <li>5. juni 2016 til 5. august 2016</li>
+                                        <li>Højskole</li>
+                                        <li id="gymnasie">Fag:
+                                            <ul>
+                                                <li>Projektstyring og teambuilding: 35 timer</li>
+                                                <li>Frivilligt arbejde og kulturforståelse: 40 timer</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                            </ul>
+                        <li><h4 class="institution">Gymnasie</h4></li>
+                            <p class="skoleintro">Da jeg skulle vælge ungdomsuddannelse var det naturlige valg for mig en STX-uddannelse på Holstebro Gymnasium og HF. Jeg valgte den samfundsvidenskabelige linje hvor jeg har haft fag som samfundsfag, dansk, engelsk og historie, alle på A-niveau. Jeg valgte desuden yderligere at hæve matematik fra B til A-niveau i 3.G. I 3.G blev jeg udvalgt til MasterClass i Engelsk, som var var et tilbud om ekstra undervisning for elever med særlige faglige talenter inden for det fag. Der blev udvalgt én samlet klasse ud fra elever fra både Holstebro Gymnasium og HF, Holstebro Handelsgymnasium og Holstebro Tekniske Gymnasium.<br><br>For en fuld liste over fag og fag-niveau jeg havde på gymnasiet, klik <a href="javascript:void(0)" onclick="myPopup2();">her</a>. <noscript class="noscriptwarn">(Kræver at Javascript er slået til.)</noscript></p>
+
+                            <div id="light2" class="popup">
+                                <h3 class="popupoverskrift">Liste over de fag jeg havde i gymnasiet</h3>
+                                <ul class="fag">
+                                    <li>Samfundsfag A</li>
+                                    <li>Dansk A</li>
+                                    <li>Engelsk A (+ MasterClass)</li>
+                                    <li>Historie A</li>
+                                    <li>Matematik A</li>
+                                    <li>Fysik B</li>
+                                    <li>Tysk (fortsættersprog) B</li>
+                                    <li>Biologi C</li>
+                                    <li>Kemi C</li>
+                                    <li>Idræt C</li>
+                                    <li>Musik C</li>
+                                    <li>Oldtidskundskab C</li>
+                                    <li>Religion C</li>
+                                    <li>Almen Studieforberedelse (AT)</li>
+                                    <li>Studieretningsprojekt (SRP)</li>
+                                </ul>
+                            </div>
+
+                            <ul>
+                                <li class="skole">Holstebro Gymnasium og HF</li>
+                                    <ul class="liste">
+                                        <li>August 2011 til juni 2014</li>
+                                        <li>Årgang 2014</li>
+                                        <li>1.G - 3.G</li>
+                                        <li id="efterskole">Samfundsvidenskabelig linje</li>
+                                        <li>MasterClass i Engelsk</li>
+                                        <li>STX</li>
+                                    </ul>
+                            </ul>
+                        <li><h4 class="institution">Efterskole</h4></li>
+                            <p class="skoleintro">Jeg valgte at tage et år på efterskole i 9. klasse. Mit valg faldt på Lomborg Gymnastik- og Idrætsefterskole (LGI) på grund af deres niveau-opdeling af alle fag, så man kom i klasse med nogle på sit eget niveau og dermed kunne optimere sin læring. Jeg havde A-niveau i alle fag. Jeg valgte desuden også ud fra LGI's store udvalg af sports- og fritidsaktiviteter. Jeg gik meget til håndbold, gymnastik og svømning under min tid på efterskolen, hvor jeg også prøvede kræfter med basketball og badminton.</p>
+                            <ul>
+                                <li class="skole">Lomborg Gymnastik- og Idrætsefterskole</li>
+                                    <ul class="liste">
+                                        <li>August 2010 til juni 2011</li>
+                                        <li id="folkeskole">Årgang 10/11</li>
+                                        <li>9. klasse</li>
+                                        <li>Efterskole (afslutning på folkeskolen)</li>
+                                    </ul>
+                            </ul>
+                        <li><h4 class="institution">Folkeskole</h4></li>
+                            <p class="skoleintro">Jeg har gået i folkeskole fra 0.-8. klasse og jeg har gennemført folkeskolens afgangseksamen for 9. klasse mens jeg gik på efterskole. Min folkeskoletid har været delt over to forskellige skoler, da Mejrup Skole kun havde elever op til 7. klasse da jeg gik der. Elever fra Mejrup Skole skulle dermed tage 8. klasse på en anden skole, hvor jeg valgte Skave Skole.</p>
+                            <ul>
+                                <li class="skole">Mejrup Skole</li>
+                                    <ul class="liste">
+                                        <li>August 2001 til juni 2009</li>
+                                        <li>0. - 7. klasse</li>
+                                        <li>Folkeskole</li>
+                                    </ul>
+                                <li class="skole">Skave Skole</li>
+                                    <ul class="liste">
+                                        <li>August 2009 til juni 2010</li>
+                                        <li id="erhverv">8. klasse</li>
+                                        <li>Folkeskole</li>
                                     </ul>
                             </ul>
                     </ul>
-                <h4 class="institution">IT</h4>
-                    <li>Microsoft Office</li>
+                <h2><br>Erhvervserfaring</h2>
+                <p><!-- Noget tekst, som en intro til min erhvervserfaring? --></p>
+                    <ul>
+                        <li>Elgiganten</li>
+                        <li>Fona</li>
+                        <li>Bone's</li>
+                        <li>Kvickly</li>
+                    </ul>
 
-                </span>
-        </div>
+                <h2><br>Kompetencer</h2>
+                <p><!-- Noget tekst, som en intro til mine kompetencer? --></p>
+                    <h4 class="institution">Kurser</h4>
+                        <p class="skoleintro">De følgende kurser er alle nogle jeg frivilligt og velvilligt har taget i min fritid af ren og skær interesse for emnet og lyst til at lære noget eller mere om det.<br><br>For gennemførte arbejdsrelaterede kurser, se <a href="#erhverv">erhvervserfaring</a>.</p>
+                        <ul>
+                            <li class="skole">Klasser</li>
+                                <ul class="liste">
+                                    <li>Photoshopkursus</li>
+                                </ul>
+                            <li class="skole">Online kurser</li>
+                                <ul>
+                                    <li class="tredje">Online markedsføring</li>
+                                        <p class="tekst">Jeg er på nuværende tidspunkt i gang med at tage et certifikat i online markedsføring fra Google med deres program <a href="https://succesonline.withgoogle.com/" target="_blank">Succes Online</a>.</p>
+                                    <li class="tredje">Codecademy</li>
+                                        <ul class="liste2">
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Javascript</li>
+                                        </ul>
+                                    <li class="tredje">Onlinekurser.dk</li>
+                                        <p class="tekst">Jeg har gennem CA A-kasse adgang til hjemmesiden <a href="http://www.onlinekurser.dk/" target="_blank">onlinekurser.dk</a>, hvor jeg er i gang med at tage følgende kursus:</p>
+                                        <ul class="liste2">
+                                            <li>Adobe Photoshop</li>
+                                        </ul>
+                                </ul>
+                        </ul>
+                    <h4 class="institution">IT</h4>
+                        <li>Microsoft Office</li>
+                        <li>Microsoft Windows og MacOS</li>
+                    </span>
+            </div>
 
-        <!-- Plads ned til footer -->
-        <p><br><br><br><br><br><br><br><br><br><br></p>
+            <!-- Footer -->
+            <p><br><br><br><br><br><br><br><br><br><br></p>
+            <footer>
+                <div class="foot">
+                    <p class="footcenter">Skrevet af: Troels Byskov</p>
+                    <p class="footright">2016</p>
+                </div>
+            </footer>
 
-        <!-- Sort baggrund og kryds ved popup -->
-        <a href="javascript:void(0)" onclick="closePopup();">
-            <div id="fade" class="black_overlay"></div>
-        </a>
+            <!-- Sort baggrund og kryds ved popup -->
+            <a href="javascript:void(0)" onclick="closePopup();">
+                <div id="fade" class="black_overlay"></div>
+            </a>
 
-        <div id="kryds">
-            <a href="javascript:void(0)" onclick="closePopup();" id="luklink"><img src="/Images/luk.png" alt="Luk" id="lukknap"/></a>
-        </div>
+            <div id="kryds">
+                <a href="javascript:void(0)" onclick="closePopup();" id="luklink"><img src="/Images/luk.png" alt="Luk" id="lukknap"/></a>
+            </div>
 
-        <!-- Popups -->
-        <script>
-            function myPopup() {
-                document.getElementById('light').style.display='block';
-                document.getElementById('fade').style.display='block';
-                document.getElementById('kryds').style.display='block';
-            }
+            <!-- Popups -->
+            <script>
+                function myPopup() {
+                    document.getElementById('light').style.display='block';
+                    document.getElementById('fade').style.display='block';
+                    document.getElementById('kryds').style.display='block';
+                }
 
-            function myPopup2() {
-                document.getElementById('light2').style.display='block';
-                document.getElementById('fade').style.display='block';
-                document.getElementById('kryds').style.display='block';
-            }
+                function myPopup2() {
+                    document.getElementById('light2').style.display='block';
+                    document.getElementById('fade').style.display='block';
+                    document.getElementById('kryds').style.display='block';
+                }
 
-            function closePopup(){
-                document.getElementById('light').style.display='none';
-                document.getElementById('light2').style.display='none';
-                document.getElementById('fade').style.display='none';
-                document.getElementById('kryds').style.display='none';
-            }
-        </script>
+                function closePopup(){
+                    document.getElementById('light').style.display='none';
+                    document.getElementById('light2').style.display='none';
+                    document.getElementById('fade').style.display='none';
+                    document.getElementById('kryds').style.display='none';
+                }
+            </script>
 
-        <!-- Dropdown menu -->
-        <script>
-            function dropdownMenu() {
-                document.getElementById("myDropdown").classList.toggle("show");
-            }
+            <!-- Dropdown menu -->
+            <script>
+                function dropdownMenu() {
+                    document.getElementById("myDropdown").classList.toggle("show");
+                }
 
-            window.onclick = function(event) {
-              if (!event.target.matches('.dropbtn')) {
+                window.onclick = function(event) {
+                  if (!event.target.matches('.dropbtn')) {
 
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                var i;
-                for (i = 0; i < dropdowns.length; i++) {
-                  var openDropdown = dropdowns[i];
-                  if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
+                    var dropdowns = document.getElementsByClassName("dropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
                   }
                 }
-              }
-            }
-        </script>
+            </script>
 
-        <noscript>
-            <div class="noscript">
-                <p>Visse funktioner vil ikke fungere ordentligt uden at Javascript er slået til.</p>
-            </div>
-        </noscript>
+            <noscript>
+                <div class="noscript">
+                    <p>Visse funktioner vil ikke fungere ordentligt uden at Javascript er slået til.</p>
+                </div>
+            </noscript>
+
+        </div>
 
     </body>
 
