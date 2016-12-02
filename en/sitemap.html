@@ -2,11 +2,11 @@
 <html>
 
     <head>
-        <title>Troels Byskov</title>
+        <title>Site map - Troels Byskov</title>
         <link href="/style.main.css" type="text/css" rel="stylesheet" />
         <link href="/style.main.phone.css" type="text/css" rel="stylesheet" />
-        <link href="/style.index.css" type="text/css" rel="stylesheet" />
-        <link href="/style.index.phone.css" type="text/css" rel="stylesheet" />
+        <link href="/style.sitemap.css" type="text/css" rel="stylesheet" />
+        <link href="/style.sitemap.phone.css" type="text/css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Abel|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
         <meta charset="UTF-8" />
         <link rel="shortcut icon" type="image/x-icon" href="/Images/favicon.ico" />
@@ -24,48 +24,46 @@
         </script>
     </head>
 
-
     <body>
 
         <div id="container">
-
             <!-- Header og links -->
             <div id="header">
                 <div>
-                    <a href="/"><div id=profpic></div></a>
+                    <a href="/en/"><div id=profpic></div></a>
                     <ul class="navigation">
                         <li class="cvli" id="cvid">
                             <div class="divcv">
-                                <a href="/cv.html" id="cv">
+                                <a href="/en/cv.html" id="cv">
                                     <p class="navp">CV</p>
                                 </a>
                             </div>
                         </li>
                         <li class="billederli" id="billederid">
                             <div class="divbilleder">
-                                <a href="/billeder.html" id="billeder">
-                                    <p class="navp">Billeder</p>
+                                <a href="/en/pictures.html" id="billeder">
+                                    <p class="navp">Pictures</p>
                                 </a>
                             </div>
                         </li>
                         <Li id="logoli">
                             <div class="divlogo">
-                                <a href="/" id="logo">
+                                <a href="/en/" id="logo">
                                     <p class="navp">Troels Byskov</p>
                                 </a>
                             </div>
                         </Li>
                         <li class="kontaktli" id="kontaktid">
                             <div class="divkontakt">
-                                <a href="/kontakt.html" id="kontakt">
-                                    <p class="navp">Kontakt</p>
+                                <a href="/en/contact.html" id="kontakt">
+                                    <p class="navp">Contact</p>
                                 </a>
                             </div>
                         </li>
                         <li class="omli" id="omid">
                             <div class="divom">
-                                <a href="/om.html" id="om">
-                                    <p class="navp">Om sitet</p>
+                                <a href="/en/about.html" id="om">
+                                    <p class="navp">About</p>
                                 </a>
                             </div>
                         </li>
@@ -73,11 +71,11 @@
                             <div class="dropdown">
                                 <a onclick="dropdownMenu();" href="javascript:void(0)" class="dropbtn">&#9776</a>
                                 <div class="dropdown-content" id="myDropdown">
-                                    <a href="/" class="logoli">Forside</a>
-                                    <a href="/cv.html" class="cvli">CV</a>
-                                    <a href="/billeder.html" class="billederli">Billeder</a>
-                                    <a href="/kontakt.html" class="kontaktli">Kontakt</a>
-                                    <a href="/om.html" class="omli">Om sitet</a>
+                                    <a href="/en/" class="logoli">Frontpage</a>
+                                    <a href="/en/cv.html" class="cvli">CV</a>
+                                    <a href="/en/pictures.html" class="billederli">Pictures</a>
+                                    <a href="/en/contact.html" class="kontaktli">Contact</a>
+                                    <a href="/en/about.html" class="omli">About</a>
                                 </div>
                             </div>
                         </li>
@@ -87,8 +85,8 @@
                 <div class="links">
                     <table>
                         <tr>
-                            <td><a href="/"><img src="/Images/dk.png" class="links-logo" id="dk" style="filter:contrast(100%);"/></a></td>
-                            <td><a href="/en/"><img src="/Images/en.png" class="links-logo" id="en"/></a></td>
+                            <td><a href="/billeder.html"><img src="/Images/dk.png" class="links-logo" id="dk"/></a></td>
+                            <td><a href="/en/pictures.html"><img src="/Images/en.png" class="links-logo" id="en" style="filter:contrast(100%);"/></a></td>
                         </tr>
                         <tr>
                             <td>
@@ -120,56 +118,6 @@
                 <div class="overlinks"></div>
             </div>
             <!-- Slut på header og links -->
-
-            <!-- Indhold -->
-            <div id="content">
-                <div class="welcome">
-                    <h1>Hej, jeg er Troels Byskov. Velkommen til min side!</h1>
-                    <p>Dette er stedet, hvor du kan lære mig lidt bedre at kende.</p>
-                    <p>Om mig som person</p>
-                    <p>Fritidsinteresser</p>
-                </div>
-            </div>
-            <!-- Slut på indhold -->
-
-            <!-- Footer -->
-            <div id="footer">
-                <footer>
-                    <div class="foot">
-                        <p class="footleft"><a href="/sitemap.html">Site map</a></p>
-                        <p class="footcenter">Skrevet af: Troels Byskov</p>
-                        <p class="footright">2016</p>
-                    </div>
-                </footer>
-            </div>
-            <!-- Slut på footer -->
-
-            <!-- Dropdown menu -->
-            <script>
-                function dropdownMenu() {
-                    document.getElementById("myDropdown").classList.toggle("show");
-                }
-
-                window.onclick = function(event) {
-                  if (!event.target.matches('.dropbtn')) {
-
-                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                      var openDropdown = dropdowns[i];
-                      if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                      }
-                    }
-                  }
-                }
-            </script>
-
-            <noscript>
-                <div class="noscript">
-                    <p>Visse funktioner vil ikke fungere ordentligt uden at Javascript er slået til.</p>
-                </div>
-            </noscript>
 
         </div>
 

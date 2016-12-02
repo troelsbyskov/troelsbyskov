@@ -252,6 +252,20 @@ ul {
     transform: translate(-50%);
 }
 
+.footleft {
+    float: left;
+    left: 2.5%;
+}
+
+.footleft a {
+    color: black;
+    text-decoration: none;
+}
+
+.footleft a:hover {
+    text-decoration: underline;
+}
+
 .footright {
     float: right;
     right: 2.5%;
