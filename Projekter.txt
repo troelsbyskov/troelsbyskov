@@ -4,5 +4,6 @@ Tilføje flere detaljer til fag på gym fra beviset (latin, natur-halløj, fag (
 Skriv om Arbejdserfaring
 Skriv om kompetencer
 Tilføje kort oversigt over fag på AU à la LinkedIn
-Gøre det klart at AU fag er links man kan trykke på
 Sørg for at sitemap #streg ikke kommer i vejen ved meget smalle vinduer
+Gør footer smartphone-friendly
+Gør sitemap smartphone-friendly
