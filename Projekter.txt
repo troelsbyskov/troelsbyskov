@@ -5,5 +5,4 @@ Skriv om Arbejdserfaring
 Skriv om kompetencer
 Tilføje kort oversigt over fag på AU à la LinkedIn
 Sørg for at sitemap #streg ikke kommer i vejen ved meget smalle vinduer
-Gør footer smartphone-friendly
 Gør sitemap smartphone-friendly

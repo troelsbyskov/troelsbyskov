@@ -1,0 +1,46 @@
+/* FOR PHONES (PORTRAIT) */
+@media only screen and (max-device-width: 413px) and (orientation: portrait) {
+    .sitemaptekst {
+        top: 200px;
+    }
+
+    .sitemaptekst h1 {
+        font-size: 5rem;
+    }
+
+    .sitemaptekst h3 {
+        font-size: 3.5rem;
+        margin-bottom: 15px;
+    }
+
+    .liste {
+        display: block;
+    }
+
+    .link {
+        height: 80px;
+        width: 44%;
+        margin-bottom: 15px;
+    }
+
+    .link a {
+        font-size: 2.5rem;
+    }
+
+    .link2 {
+        height: 80px;
+        top: -40px;
+        width: 210%;
+    }
+
+    .link2 p {
+        position: relative;
+        top: 12px;
+    }
+
+    #streg {
+        width: 550px;
+        height: 1px;
+        top: 685px;
+    }
+}

@@ -12,7 +12,4 @@
 
 /* FOR PHONES (LANDSCAPE) */
 @media only screen and (max-device-width: 413px) and (orientation: landscape) {
-    .welcome {
-        width: 700px;
-    }
 }
