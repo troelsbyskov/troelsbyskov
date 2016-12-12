@@ -148,7 +148,7 @@
         bottom: 7px;
     }
 
-    #content {
-        padding-bottom: 600px;
+    .welcome, .table, .cvtekst, .kontakttekst, .presentation, .sitemaptekst {
+        margin-bottom: 100px;
     }
 }
