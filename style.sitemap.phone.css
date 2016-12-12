@@ -44,3 +44,39 @@
         top: 685px;
     }
 }
+
+/* FOR PHONES (LANDSCAPE) */
+@media only screen and (max-device-width: 413px) and (orientation: landscape) {
+
+    .sitemaptekst h1 {
+        font-size: 2.5rem;
+    }
+
+    .sitemaptekst h3 {
+        font-size: 1.9rem;
+        margin-bottom: 15px;
+    }
+
+    .link {
+        height: 50px;
+        margin-bottom: 15px;
+    }
+
+    .link a {
+        font-size: 1.8rem;
+    }
+
+    .link2 {
+        height: 50px;
+        top: -30px;
+    }
+
+    .link2 p {
+        position: relative;
+        top: 5px;
+    }
+
+    #streg {
+        height: 480px;
+    }
+}
