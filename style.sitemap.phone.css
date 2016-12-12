@@ -25,6 +25,8 @@
 
     .link a {
         font-size: 2.5rem;
+        width: 43%;
+        height: 78px;
     }
 
     .link2 {
@@ -64,6 +66,7 @@
 
     .link a {
         font-size: 1.8rem;
+        height: 48px;
     }
 
     .link2 {
