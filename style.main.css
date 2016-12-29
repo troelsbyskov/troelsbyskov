@@ -185,7 +185,7 @@ ul {
     z-index: 9999;
     width: 150px;
     border-radius: 5px;
-    border: 3px solid rgba(41,198,73,1);
+    border: 3px solid rgba(25,25,25,0.75);
 }
 
 .dropdown-content a {
