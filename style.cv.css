@@ -192,7 +192,6 @@ ul {
 .done {
     list-style-type: none;
     margin-left: 0;
-    padding-left: 1.2rem;
     text-indent: -1.2rem;
 
 }
@@ -201,6 +200,8 @@ ul {
     content: "✓";
     display: inline-block;
     color: rgba(41,198,73,1);
+    width: 1.2rem;
+    float: left;
 }
 
 .doing {
