@@ -53,7 +53,6 @@
     width: 700px;
     top: 70px;
     margin: auto;
-    border: 1px solid red;
 }
 
 #inst {
@@ -82,18 +81,21 @@ ul {
     list-style-type: disc;
     position: relative;
     left: 65px;
+    width: 634px;
 }
 
 .liste2 {
     list-style-type: disc;
     position: relative;
     left: 80px;
+    width: 619px;
 }
 
 .liste3 {
     list-style-type: circle;
     position: relative;
     left: 50px;
+    width: 568px;
 }
 
 .institution {
@@ -282,7 +284,19 @@ ul {
     .cvtekst {
         margin-left: 0;
         left: 200px;
-        width: 65%;
+        width: 63.7%;
+    }
+
+    .liste {
+        width: 87.4%;
+    }
+
+    .liste2 {
+        width: 84%;
+    }
+
+    .liste3 {
+        width: 90%;
     }
 }
 
@@ -312,5 +326,17 @@ ul {
         margin-left: inherit;
         left: 9.5%;
         width: 81.1%;
+    }
+
+    .liste {
+        width: 80.4%;
+    }
+
+    .liste2 {
+        width: 75%;
+    }
+
+    .liste3 {
+        width: 80%;
     }
 }
