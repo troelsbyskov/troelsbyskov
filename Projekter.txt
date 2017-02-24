@@ -7,3 +7,5 @@ Tilføje kort oversigt over fag på AU à la LinkedIn
 ret :hover ved profpic på smartphone
 Giv alle <img>'s alt:-tags, til ære for søgemaskiner, der så kan se, hvad billedet er
 Lav overskriften i popups (fra CV) fixed, så man ikke kan scrolle ned over dette
+Giv alle hovedpunktoverskrifter en lysegrå underline
+Sæt billeder ind i CV
