@@ -90,8 +90,8 @@
                 <div class="links">
                     <table>
                         <tr>
-                            <td><a href="/cv.html"><img src="/Images/dk.png" class="links-logo" id="dk" style="filter:contrast(100%);"/></a></td>
-                            <td><a href="/en/cv.html"><img src="/Images/en.png" class="links-logo" id="en"/></a></td>
+                            <td><a href="/cv.html"><img src="/Images/dk.png" class="links-logo" id="dk" style="filter:contrast(100%);" alt="dansk"/></a></td>
+                            <td><a href="/en/cv.html"><img src="/Images/en.png" class="links-logo" id="en" alt="english"/></a></td>
                         </tr>
                         <tr>
                             <td>
@@ -162,14 +162,14 @@
                     <h1 class="centrer">Mit CV</h1>
                     <span class="altekst">
                     <div class="boks">
-                        <h2 id="uddannelse" class="centrer linje"><br>Uddannelse</h2>
+                        <h2 id="uddannelse" class="linje"><br>Uddannelse</h2>
                         <p><!-- Noget tekst, som en intro til mit uddannelsesforløb? --></p>
                         <ul>
                             <li><h4 class="institution" id="universitet">Universitet</h4></li>
                                 <p class="skoleintro">Første gang jeg hørte om medievidenskab på Aarhus Universitet var på en uddannelsesmesse i Herning, og jeg var interesseret lige med det samme. Jeg har altid været meget analytisk anlagt, hvilket passede perfekt sammen med uddannelsen, som har hovedvægt på kommunikationsmodellen <strong>afsender&#10141;tekst&#10141;modtager</strong> med fagene medietekstanalyse, mediereceptionsanalyse og mediesystemanalyse. Jeg drømmer om at bruge min uddannelse til at blive ansat i enten et mediehus eller et marketingsfirma.<br><br>For en liste over fag på bacheloruddannelsen med ECTS-point og hvor langt jeg er nu, klik <a href="javascript:void(0)" onclick="myPopup();">her</a>. <noscript class="noscriptwarn">(Kræver at Javascript er slået til.)</noscript></p>
 
                                 <div id="light" class="popup">
-                                    <h3 class="popupoverskrift">Liste over fag på bacheloruddannelsen medievidenskab på Aarhus Universitet</h3>
+                                    <h3>Liste over fag på bacheloruddannelsen medievidenskab på Aarhus Universitet</h3>
                                     <p class="lille2">Alle fag er links til en beskrivelse af det pågældende fag.</p><br>
                                     <div class="underline"><p class="semester">1. semester</p></div>
                                     <ul class="fag">
@@ -296,7 +296,7 @@
                     </div>
 
                     <div class="boks">
-                        <h2 id="erhverv" class="centrer linje"><br>Erhvervserfaring</h2>
+                        <h2 id="erhverv" class="linje"><br>Erhvervserfaring</h2>
                         <p><!-- Noget tekst, som en intro til min erhvervserfaring? --></p>
                             <ul>
                                 <li id="elgiganten">Elgiganten</li>
@@ -307,7 +307,7 @@
                     </div>
 
                     <div class="boks">
-                        <h2 id="kompetencer" class="centrer linje"><br>Kompetencer</h2>
+                        <h2 id="kompetencer" class="linje"><br>Kompetencer</h2>
                         <p><!-- Noget tekst, som en intro til mine kompetencer? --></p>
                             <h4 class="institution" id="kurser">Kurser</h4>
                                 <p class="skoleintro">De følgende kurser er alle nogle jeg frivilligt og velvilligt har taget i min fritid af ren og skær interesse for emnet og lyst til at lære noget eller mere om det.<br><br>For gennemførte arbejdsrelaterede kurser, se <a href="#erhverv">erhvervserfaring</a>.</p>
@@ -333,24 +333,24 @@
                                                     <tbody>
                                                         <tr>
                                                             <td>
-                                                                <ul>
-                                                                    <li class="liste3">Simple figurer</li>
-                                                                    <li class="liste3">Farvestyring og kontrast</li>
-                                                                    <li class="liste3">Simpel retouchering</li>
+                                                                <ul class="liste3">
+                                                                    <li>Simple figurer</li>
+                                                                    <li>Farvestyring og kontrast</li>
+                                                                    <li>Simpel retouchering</li>
                                                                 </ul>
                                                             </td>
                                                             <td>
-                                                                <ul>
-                                                                    <li class="liste3">Content-aware fill</li>
-                                                                    <li class="liste3">Billeder til web</li>
-                                                                    <li class="liste3">Fritlægning</li>
+                                                                <ul class="liste3">
+                                                                    <li>Content-aware fill</li>
+                                                                    <li>Billeder til web</li>
+                                                                    <li>Fritlægning</li>
                                                                 </ul>
                                                             </td>
                                                             <td>
-                                                                <ul>
-                                                                    <li class="liste3">Filtre</li>
-                                                                    <li class="liste3">Ikke-destruktiv pixelgrafik</li>
-                                                                    <li class="liste3">At gøre billeder skarpere</li>
+                                                                <ul class="liste3">
+                                                                    <li>Filtre</li>
+                                                                    <li>Ikke-destruktiv pixelgrafik</li>
+                                                                    <li>At gøre billeder skarpere</li>
                                                                 </ul>
                                                             </td>
                                                         </tr>
@@ -378,10 +378,12 @@
                                         </ul>
                                 </ul>
                             <h4 class="institution" id="it">IT og software</h4>
-                                <li>Microsoft Office og lignende office-programmer</li>
-                                <li>Microsoft Windows og MacOS</li>
-                                <li>Index Danmark/Gallup (GallupPC) og Seerundersøgelsen (Instar Analytics)</li>
-                                <li>Google AdWords og Analytics</li>
+                                <ul class="liste">
+                                    <li>Microsoft Office og lignende office-programmer</li>
+                                    <li>Microsoft Windows og MacOS</li>
+                                    <li>Index Danmark/Gallup (GallupPC) og Seerundersøgelsen (Instar Analytics)</li>
+                                    <li>Google AdWords og Analytics</li>
+                                </ul>
                     </div>
                     </span>
                 </div>
