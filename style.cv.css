@@ -327,7 +327,19 @@ ul {
 }
 
 .socimg {
-    height: 50px;
+    height: 60px;
+}
+
+.kontakttekst {
+    margin-left: 5px;
+    position:relative;
+    top:-24px;
+    font-size:1.2rem;
+}
+
+.kontaktlink {
+    display: block;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1100px) and (min-device-width: 414px) {
