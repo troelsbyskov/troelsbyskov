@@ -261,16 +261,37 @@ ul {
     text-decoration: underline;
 }
 
+.tredje {
+    font-size: 0.9rem;
+}
+
 .tekst, .tredje {
     margin-left: 49px;
     margin-top: 5px;
     line-height: 1.5rem;
 }
 
-.tredje {
+.tekst {
+    margin-bottom: 0;
+}
+
+.tredje, .fjerde {
     font-weight: bold;
     font-family: Tahoma, Geneva, sans-serif;
-    font-size: 0.9rem;
+}
+
+.fjerde {
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+.fjerde, .tekst2 {
+    margin-left: 75px;
+    line-height: 1.5rem;
+}
+
+.tekst2 {
+    margin-top: 1px;
 }
 
 #uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kvickly:before, #kompetencer:before, #kurser:before, #it:before {
