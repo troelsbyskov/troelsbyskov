@@ -77,7 +77,7 @@
         right: 320%;
         top: -10px;
         border-radius: 15px;
-        border: 8px solid rgba(41,198,73,1);
+        border: 8px solid rgba(25,25,25,0.75);
     }
 
     .dropdown-content a {

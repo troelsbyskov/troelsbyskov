@@ -340,6 +340,15 @@ ul {
 .kontaktlink {
     display: block;
     text-decoration: none;
+    color: black;
+    border: 1px solid rgba(230,230,230,1);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.kontaktlink:hover {
+    background-color: rgba(0,0,0,0.15);
+    box-shadow: 0 8px 16px rgba(220,220,220,1);
 }
 
 @media screen and (max-width: 1100px) and (min-device-width: 414px) {
