@@ -263,16 +263,17 @@ ul {
 
 .tredje {
     font-size: 0.9rem;
+    margin-top: 15px;
 }
 
 .tekst, .tredje {
     margin-left: 49px;
-    margin-top: 5px;
     line-height: 1.5rem;
 }
 
 .tekst {
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .tredje, .fjerde {
@@ -347,8 +348,15 @@ ul {
 }
 
 .kontaktlink:hover {
-    background-color: rgba(0,0,0,0.15);
+    background-color: rgba(230,230,230,1);
     box-shadow: 0 8px 16px rgba(220,220,220,1);
+}
+
+.indryk {
+    position: relative;
+    left: 38px;
+    margin-left: 50px;
+    line-height: 1.5rem;
 }
 
 @media screen and (max-width: 1100px) and (min-device-width: 414px) {
