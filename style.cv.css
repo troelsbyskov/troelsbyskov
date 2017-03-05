@@ -305,7 +305,7 @@ ul {
 
 .boks {
     border: 1px solid rgba(230,230,230,1);
-    width: 800px;
+    width: 123%;
     margin: 0 auto 50px auto;
     padding: 0 30px 30px 30px;
     background-color: rgba(245,245,245,1);
@@ -408,7 +408,7 @@ ul {
     }
 
     .liste {
-        width: 80.4%;
+        width: 150%;
     }
 
     .liste2 {
@@ -417,5 +417,9 @@ ul {
 
     .liste3 {
         width: 80%;
+    }
+
+    .boks {
+        width: 100%;
     }
 }
