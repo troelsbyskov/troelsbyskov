@@ -160,16 +160,6 @@ ul {
     filter: contrast(100%);
 }
 
-.overlinks {
-    height:60px;
-    width: 72px;
-    position: fixed;
-    right: 10px;
-    top: 45px;
-    z-index: 8500;
-    background-color: rgba(240,240,240,1);
-}
-
 .dropdown {
     height: 35px;
     width: 40px;
@@ -310,10 +300,5 @@ ul {
 
     .links tr {
         display: inline-block;
-    }
-
-    .overlinks {
-        width: 220px;
-        height: 40px;
     }
 }
