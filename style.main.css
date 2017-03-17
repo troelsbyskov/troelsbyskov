@@ -128,20 +128,18 @@ ul {
 }
 
 .links {
+    display: inline-table;
     position: fixed;
-    left: 120px;
-    top: 40px;
+    right: 10px;
+    top: 50px;
     z-index: 8501;
+    background-color: rgba(240,240,240,1);
     border-radius: 10px;
 }
 
-.links tr {
-    display: inline-block;
-}
-
 .links-logo {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     margin: 3px;
     margin-bottom: 0;
     border-radius: 3px;
