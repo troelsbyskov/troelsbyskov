@@ -246,6 +246,12 @@ ul {
     color: rgba(160,160,160,1);
 }
 
+.ssa {
+    margin-left: 25px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
 #updated {
     font-style: italic;
     padding-top: 0.2rem;

@@ -1,8 +1,6 @@
 Fjern .html fra URL
 Fjern javascript:void(0)
-Tilføje flere detaljer til fag på gym fra beviset (latin, natur-halløj, fag (og emne?) til AT og SRP)
-Skriv om Arbejdserfaring
-Skriv om kompetencer
+Oversæt Arbejdserfaring
 Tilføje kort oversigt over fag på AU à la LinkedIn
 ret :hover ved profpic på smartphone
 Lav overskriften i popups (fra CV) fixed, så man ikke kan scrolle ned over dette
