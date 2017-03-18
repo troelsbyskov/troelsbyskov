@@ -247,6 +247,11 @@
         height: 25px;
     }
 
+    #uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kvickly:before, #kompetencer:before, #kurser:before, #it:before {
+      margin-top: -200px;
+      height: 200px;
+    }
+
 }
 
 /* FOR PHONES (LANDSCAPE) */
