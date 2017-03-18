@@ -103,6 +103,11 @@
     #content {
         padding-bottom: 380px;
     }
+
+    #tab {
+        text-indent: 50px;
+        margin-top: -20px;
+    }
 }
 
 /* FOR PHONES (LANDSCAPE) */

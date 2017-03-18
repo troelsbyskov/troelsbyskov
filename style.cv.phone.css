@@ -1,8 +1,15 @@
 /* FOR PHONES (PORTRAIT) */
 @media only screen and (max-device-width: 413px) and (orientation: portrait) {
-    .cvtekst {
+    /*INDTIL LØSNING MED BILLEDER ER FUNDET*/
+    .skoleimg {
+        display: none;
+    }
+    /*INDTIL LØSNING MED BILLEDER ER FUNDET*/
+
+    .boks {
         top: -80px;
-        width: 78%;
+        width: 90%;
+        padding: 0 30px 60px 30px;
     }
 
     .altekst {
@@ -56,27 +63,64 @@
     }
 
     .institution {
-        font-size: 3rem;
+        font-size: 3.1rem;
     }
 
     .skoleintro {
-        font-size: 3rem;
+        font-size: 2.8rem;
         line-height: 4rem;
+        margin-bottom: 20px;
     }
 
     .skole {
         margin-top: 2rem;
+        left: 50px;
+        font-size: 2.8rem;
+    }
+
+    .tredje, .tekst {
+        margin: 0 0 0 100px;
+        font-size: 2.8rem;
+        line-height: 4rem;
+    }
+
+    .tredje {
+        margin-top: 30px;
+    }
+
+    .tekst {
+        margin-bottom: 50px;
+    }
+
+    .liste1 {
+        margin-left: 125px;
+        margin-bottom: 1.5rem;
+        font-size: 2.8rem;
+    }
+
+    .liste1 p {
+        font-size: 2.8rem;
+        margin-bottom: 0;
     }
 
     .liste {
         left: 150px;
-        width: 500px;
+        width: 675px;
+        line-height: 3.5rem
+    }
+
+    .liste4 {
+        position: relative;
+        left: 125px;
+        margin-left: 50px;
+        line-height: 3.5rem;
     }
 
     .fag {
         left: 75px;
         width: 700px;
         padding: 15px;
+        line-height: 3.5rem;
     }
 
     .semester {
@@ -89,7 +133,7 @@
 
     .popup {
         width: 85%;
-        border: 10px solid rgba(41,198,73,1);
+        border: 10px solid rgba(25,25,25,0.75);
     }
 
     #kryds {
@@ -111,8 +155,98 @@
 
     .done {
         padding-left: 0rem;
-        text-indent: -1.5rem;
+        text-indent: -3.2rem;
     }
+
+    .done:before {
+        width: 3.2rem;
+    }
+
+    .lille2 {
+        font-size: 1.9rem;
+    }
+
+    .ssa {
+        font-size: 2.8rem;
+    }
+
+    .underpunkt {
+        width: 90%;
+    }
+
+    .linje {
+        border-bottom: 6px solid rgba(0,0,0,0.1);
+        width: 500px;
+    }
+
+    .modleft {
+        margin-left: 50px;
+    }
+
+    .parts {
+        font-size: 2.8rem;
+        line-height: 4rem;
+        margin-bottom: 20px;
+        margin-left: 125px;
+    }
+
+    .tekst td {
+        display: block;
+    }
+
+    .table {
+        margin-top: -40px;
+    }
+
+    .liste3 {
+        width: 675px;
+        line-height: 4rem;
+        margin-left: 75px;
+    }
+
+    .fjerde {
+        margin-top: 25px;
+    }
+
+    .fjerde, .tekst2 {
+        margin-left: 150px;
+        line-height: 3.5rem;
+        font-size: 2.7rem;
+    }
+
+    .tekst2 {
+        margin-top: 5px;
+    }
+
+    .kontakttable td {
+        display: block;
+    }
+
+    .kontakttekst1 {
+        font-size: 2.8rem;
+        line-height: 3.5rem;
+    }
+
+    .socimg {
+        height: 100px;
+    }
+
+    .dklk {
+        top: -28px;
+        height: 2.8rem;
+    }
+
+    .kontakttekst {
+        margin-left: 5px;
+        position:relative;
+        top:-35px;
+        font-size:2.8rem;
+    }
+
+    .mellemrum {
+        height: 25px;
+    }
+
 }
 
 /* FOR PHONES (LANDSCAPE) */

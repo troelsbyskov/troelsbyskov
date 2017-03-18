@@ -277,8 +277,12 @@ ul {
     line-height: 1.5rem;
 }
 
+.modleft {
+    margin-left: 25px;
+}
+
 .tekst {
-    margin-bottom: 0;
+    margin-bottom: 10px;
     margin-top: 0;
 }
 
@@ -344,6 +348,10 @@ ul {
     height: 1.5rem;
 }
 
+.mellemrum {
+    width: 50px;
+}
+
 .kontakttekst {
     margin-left: 5px;
     position:relative;
@@ -365,10 +373,33 @@ ul {
     box-shadow: 0 8px 16px rgba(220,220,220,1);
 }
 
-.indryk {
+.liste4 {
     position: relative;
-    left: 38px;
+    left: 100px;
     margin-left: 50px;
+    line-height: 1.5rem;
+    list-style-type: disc;
+    width: 400px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.liste1 {
+    margin-bottom: -5px;
+}
+
+.oliste {
+    margin-left: 49px;
+    line-height: 1.5rem;
+}
+
+.parts {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+}
+
+.kontakttekst1 {
     line-height: 1.5rem;
 }
 
