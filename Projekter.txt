@@ -1,6 +1,5 @@
 Fjern .html fra URL
 Fjern javascript:void(0)
-Oversæt Arbejdserfaring
 Tilføje kort oversigt over fag på AU à la LinkedIn
 ret :hover ved profpic på smartphone
 Lav overskriften i popups (fra CV) fixed, så man ikke kan scrolle ned over dette
