@@ -258,7 +258,13 @@
 /* FOR PHONES (LANDSCAPE) */
 @media only screen and (max-device-width: 413px) and (orientation: landscape) {
 
-    .cvtekst {
+    /*INDTIL LØSNING MED BILLEDER ER FUNDET*/
+    .skoleimg {
+        display: none;
+    }
+    /*INDTIL LØSNING MED BILLEDER ER FUNDET*/
+
+    .boks, .centrer {
         margin-left: 0;
         left: 185px;
         width: 68%;
@@ -269,30 +275,42 @@
         margin: auto;
         width: 150px;
     }
-
-    .scrollmenu h3 {
+    .grad, .fag, .scrollmenu h3, .cvtekst h3 {
         font-size: 1.5rem;
     }
 
-    .grad {
-        font-size: 1.5rem;
+    .fag, .ssa {
+        line-height: 2.25rem;
     }
 
     .fag {
-        font-size: 1.5rem;
+        width: 83%;
     }
 
     .semester {
         font-size: 1.2rem;
     }
 
-    .cvtekst h3 {
-        font-size: 1.4rem;
+    .cvtekst h2 {
+        font-size: 1.8rem;
+    }
+
+    .institution {
+        font-size: 1.25rem;
+    }
+
+    .skole {
+        font-size: 1.1rem;
+    }
+
+    .ssa {
+        font-size: 1.35rem;
+        width: 90.2%;
     }
 
     .popup {
         width: 60%;
-        border: 6px solid rgba(41,198,73,1);
+        border: 4px solid rgba(25,25,25,0.75);
     }
 
     #kryds {
@@ -309,11 +327,55 @@
     }
 
     .underline {
-        width: 120px;
+        width: 125px;
     }
 
     .done {
         padding-left: 0rem;
-        text-indent: -0.75rem;
+        text-indent: -2rem;
+    }
+
+    .done:before {
+        width: 2rem;
+    }
+
+    .centrer {
+        text-align: center;
+        position: relative;
+        font-size: 2.3rem;
+    }
+
+    .skoleintro, .liste, .liste1, .tekst, .parts {
+        font-size: 0.85rem;
+    }
+
+    .tredje, .lille2 {
+        font-size: 1rem;
+    }
+
+    .fjerde {
+        font-size: 0.8rem;
+    }
+
+    .liste {
+        width: 560px;
+    }
+
+    .liste1, .parts {
+        margin-left: 25px;
+    }
+
+    .tekst td {
+        display: block;
+    }
+
+    .liste3 {
+        line-height: 1.5rem;
+        width: 540px;
+    }
+
+    #uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kvickly:before, #kompetencer:before, #kurser:before, #it:before {
+      margin-top: -90px;
+      height: 90px;
     }
 }

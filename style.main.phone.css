@@ -135,7 +135,7 @@
     }
 
     .links {
-        top: 75px;
+        top: 65px;
     }
 
     .links-logo {
@@ -151,5 +151,10 @@
     .foot p {
         font-size: 1.4rem;
         bottom: 7px;
+    }
+
+    #tab {
+        text-indent: 40px;
+        margin-top: -10px;
     }
 }
