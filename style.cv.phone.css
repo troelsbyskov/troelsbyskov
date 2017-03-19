@@ -362,6 +362,11 @@
         width: 560px;
     }
 
+
+    .liste, .liste3 {
+        line-height: 1.5rem;
+    }
+
     .liste1, .parts {
         margin-left: 25px;
     }
@@ -371,7 +376,6 @@
     }
 
     .liste3 {
-        line-height: 1.5rem;
         width: 540px;
     }
 
