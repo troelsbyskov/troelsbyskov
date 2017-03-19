@@ -581,6 +581,27 @@
             </script>
             <!-- Slut på Popups -->
 
+            <!-- Back to top -->
+            <a href="#" id="back-to-top">Top</a>
+
+            <script>
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                        document.getElementById("back-to-top").style.display = "block";
+                    } else {
+                        document.getElementById("back-to-top").style.display = "none";
+                    }
+                }
+
+                function topFunction() {
+                    document.body.scrollTop = 0; // For Chrome, Safari and Opera
+                    document.documentElement.scrollTop = 0; // For IE and Firefox
+                }
+            </script>
+            <!-- Slut på Back to top -->
+
             <!-- Dropdown menu -->
             <script>
                 function dropdownMenu() {
