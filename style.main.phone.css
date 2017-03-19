@@ -20,6 +20,10 @@
         background-size: 150px;
     }
 
+    #profpic:hover {
+        background-position: 0 -155px;
+    }
+
     #logo {
         font-size: 50px;
     }
@@ -122,6 +126,10 @@
         width: 90px;
         top: 8px;
         background-size: 105px;
+    }
+
+    #profpic:hover {
+        background-position: 0 -108px;
     }
 
     .navigation li {
