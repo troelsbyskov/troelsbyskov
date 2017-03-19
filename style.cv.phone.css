@@ -110,10 +110,12 @@
     }
 
     .liste4 {
-        position: relative;
         left: 125px;
         margin-left: 50px;
         line-height: 3.5rem;
+        width: 400px;
+        margin-top: -30px;
+        margin-bottom: 20px;
     }
 
     .fag {
