@@ -5,4 +5,4 @@ Lav overskriften i popups (fra CV) fixed, så man ikke kan scrolle ned over dett
 Lav scrollmenu til dropdown-menu ved mobil
 Lær jQuery og tilføj dette til:
     1. Billedsiden med slideshow
-    2. CV med FadeIn/Out('slow') og blød bevægelse til toppen
+    2. CV med FadeIn/Out('slow') og blød bevægelse til toppen ("back-to-top"-knap)
