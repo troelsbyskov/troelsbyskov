@@ -306,7 +306,7 @@ ul {
     margin-top: 1px;
 }
 
-#uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kvickly:before, #kompetencer:before, #kurser:before, #it:before {
+#uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kvickly:before, #kompetencer:before, #kurser:before, #it:before, #sprog:before {
   display: block;
   content: " ";
   margin-top: -70px;
