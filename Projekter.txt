@@ -6,4 +6,3 @@ Lav scrollmenu til dropdown-menu ved mobil
 Lær jQuery og tilføj dette til:
     1. Billedsiden med slideshow
     2. CV, "back-to-top"-knap: FadeIn/Out('slow') og blød bevægelse til toppen
-Uddyb Gallup kompetencer
