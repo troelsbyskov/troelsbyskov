@@ -7,3 +7,4 @@ Lær jQuery og tilføj dette til:
     1. Billedsiden med slideshow
     2. CV, "back-to-top"-knap: FadeIn/Out('slow') og blød bevægelse til toppen
     3. Husk at tilføje jQuery/javascript-skill til "Om"
+Fix .skoleimg på cv!
