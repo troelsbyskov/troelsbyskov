@@ -82,7 +82,7 @@ ul {
     list-style-type: disc;
     position: relative;
     left: 65px;
-    width: 400px;
+    width: 80%;
 }
 
 .liste3 {
@@ -116,6 +116,7 @@ ul {
     position: relative;
     left: 25px;
     font-size: 1rem;
+    width: 400px;
 }
 
 .black_overlay {
@@ -402,6 +403,10 @@ ul {
     line-height: 1.5rem;
 }
 
+.table {
+    width: 100%;
+}
+
 @media screen and (max-width: 1100px) and (min-device-width: 414px) {
     .boks {
         margin-left: 0;
@@ -409,7 +414,7 @@ ul {
         width: 63.7%;
     }
 
-    .liste {
+    .liste, .grad {
         width: 87.4%;
     }
 
@@ -425,7 +430,7 @@ ul {
         display: block;
     }
 
-    .skoleimg {
+    .vert-align-top {
         display: none;
     }
 }
@@ -458,8 +463,8 @@ ul {
         width: 81.1%;
     }
 
-    .liste {
-        width: 150%;
+    .liste, .grad {
+        width: 80%;
     }
 
     .liste2 {
