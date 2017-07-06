@@ -292,6 +292,13 @@ ul {
     right: 2.5%;
 }
 
+.beta {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    cursor: help;
+}
+
 #tab {
     margin-top: -9px;
     text-indent: 25px;
