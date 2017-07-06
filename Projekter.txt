@@ -8,4 +8,4 @@ Lær jQuery og tilføj dette til:
     2. CV, "back-to-top"-knap: FadeIn/Out('slow') og blød bevægelse til toppen
     3. Husk at tilføje jQuery/javascript-skill til "Om"
 Fix .skoleimg på cv!
-Tilføj titler på alle links
+Tilføj titler på alle links herunder også logo/hus-link
