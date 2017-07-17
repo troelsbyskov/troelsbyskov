@@ -164,6 +164,7 @@ ul {
     width: 25px;
     position: relative;
     float: right;
+    cursor: pointer;
 }
 
 #kryds {
@@ -207,6 +208,12 @@ ul {
 .next {
     color: rgba(160,160,160,0.9);
     font-style: italic;
+}
+
+.ittu {
+    font-size: 0.9rem;
+    position: relative;
+    top: -14px;
 }
 
 #grey {
@@ -338,7 +345,7 @@ ul {
 
 .skoleimg {
     position: relative;
-    height: 60px;
+    height: 110px;
     top: 20px;
 }
 
