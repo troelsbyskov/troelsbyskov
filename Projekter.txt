@@ -8,4 +8,3 @@ Lær jQuery og tilføj dette til:
     3. Husk at tilføje jQuery/javascript-skill til "Om"
 Fix .liste3 (ikke-destruktiv pixelgrafik)
 Fix z-index på cv ved .popup
-Tilføj download-link til cv.pdf
