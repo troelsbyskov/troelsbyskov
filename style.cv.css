@@ -348,6 +348,18 @@ ul {
     top: 20px;
 }
 
+.sprogimg {
+    position: relative;
+    height: 40px;
+    width: 60px;
+    top: 20px;
+}
+
+.sprog {
+    list-style-type: none;
+    margin-left: 5px;
+}
+
 .vert-align-top {
     vertical-align: top;
 }
@@ -379,7 +391,7 @@ ul {
     color: black;
     border: 1px solid rgba(230,230,230,1);
     border-radius: 15px;
-    padding: 5px;
+    padding: 5px 15px;
 }
 
 .kontaktlink:hover {
@@ -417,6 +429,23 @@ ul {
 
 .table {
     width: 100%;
+}
+
+.dl-logo {
+    height: 60px;
+    margin: 3px;
+    margin-bottom: 0;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid rgba(230,230,230,1);
+}
+
+.dl-logo:hover {
+    filter: brightness(120%);
 }
 
 @media screen and (max-width: 1100px) and (min-device-width: 414px) {
