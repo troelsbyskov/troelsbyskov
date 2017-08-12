@@ -3,6 +3,4 @@ Disallow:
 
 User-agent: Googlebot-Image
 Disallow: /Images/
-
-User-agent: Googlebot-Image
 Allow: /Images/Mig/
