@@ -1,5 +1,3 @@
-Fjern javascript:void(0) [GitHub-sider understøtter ikke .htaccess-filer]
-Tilføje kort oversigt over fag på AU à la LinkedIn
 Lav overskriften i popups (fra CV) fixed, så man ikke kan scrolle ned over dette
 Lav scrollmenu til dropdown-menu ved mobil
 Lær jQuery og tilføj dette til:
@@ -7,5 +5,4 @@ Lær jQuery og tilføj dette til:
     2. CV, "back-to-top"-knap: FadeIn/Out('slow') og blød bevægelse til toppen
     3. Husk at tilføje jQuery/javascript-skill til "Om"
 Fix .liste3 (ikke-destruktiv pixelgrafik)
-Fix z-index på cv ved .popup
 Fix pdf-cv (dl.png) størrelse ved smalt vindue

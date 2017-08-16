@@ -528,4 +528,12 @@ ul {
         font-size: 1rem;
         top:-20px;
     }
+
+    .dl-logo {
+        height: 35px;
+        top: 5px;
+        margin: 0;
+        margin-top: 0;
+        padding: 0;
+    }
 }
