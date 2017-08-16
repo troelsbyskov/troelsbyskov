@@ -462,59 +462,81 @@
                                     <li class="skole">Classes, seminars and lectures</li>
                                     <p class="tekst0">Courses with physical presence.</p>
                                         <ul>
-                                            <li><p class="tredje">Success Online</p></li>
-                                            <p class="tekst">I have taken a course in online marketing with a special focus on Google's marketing platform AdWords. The course ran from the 8<sup>th</sup> of February to the 2<sup>nd</sup> of March 2017 and was split into three parts:</p>
-                                                <ol class="oliste">
-                                                    <li class="liste1"><p>Kick-start your digital skills</p></li>
-                                                        <p class="parts">The first part of the course had a focus on stimulating the interest in online marketing with speeches by different persons, all of whom worked with online marketing, both in companies, media agencies, and for Google it self.</p>
-                                                    <li class="liste1"><p>AdWords Fundamentals</p></li>
-                                                        <p class="parts">The second part of the course gave hands-on experience with AdWords. Firstly AdWords, the functions and terms, and key word strategies was introduced and afterwards we started our own test campaign.</p>
-                                                    <li class="liste1"><p>Mobile optimization</p></li>
-                                                        <p class="parts">The third and last part of the course had to do with mobile optimization. We were taught why the mobile is an important platform to target in an online marketing campaign, how it best can be done, with what tools it can be done, and which considerations that are different when you target mobile users, both in terms of pros and cons.</p>
-                                                </ol>
+                                            <li class="tredje">
+                                                <a style="cursor:pointer;" onclick="return toggleMe('succesonline')">
+                                                    <img id="succesonline_image" src="/Images/right.png" class="kollaps"/>
+                                                    Success Online</a>
+                                            </li>
+                                            <div id="succesonline" style="display:none;">
+                                                <p class="tekst">I have taken a course in online marketing with a special focus on Google's marketing platform AdWords organized by <a href="https://dinvirksomhedonline.dk/" target="_blank">Success Online</a>. The course ran from the 8<sup>th</sup> of February to the 2<sup>nd</sup> of March 2017 and was split into three parts:</p>
+                                                    <ol class="oliste">
+                                                        <li class="liste1">Kick-start your digital skills</li>
+                                                            <p class="parts">The first part of the course had a focus on stimulating the interest in online marketing with speeches by different persons, all of whom worked with online marketing, both in companies, media agencies, and for Google it self.</p>
+                                                        <li class="liste1">AdWords Fundamentals</li>
+                                                            <p class="parts">The second part of the course gave hands-on experience with AdWords. Firstly AdWords, the functions and terms, and key word strategies was introduced and afterwards we started our own test campaign.</p>
+                                                        <li class="liste1">Mobile optimization</li>
+                                                            <p class="parts">The third and last part of the course had to do with mobile optimization. We were taught why the mobile is an important platform to target in an online marketing campaign, how it best can be done, with what tools it can be done, and which considerations that are different when you target mobile users, both in terms of pros and cons.</p>
+                                                    </ol>
+                                            </div>
                                         </ul>
-                                    <br>
                                         <ul>
-                                            <li><p class="tredje">Adobe Photoshop</p></li>
-                                            <p class="tekst">I have taken a three hours introductory course for Adobe Photoshop CC on December the 1<sup>st</sup> 2016 in which we worked with: </p>
-                                                <table class="tekst table">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                <ul class="liste3">
-                                                                    <li>Simple figures.</li>
-                                                                    <li>Color management and contrast.</li>
-                                                                    <li>Simple retouching.</li>
-                                                                    <li>Content-aware fill.</li>
-                                                                    <li>Pictures for the web.</li>
-                                                                </ul>
-                                                            </td>
-                                                            <td>
-                                                                <ul class="liste3">
-                                                                    <li>Image extraction.</li>
-                                                                    <li>Filters.</li>
-                                                                    <li>Non-destructive pixel graphics.</li>
-                                                                    <li>Sharpening images.</li>
-                                                                    <li style="color:rgba(0,0,0,0);"></li>
-                                                                </ul>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                            <li class="tredje">
+                                                <a style="cursor:pointer;" onclick="return toggleMe('photoshop')">
+                                                    <img id="photoshop_image" src="/Images/right.png" class="kollaps"/>
+                                                    Adobe Photoshop</a>
+                                            </li>
+                                            <div id="photoshop" style="display:none;">
+                                                <p class="tekst">I have taken a three hours introductory course for Adobe Photoshop CC on December the 1<sup>st</sup> 2016 in which we worked with: </p>
+                                                    <table class="tekst table">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <ul class="liste3">
+                                                                        <li>Simple figures.</li>
+                                                                        <li>Color management and contrast.</li>
+                                                                        <li>Simple retouching.</li>
+                                                                        <li>Content-aware fill.</li>
+                                                                        <li>Pictures for the web.</li>
+                                                                    </ul>
+                                                                </td>
+                                                                <td>
+                                                                    <ul class="liste3">
+                                                                        <li>Image extraction.</li>
+                                                                        <li>Filters.</li>
+                                                                        <li>Non-destructive pixel graphics.</li>
+                                                                        <li>Sharpening images.</li>
+                                                                        <li style="color:rgba(0,0,0,0);"></li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                            </div>
                                         </ul>
                                     <br>
                                     <li class="skole">Online courses</li>
                                     <p class="tekst0">Courses on the internet without physical presence.</p>
                                         <ul>
-                                            <li><p class="tredje">Online marketing</p></li>
-                                                <p class="tekst">As I am interested in online marketing, I have taken different certificates in order to build and expand my knowledge about and competencies in it.</p>
+                                            <li class="tredje">
+                                                <a style="cursor:pointer;" onclick="return toggleMe('google')">
+                                                    <img id="google_image" src="/Images/right.png" class="kollaps"/>
+                                                    Google's online marketing platforms</a>
+                                            </li>
+                                            <div id="google" style="display:none;">
+                                                <p class="tekst">As I am interested in online marketing, I have taken different certificates in order to build and expand my knowledge about and competencies in it. I have chosen to focus my time and energy on Google's different marketing tools as I am of the opinion that they are the most common and best.</p>
                                                 <ul>
                                                     <li class="fjerde">Google Partners</li>
                                                         <p class="tekst2">I am currently in the process of becoming certified in Google AdWords and Analytics through <a href="https://www.google.com/partners/#i_profile;idtf=105931336707935258619;" target="_blank" title="My Google Partners profile page.">Google Partners</a>.</p>
                                                     <li class="fjerde">Learn Digital With Google</li>
                                                         <p class="tekst2">I am, as of the 20. March 2017, certified in digital marketing by Google in their programme <a href="https://learndigital.withgoogle.com/succesonline/" target="_blank" title="Success Online's website.">Success Online</a>, which is the Danish equivalent to Google's <a href="https://learndigital.withgoogle.com/digitalgarage" target="_blank" title="Digital Garage's website.">Digital Garage</a>.</p>
                                                 </ul>
-                                            <li><p class="tredje">Coding</p></li>
+                                            </div>
+                                            <li class="tredje">
+                                                <a style="cursor:pointer;" onclick="return toggleMe('kodning')">
+                                                    <img id="kodning_image" src="/Images/right.png" class="kollaps"/>
+                                                    Coding</a>
+                                            </li>
+                                            <div id="kodning" style="display:none;">
                                                 <p class="tekst">I have taken multiple courses through <a href="https://www.codecademy.com/" target="_blank" title="Codecademy's website.">Codecademy</a>, where I've learned to write and host websites. I have so far taken courses in the following programming languages:</p>
                                                 <ul class="liste4">
                                                     <li>HTML.</li>
@@ -522,11 +544,18 @@
                                                     <li>Javascript.</li>
                                                 </ul>
                                                 <p class="tekst">For the list of the specific courses I've completed, click <a href="https://www.codecademy.com/troels.byskov/" target="_blank" title="My Codecademy profile page.">here</a>.</p>
-                                            <li><p class="tredje">Onlinekurser.dk</p></li>
+                                            </div>
+                                            <li class="tredje">
+                                                <a style="cursor:pointer;" onclick="return toggleMe('onlinekurser.dk')">
+                                                    <img id="onlinekurser.dk_image" src="/Images/right.png" class="kollaps"/>
+                                                    Onlinekurser.dk</a>
+                                            </li>
+                                            <div id="onlinekurser.dk" style="display:none;">
                                                 <p class="tekst">I have access to the site <a href="http://www.onlinekurser.dk/" target="_blank" title="Online Courses' website.">onlinekurser.dk</a> and I am currently in the process of completing the following course:</p>
                                                 <ul class="liste4">
                                                     <li>Adobe Photoshop.</li>
                                                 </ul>
+                                            </div>
                                         </ul>
                                 </ul>
                             <h4 class="institution" id="it">IT and software</h4>
@@ -698,6 +727,25 @@
                   }
                 }
             </script>
+            <!-- Slut på Dropdown menu -->
+
+            <!-- Expand/collapse text -->
+                <script>
+                function toggleMe(a){
+                var e=document.getElementById(a);
+                var i = document.getElementById(a + '_image');
+                if(!e)return true;
+                if(e.style.display=="none"){
+                e.style.display="block"
+                i.src = '/Images/down.png';
+                } else {
+                e.style.display="none"
+                i.src = '/Images/right.png';
+                }
+                return false;
+                }
+                </script>
+            <!-- Slut på Expand/collapse text -->
 
             <noscript>
                 <div class="noscript">

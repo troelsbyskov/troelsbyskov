@@ -465,11 +465,11 @@
                                         <ul>
                                             <li class="tredje">
                                                 <a style="cursor:pointer;" onclick="return toggleMe('succesonline')">
-                                                    <img id="succesonline_image" src="/Images/right.png" style="border:0;margin-right:5px;vertical-align:middle;height:15px;" />
+                                                    <img id="succesonline_image" src="/Images/right.png" class="kollaps"/>
                                                     Succes Online</a>
                                             </li>
                                             <div id="succesonline" style="display:none;">
-                                                <p class="tekst">Jeg har taget et kursus om online markedsføring med specielt fokus på Googles markedsføringsplatform AdWords. Kurset forløb fra d. 8. februar til d. 2. marts 2017 og var delt op i tre dele:</p>
+                                                <p class="tekst">Jeg har taget et kursus om online markedsføring med specielt fokus på Googles markedsføringsplatform AdWords arrangeret af <a href="https://dinvirksomhedonline.dk/" target="_blank">Succes Online</a>. Kurset forløb fra d. 8. februar til d. 2. marts 2017 og var delt op i tre dele:</p>
                                                     <ol class="oliste">
                                                         <li class="liste1">Kickstart dine digitale skills</li>
                                                             <p class="parts">Første del af kurset havde fokus på at pirre interessen i online markedsføring ved taler af forskellige personer, der alle arbejdede med online markedsføring, både i virksomheder, mediebureauer, og for Google selv.</p>
@@ -483,7 +483,7 @@
                                         <ul>
                                             <li class="tredje">
                                                 <a style="cursor:pointer;" onclick="return toggleMe('photoshop')">
-                                                    <img id="photoshop_image" src="/Images/right.png" style="border:0;margin-right:5px;vertical-align:middle;height:15px;" />
+                                                    <img id="photoshop_image" src="/Images/right.png" class="kollaps"/>
                                                     Adobe Photoshop</a>
                                             </li>
                                             <div id="photoshop" style="display:none;">
@@ -518,15 +518,26 @@
                                     <li class="skole">Online kurser</li>
                                     <p class="tekst0">Kurser på nettet, uden fysisk tilstedeværelse.</p>
                                         <ul>
-                                            <li class="tredje">Online markedsføring</li>
-                                                <p class="tekst">Da jeg interesserer mig for online marketing har jeg i min fritid taget forskellige certifikater for at opbygge og udvide min viden om og mine kompetencer inden for emnet.</p>
+                                            <li class="tredje">
+                                                <a style="cursor:pointer;" onclick="return toggleMe('google')">
+                                                    <img id="google_image" src="/Images/right.png" class="kollaps"/>
+                                                    Googles online markedsføringsplatforme</a>
+                                            </li>
+                                            <div id="google" style="display:none;">
+                                                <p class="tekst">Da jeg interesserer mig for online markedsføring har jeg i min fritid taget forskellige certifikater for at opbygge og udvide min viden om og mine kompetencer inden for emnet. Jeg har valgt at fokusere min tid og energi på Googles forskellige markedsføringsværktøjer, da jeg mener disse er de mest almindelige og bedste.</p>
                                                 <ul>
                                                     <li class="fjerde">Google Partners</li>
                                                         <p class="tekst2">Jeg er på nuværende tidspunkt i gang med at blive certificeret i Google AdWords og Analytics gennem <a href="https://www.google.com/partners/#i_profile;idtf=105931336707935258619;" target="_blank" title="Min Google Partners profilside.">Google Partners</a>.</p>
                                                     <li class="fjerde">Learn Digital With Google</li>
                                                         <p class="tekst2">Jeg er, d. 20 marts 2017, blevet certificeret i digital markedsføring af Google med deres program <a href="https://learndigital.withgoogle.com/succesonline/" target="_blank" title="Succes Onlines hjemmeside.">Succes Online</a>.</p>
                                                 </ul>
-                                            <li class="tredje">Kodning</li>
+                                            </div>
+                                            <li class="tredje">
+                                                <a style="cursor:pointer;" onclick="return toggleMe('kodning')">
+                                                    <img id="kodning_image" src="/Images/right.png" class="kollaps"/>
+                                                    Kodning</a>
+                                            </li>
+                                            <div id="kodning" style="display:none;">
                                                 <p class="tekst">Jeg har taget flere kurser gennem <a href="https://www.codecademy.com/" target="_blank" title="Codecademys hjemmeside.">Codecademy</a>, hvor jeg har lært at skrive og hoste hjemmesider. Jeg har indtil videre taget kurser i følgende kodningssprog:</p>
                                                 <ul class="liste4">
                                                     <li>HTML.</li>
@@ -534,11 +545,18 @@
                                                     <li>Javascript.</li>
                                                 </ul>
                                                 <p class="tekst">For den specifikke liste over de kurser jeg har taget, klik <a href="https://www.codecademy.com/troels.byskov/" target="_blank" title="Min Codecademy profilside.">her</a>.</p>
-                                            <li class="tredje">Onlinekurser.dk</li>
+                                            </div>
+                                            <li class="tredje">
+                                                <a style="cursor:pointer;" onclick="return toggleMe('onlinekurser.dk')">
+                                                    <img id="onlinekurser.dk_image" src="/Images/right.png" class="kollaps"/>
+                                                    Onlinekurser.dk</a>
+                                            </li>
+                                            <div id="onlinekurser.dk" style="display:none;">
                                                 <p class="tekst">Jeg har adgang til hjemmesiden <a href="http://www.onlinekurser.dk/" target="_blank" title="Online Kursers hjemmeside.">onlinekurser.dk</a>, hvor jeg er i gang med at tage følgende kursus:</p>
                                                 <ul class="liste4">
                                                     <li>Adobe Photoshop.</li>
                                                 </ul>
+                                            </div>
                                         </ul>
                                 </ul>
                             <h4 class="institution" id="it">IT og software</h4>
@@ -713,7 +731,7 @@
             <!-- Slut på Dropdown menu -->
 
             <!-- Expand/collapse text -->
-                <script type="text/javascript">
+                <script>
                 function toggleMe(a){
                 var e=document.getElementById(a);
                 var i = document.getElementById(a + '_image');
