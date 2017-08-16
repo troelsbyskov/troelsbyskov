@@ -1,4 +1,4 @@
-Fjern javascript:void(0)
+Fjern javascript:void(0) [GitHub-sider understøtter ikke .htaccess-filer]
 Tilføje kort oversigt over fag på AU à la LinkedIn
 Lav overskriften i popups (fra CV) fixed, så man ikke kan scrolle ned over dette
 Lav scrollmenu til dropdown-menu ved mobil
