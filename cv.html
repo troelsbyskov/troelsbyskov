@@ -465,8 +465,8 @@
                                         <ul>
                                             <li class="tredje">
                                                 <a style="cursor:pointer;" onclick="return toggleMe('succesonline')">
-                                                    <img id="succesonline_image" src="/Images/right.png" class="kollaps"/>
-                                                    Succes Online</a>
+                                                    <div id="succesonline_image" class="kollaps" style="background-position: 0 0;"></div>
+                                                Succes Online</a>
                                             </li>
                                             <div id="succesonline" style="display:none;">
                                                 <p class="tekst">Jeg har taget et kursus om online markedsføring med specielt fokus på Googles markedsføringsplatform AdWords arrangeret af <a href="https://dinvirksomhedonline.dk/" target="_blank">Succes Online</a>. Kurset forløb fra d. 8. februar til d. 2. marts 2017 og var delt op i tre dele:</p>
@@ -483,8 +483,8 @@
                                         <ul>
                                             <li class="tredje">
                                                 <a style="cursor:pointer;" onclick="return toggleMe('photoshop')">
-                                                    <img id="photoshop_image" src="/Images/right.png" class="kollaps"/>
-                                                    Adobe Photoshop</a>
+                                                    <div id="photoshop_image" class="kollaps" style="background-position: 0 0;"></div>
+                                                Adobe Photoshop</a>
                                             </li>
                                             <div id="photoshop" style="display:none;">
                                                 <p class="tekst">Jeg har taget et introduktionskursus på tre timer til Adobe Photoshop CC d. 1. december 2016, hvor vi arbejdede med:</p>
@@ -520,8 +520,8 @@
                                         <ul>
                                             <li class="tredje">
                                                 <a style="cursor:pointer;" onclick="return toggleMe('google')">
-                                                    <img id="google_image" src="/Images/right.png" class="kollaps"/>
-                                                    Googles online markedsføringsplatforme</a>
+                                                    <div id="google_image" class="kollaps" style="background-position: 0 0;"></div>
+                                                Googles online markedsføringsplatforme</a>
                                             </li>
                                             <div id="google" style="display:none;">
                                                 <p class="tekst">Da jeg interesserer mig for online markedsføring har jeg i min fritid taget forskellige certifikater for at opbygge og udvide min viden om og mine kompetencer inden for emnet. Jeg har valgt at fokusere min tid og energi på Googles forskellige markedsføringsværktøjer, da jeg mener disse er de mest almindelige og bedste.</p>
@@ -534,8 +534,8 @@
                                             </div>
                                             <li class="tredje">
                                                 <a style="cursor:pointer;" onclick="return toggleMe('kodning')">
-                                                    <img id="kodning_image" src="/Images/right.png" class="kollaps"/>
-                                                    Kodning</a>
+                                                    <div id="kodning_image" class="kollaps" style="background-position: 0 0;"></div>
+                                                Kodning</a>
                                             </li>
                                             <div id="kodning" style="display:none;">
                                                 <p class="tekst">Jeg har taget flere kurser gennem <a href="https://www.codecademy.com/" target="_blank" title="Codecademys hjemmeside.">Codecademy</a>, hvor jeg har lært at skrive og hoste hjemmesider. Jeg har indtil videre taget kurser i følgende kodningssprog:</p>
@@ -548,8 +548,8 @@
                                             </div>
                                             <li class="tredje">
                                                 <a style="cursor:pointer;" onclick="return toggleMe('onlinekurser.dk')">
-                                                    <img id="onlinekurser.dk_image" src="/Images/right.png" class="kollaps"/>
-                                                    Onlinekurser.dk</a>
+                                                    <div id="onlinekurser.dk_image" class="kollaps" style="background-position: 0 0;"></div>
+                                                Onlinekurser.dk</a>
                                             </li>
                                             <div id="onlinekurser.dk" style="display:none;">
                                                 <p class="tekst">Jeg har adgang til hjemmesiden <a href="http://www.onlinekurser.dk/" target="_blank" title="Online Kursers hjemmeside.">onlinekurser.dk</a>, hvor jeg er i gang med at tage følgende kursus:</p>
@@ -734,14 +734,14 @@
                 <script>
                 function toggleMe(a){
                 var e=document.getElementById(a);
-                var i = document.getElementById(a + '_image');
+                var i = document.getElementById(a+'_image');
                 if(!e)return true;
                 if(e.style.display=="none"){
                 e.style.display="block"
-                i.src = '/Images/down.png';
+                i.style.backgroundPosition="0 -15px";
                 } else {
                 e.style.display="none"
-                i.src = '/Images/right.png';
+                i.style.backgroundPosition="0 0";
                 }
                 return false;
                 }
