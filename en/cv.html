@@ -464,8 +464,7 @@
                                         <ul>
                                             <li class="tredje">
                                                 <a style="cursor:pointer;" onclick="return toggleMe('succesonline')">
-                                                    <img id="succesonline_image" src="/Images/right.png" class="kollaps"/>
-                                                    Success Online</a>
+                                                    <div id="succesonline_image" class="kollaps" style="background-position: 0 0;"></div>Success Online</a>
                                             </li>
                                             <div id="succesonline" style="display:none;">
                                                 <p class="tekst">I have taken a course in online marketing with a special focus on Google's marketing platform AdWords organized by <a href="https://dinvirksomhedonline.dk/" target="_blank">Success Online</a>. The course ran from the 8<sup>th</sup> of February to the 2<sup>nd</sup> of March 2017 and was split into three parts:</p>
@@ -733,14 +732,14 @@
                 <script>
                 function toggleMe(a){
                 var e=document.getElementById(a);
-                var i = document.getElementById(a + '_image');
+                var i = document.getElementById(a+'_image');
                 if(!e)return true;
                 if(e.style.display=="none"){
                 e.style.display="block"
-                i.src = '/Images/down.png';
+                i.style.backgroundPosition="0 -15px";
                 } else {
                 e.style.display="none"
-                i.src = '/Images/right.png';
+                i.style.backgroundPosition="0 0";
                 }
                 return false;
                 }
