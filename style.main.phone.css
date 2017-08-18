@@ -57,6 +57,8 @@
     .links {
         right: 10px;
         top: 151px;
+        background-color: rgba(240,240,240,1);
+        box-shadow: 0 8px 20px rgba(220,220,220,1);
     }
 
     .links tr {
