@@ -308,9 +308,9 @@
         height: 25px;
     }
 
-    #uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kvickly:before, #kompetencer:before, #kurser:before, #it:before {
-      margin-top: -200px;
-      height: 200px;
+    #uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kompetencer:before, #kurser:before, #it:before, #sprog:before {
+      margin-top: -300px;
+      height: 300px;
     }
 
     .dl-logo {
@@ -464,7 +464,7 @@
         width: 540px;
     }
 
-    #uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kvickly:before, #kompetencer:before, #kurser:before, #it:before {
+    #uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kompetencer:before, #kurser:before, #it:before, #sprog:before {
       margin-top: -90px;
       height: 90px;
     }
