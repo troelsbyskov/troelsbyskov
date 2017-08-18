@@ -291,13 +291,6 @@
 
 /* FOR PHONES (LANDSCAPE) */
 @media only screen and (max-device-width: 413px) and (orientation: landscape) {
-
-    /*INDTIL LØSNING MED BILLEDER ER FUNDET*/
-    .skoleimg {
-        display: none;
-    }
-    /*INDTIL LØSNING MED BILLEDER ER FUNDET*/
-
     .boks, .centrer {
         margin-left: 0;
         left: 185px;
@@ -415,5 +408,50 @@
     #uddannelse:before, #universitet:before, #højskole:before, #gymnasie:before, #efterskole:before, #folkeskole:before, #erhverv:before, #elgiganten:before, #fona:before, #bones:before, #kvickly:before, #kompetencer:before, #kurser:before, #it:before {
       margin-top: -90px;
       height: 90px;
+    }
+
+    .socimg {
+        height: 45px;
+    }
+
+    .kontakttekst {
+        font-size: 1.5rem;
+        top: -15px;
+    }
+
+    .dklk {
+        top: -10px;
+    }
+
+    .mellemrum {
+        display: none;
+    }
+
+    .kontaktlink {
+        padding: 8px;
+    }
+
+    .dl-logo {
+        height: 75px;
+    }
+
+    .sprog {
+        margin: 11px 0 -10px 10px;
+    }
+
+    .kollaps {
+        height: 25px;
+        width: 25px;
+        background-size: 25px;
+        margin: -5px 0 0 0;
+    }
+
+    .skoleimg {
+        margin-right: -15px;
+    }
+
+    .ittu {
+        font-size: 1.3rem;
+        margin: 5px auto auto -4px;
     }
 }
