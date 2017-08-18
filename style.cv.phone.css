@@ -51,19 +51,20 @@
         background-color: rgba(235,235,235,1);
         z-index: 1;
         box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2);
-        text-align: center;
     }
 
     .scrollmenudd a {
-        position: relative;
-        top: 15px;
+        position: absolute;
+        top: 30px;
+        float: left;
+        left: 40px;
     }
 
     .scrollmenudd img {
         height: 75px;
-        position: relative;
-        top: 10px;
-        left: 20px;
+        position: absolute;
+        top: -2px;
+        left: 300px;
     }
 
     .smdropbtn {
