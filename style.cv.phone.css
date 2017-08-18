@@ -12,6 +12,9 @@
         padding: 0 30px 60px 30px;
     }
 
+    .centrer {
+    }
+
     .altekst {
         position: relative;
         top: 280px;
@@ -33,29 +36,85 @@
         font-size: 3rem;
     }
 
-    .scrollmenu { /*Skal være her, muligvis som dropdown?*/
+    .scrollmenu {
+        display: none;
+    }
+
+    .scrollmenudd {
+        display: block;
         position: relative;
         top: 400px;
-        margin: auto;
-        width: 75%;
+        height: 150px;
+        width: 450px;
+        left: 50px;
+        border: 1px solid rgba(130,130,130,1);
+        background-color: rgba(235,235,235,1);
+        z-index: 1;
+        box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2);
     }
 
-    .scrollmenu h3 {
-        font-size: 2rem;
+    .scrollmenudd a {
+        position: relative;
+        top: 15px;
+        left: 40px;
     }
 
-    .scrollmenu a {
-        font-size: 1.2rem;
+    .scrollmenudd img {
+        height: 75px;
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+
+    .smdropbtn {
+        font-size: 4rem;
+        font-family: Tahoma, Geneva, sans-serif;
+    }
+
+    .smdropdown-content {
+        display: none;
+        position: relative;
+        top: 60px;
+        background-color: rgba(240,240,240,1);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 9999;
+        width: 700px;
+        border-radius: 5px;
+        border: 3px solid rgba(25,25,25,0.75);
+    }
+
+    .show {
+        display: block;
     }
 
     .hovedemne {
-        font-size: 1.5rem;
+        font-size: 3rem;
+        margin-top: 0;
+        margin-bottom: -30px;
+        font-family: Tahoma, Geneva, sans-serif;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        position: relative;
+        left: -39px;
+        top: -15px;
+        padding-left: 40px;
+        background-color: rgba(235,235,235,1);
+        width: 692px;
+        border-top: 1px solid grey;
     }
 
     .hovedemneliste {
-        display: inline-table;
-        position: relative;
-        padding-left: 7%;
+        font-size: 2.5rem;
+        line-height: 2;
+        margin-bottom: 20px;
+        font-family: Tahoma, Geneva, sans-serif;
+    }
+
+    #inst {
+        width: 400px;
+    }
+
+    .hovedemneliste a {
+        text-decoration: none;
     }
 
     .grad {

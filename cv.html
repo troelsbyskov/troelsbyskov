@@ -85,7 +85,7 @@
                         </li>
                         <li id="dropli">
                             <div class="dropdown">
-                                <a onclick="dropdownMenu();" href="javascript:void(0)" class="dropbtn">&#9776</a>
+                                <a onclick="dropdownMenu();" class="dropbtn">&#9776</a>
                                 <div class="dropdown-content" id="myDropdown">
                                     <a href="/" class="logoli" title="Forsiden med en præsentation af mig.">Forside</a>
                                     <a href="/cv" class="cvli" title="Mit fulde curriculum vitae.">CV</a>
@@ -169,6 +169,39 @@
                             </ul>
                         </li>
                     </ul>
+                </div>
+                <div class="scrollmenudd smdropbtn" onclick="smDropdownMenu();">
+                    <a class="smdropbtn">Emner <img src="/Images/down.png" class="smdropbtn"/></a>
+                    <div class="smdropdown-content" id="smDropdown">
+                        <ul style="margin:0;">
+                            <li class="hovedemneliste">
+                                <a href="#uddannelse"><p class="hovedemne">Uddannelse</p></a>
+                                <ul id="inst">
+                                    <li><a href="#universitet">Universitet</a></li>
+                                    <li><a href="#højskole">Højskole</a></li>
+                                    <li><a href="#gymnasie">Gymnasie</a></li>
+                                    <li><a href="#efterskole">Efterskole</a></li>
+                                    <li><a href="#folkeskole">Folkeskole</a></li>
+                                </ul>
+                            </li>
+                            <li class="hovedemneliste">
+                                <a href="#erhverv"><p class="hovedemne">Erhvervserfaring</p></a>
+                                <ul id="inst">
+                                    <li><a href="#elgiganten">Elgiganten</a></li>
+                                    <li><a href="#fona">FONA</a></li>
+                                    <li><a href="#bones">Bone's</a></li>
+                                </ul>
+                            </li>
+                            <li class="hovedemneliste">
+                                <a href="#kompetencer"><p class="hovedemne">Kompetencer</p></a>
+                                <ul id="inst">
+                                    <li><a href="#kurser">Kurser</a></li>
+                                    <li><a href="#it">IT og software</a></li>
+                                    <li><a href="#sprog">Sprog</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="cvtekst">
@@ -729,6 +762,28 @@
                 }
             </script>
             <!-- Slut på Dropdown menu -->
+
+            <!-- Scrollmenu-dropdown menu -->
+            <script>
+                function smDropdownMenu() {
+                    document.getElementById("smDropdown").classList.toggle("show");
+                }
+
+                window.onclick = function(event) {
+                  if (!event.target.matches('.smdropbtn')) {
+
+                    var dropdowns = document.getElementsByClassName("smdropdown-content");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                      var openDropdown = dropdowns[i];
+                      if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                      }
+                    }
+                  }
+                }
+            </script>
+            <!-- Slut på Scrollmenu-dropdown menu -->
 
             <!-- Expand/collapse text -->
                 <script>

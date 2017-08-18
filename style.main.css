@@ -196,6 +196,7 @@ ul {
     font-size: 2rem;
     position: relative;
     top: -7px;
+    cursor: pointer;
 }
 
 .show {
