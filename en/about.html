@@ -32,6 +32,32 @@
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-TCNCXQH');
         </script>
+
+        <!-- Cookie consent -->
+        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+        <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "rgba(250,250,250,1)",
+              "text": "rgba(40,40,40,1)"
+            },
+            "button": {
+              "background": "rgba(29,178,61,0.75)",
+              "text": "rgba(255,255,255,1)"
+            }
+          },
+          "theme": "classic",
+          "position": "bottom-left",
+          "content": {
+            "message": "I use cookies from Google Analytics to monitor the number of visitors on this site. By using the site you consent to these cookies.<br>Thank you in advance.",
+            "dismiss": "I accept.",
+            "link": "Learn more"
+          }
+        })});
+        </script>
     </head>
 
     <body>
