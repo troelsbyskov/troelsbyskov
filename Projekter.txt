@@ -4,3 +4,5 @@ Lær jQuery og tilføj dette til:
     1. Billedsiden med slideshow
     2. CV, "back-to-top"-knap: FadeIn/Out('slow') og blød bevægelse til toppen
     3. Husk at tilføje jQuery/javascript-skill til "Om"
+Alt på CV = collapsable, pånær "sammenfatning", som kan omdøbes til "kort oversigt"/"short summary"
+Tilføj Succes online kurset "Sociale Medier: Facebook" under "Succes Online", men efter de tre andre
