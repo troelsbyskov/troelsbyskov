@@ -414,11 +414,13 @@ ul {
 
 .liste1 {
     margin-bottom: -5px;
+    margin-top: -5px;
 }
 
 .oliste {
-    margin-left: 49px;
+    margin-left: 69px;
     line-height: 1.5rem;
+    margin-top: -10px;
 }
 
 .parts {
