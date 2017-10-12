@@ -1,6 +1,0 @@
-Inserting the Internal Traffic Cookie Into the Browser.
-Google Tag Manager: Open any URL of your site with the text ?internal at the end -> example.com/?internal
-
-You need to do this:
- - In all the browsers you use to work on your site (mobile and desktop).
- - Whenever you clear the cookies on your browser.
