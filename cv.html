@@ -194,19 +194,19 @@
                         <li class="hovedemneliste">
                             <a href="#uddannelse"><p class="hovedemne">Uddannelse</p></a> <!-- Når selve teksten kommer skal denne have et id der hedder id="uddannelse" eller et a med name="uddannelse" -->
                             <ul id="inst">
-                                <li><a href="#universitet">Universitet</a></li>
-                                <li><a href="#højskole">Højskole</a></li>
-                                <li><a href="#gymnasie">Gymnasie</a></li>
-                                <li><a href="#efterskole">Efterskole</a></li>
-                                <li><a href="#folkeskole">Folkeskole</a></li>
+                                <li><a href="#universitet" onclick="return toggleMe('universitetk')">Universitet</a></li>
+                                <li><a href="#højskole" onclick="return toggleMe('højskolek')">Højskole</a></li>
+                                <li><a href="#gymnasie" onclick="return toggleMe('gymnasiek')">Gymnasie</a></li>
+                                <li><a href="#efterskole" onclick="return toggleMe('efterskolek')">Efterskole</a></li>
+                                <li><a href="#folkeskole" onclick="return toggleMe('folkeskolek')">Folkeskole</a></li>
                             </ul>
                         </li>
                         <li class="hovedemneliste">
                             <a href="#erhverv"><p class="hovedemne">Erhvervserfaring</p></a>
                             <ul id="inst">
-                                <li><a href="#elgiganten">Elgiganten</a></li>
-                                <li><a href="#fona">FONA</a></li>
-                                <li><a href="#bones">Bone's</a></li>
+                                <li><a href="#elgiganten" onclick="return toggleMe('elgigantenk')">Elgiganten</a></li>
+                                <li><a href="#fona" onclick="return toggleMe('fonak')">FONA</a></li>
+                                <li><a href="#bones" onclick="return toggleMe('bonesk')">Bone's</a></li>
                             </ul>
                         </li>
                         <li class="hovedemneliste">
@@ -226,19 +226,19 @@
                             <li class="hovedemneliste">
                                 <a href="#uddannelse"><p class="hovedemne">Uddannelse</p></a>
                                 <ul id="inst">
-                                    <li><a href="#universitet">Universitet</a></li>
-                                    <li><a href="#højskole">Højskole</a></li>
-                                    <li><a href="#gymnasie">Gymnasie</a></li>
-                                    <li><a href="#efterskole">Efterskole</a></li>
-                                    <li><a href="#folkeskole">Folkeskole</a></li>
+                                    <li><a href="#universitet" onclick="return toggleMe('universitetk')">Universitet</a></li>
+                                    <li><a href="#højskole" onclick="return toggleMe('højskolek')">Højskole</a></li>
+                                    <li><a href="#gymnasie" onclick="return toggleMe('gymnasiek')">Gymnasie</a></li>
+                                    <li><a href="#efterskole" onclick="return toggleMe('efterskolek')">Efterskole</a></li>
+                                    <li><a href="#folkeskole" onclick="return toggleMe('folkeskolek')">Folkeskole</a></li>
                                 </ul>
                             </li>
                             <li class="hovedemneliste">
                                 <a href="#erhverv"><p class="hovedemne">Erhvervserfaring</p></a>
                                 <ul id="inst">
-                                    <li><a href="#elgiganten">Elgiganten</a></li>
-                                    <li><a href="#fona">FONA</a></li>
-                                    <li><a href="#bones">Bone's</a></li>
+                                    <li><a href="#elgiganten" onclick="return toggleMe('elgigantenk')">Elgiganten</a></li>
+                                    <li><a href="#fona" onclick="return toggleMe('fonak')">FONA</a></li>
+                                    <li><a href="#bones" onclick="return toggleMe('bonesk')">Bone's</a></li>
                                 </ul>
                             </li>
                             <li class="hovedemneliste">
@@ -858,7 +858,7 @@
                         e.style.display="none"
                         i.style.backgroundPosition="0 0";
                     }
-                    return false;
+                    return true;
                 }
                 </script>
             <!-- Slut på Expand/collapse text -->
