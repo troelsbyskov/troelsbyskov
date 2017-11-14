@@ -6,3 +6,4 @@ Lær jQuery og tilføj dette til:
 Ret "collapsable"-links, ved de ting, der har +70 pixel over dem
 Evt. mere opmærksomhed på "expandable"-emner ved :hover. Understregning? Forklaring af ikon: når du ser dette kan du udvide?
 Gør dropdown-menu i CV pænere og mindre på mobil
+Overvej om "onclick"-funktionen skal være der på scrollmenu
