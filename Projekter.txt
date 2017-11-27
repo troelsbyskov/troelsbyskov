@@ -6,3 +6,4 @@ Lær jQuery og tilføj dette til:
 Ret "collapsable"-links, ved de ting, der har +70 pixel over dem
 Evt. mere opmærksomhed på "expandable"-emner ved :hover. Understregning? Forklaring af ikon: når du ser dette kan du udvide?
 Gør dropdown-menu i CV pænere og mindre på mobil
+Tilføj motivation til "Om denne side": For at lære online markedsføringsplatforme at kende (Google Adwords, Facebook Pixel) ved at rode lidt rundt med dem. Desuden for at lære kodningen, men dette er en mindre del af det.
