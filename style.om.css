@@ -9,7 +9,7 @@
 .presentation {
     position: relative;
     left: 50%;
-    transform: translate(-50%, 20%);
+    transform: translate(-50%, 18%);
     width: 600px;
     border: 1px solid black;
     line-height: 1.5rem;
