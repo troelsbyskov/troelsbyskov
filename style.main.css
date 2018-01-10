@@ -296,7 +296,7 @@ html, body {
     margin-top: 0;
     position: relative;
     display: inline-block;
-    font-family: 'Abel';
+    font-family: 'Abel', sans-serif;
     font-size: 18px;
     margin: auto;
     top: 10px;
