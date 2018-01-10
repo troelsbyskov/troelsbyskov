@@ -8,11 +8,15 @@
 
 .presentation {
     position: relative;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 25%);
     width: 600px;
     border: 1px solid black;
+    line-height: 1.5rem;
+}
+
+#tab {
+    margin-top: -15px;
 }
 
 span {
@@ -33,7 +37,6 @@ span {
 }
 
 .presentation p {
-    margin-top: 7px;
     width: 550px;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
