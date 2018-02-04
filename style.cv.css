@@ -214,9 +214,10 @@ ul {
 }
 
 .ittu {
-    font-size: 0.9rem;
     position: relative;
     top: -14px;
+    left: -32.5px;
+    margin-bottom: -15px;
 }
 
 #grey {
