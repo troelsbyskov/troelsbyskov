@@ -1,6 +1,5 @@
 # Hvad er troelsbyskov.tk og hvorfor har jeg lavet den? – What is troelsbyskov.tk and why have I made it?
-Se også: https://troelsbyskov.tk/about
-Also see: https://troelsbyskov.tk/en/about
+Se også: https://troelsbyskov.tk/about – Also see: https://troelsbyskov.tk/en/about
 
 // DANSK //
 Der er flere grunde til at jeg har valgt at oprette dette site.
