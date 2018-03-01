@@ -323,9 +323,9 @@ html, body {
 }
 
 #profpic {
-    background-image: url(Images/home.png);
-    background-size: 85px;
-    background-position: 0 0;
+    background-image: url(Images/home2.png);
+    background-size: 70px;
+    background-position: -3px 0;
     overflow: hidden;
     z-index: 9001;
     position: fixed;
@@ -342,7 +342,7 @@ html, body {
 }
 
 #profpic:hover {
-    background-position: 0 -85px;
+    background-position: -3px -70px;
 }
 
 .divcv {
