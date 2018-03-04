@@ -21,12 +21,6 @@ table h1 {
 
 h1 {
     font-family: Tahoma, Geneva, sans-serif;
-    margin: 0;
-}
-
-#content {
-    position: relative;
-    top: 70px;
 }
 
 .td {
