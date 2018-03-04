@@ -258,7 +258,7 @@
                 </div>
             </div>
 
-            <div class="feedback">
+            <div class="feedback" id="feedback">
                 <form method="POST" action="https://formspree.io/troels.byskov@gmail.com">
                     <h1>Feedback</h1>
                     <label for="feedbackname">Navn</label>
@@ -268,7 +268,7 @@
                     <label for="feedbackcontent">Feedback</label>
                     <textarea id="feedbackcontent" name="feedbackcontent" placeholder="Skriv din feedback her."></textarea>
                     <input id="feedbacksubmit" name="feedbacksubmit" type="submit" value="Indsend">
-                    <input type="hidden" name="_next" value="/takforfeedback.html" />
+                    <input type="hidden" name="_next" value="/takforfeedback.html#feedback" />
                     <input type="hidden" name="_language" value="da" />
                 </form>
                 <p id="feedbackdone">Din feedback er blevet sendt. Mange tak!</p>
