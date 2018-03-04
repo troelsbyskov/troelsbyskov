@@ -124,6 +124,7 @@ h1 {
     display: block;
     position: relative;
     margin: 3px auto 12px auto;
+    font-family: sans-serif;
 }
 
 label {
