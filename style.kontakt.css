@@ -108,8 +108,9 @@ h1 {
 .feedback {
     position: relative;
     top: -150px;
-    margin: auto;
-    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+    min-width: 300px;
 }
 
 #feedbackname, #feedbackemail, #feedbackcontent {
@@ -117,11 +118,17 @@ h1 {
     border: 1px solid grey;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 10px;
-    width: 30%;
-    min-width: 300px;
     resize: vertical;
+    font-size: 0.9rem;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 3px auto 12px auto;
+}
+
+label {
+    font-family: sans-serif;
+    display: block;
 }
 
 #feedbackcontent {
@@ -135,6 +142,10 @@ h1 {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 0.9rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 #feedbacksubmit:hover {
