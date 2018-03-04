@@ -1,3 +1,7 @@
+User-agent: *
+Disallow:
+Sitemap: http://troelsbyskov.tk/sitemap.xml
+
 User-agent: Googlebot
 Disallow: /takforfeedback.html
 Disallow: /en/thanksforfeedback.html
@@ -6,4 +10,6 @@ Disallow: /en/sitemap.html
 
 User-agent: Googlebot-Image
 Disallow: /Images/
+Disallow:/Images/*
 Allow: /Images/Mig/
+Allow: /Images/Mig/*
