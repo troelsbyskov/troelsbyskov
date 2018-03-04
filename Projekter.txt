@@ -7,6 +7,10 @@ Ret "collapsable"-links, ved de ting, der har +70 pixel over dem
 Evt. mere opmærksomhed på "expandable"-emner ved :hover. Understregning? Forklaring af ikon: når du ser dette kan du udvide?
     Lav i forbindelse med forklaring en expand all-knap
     Lav en expand all education osv. knap ved hvert emne
-Gør dropdown-menu i CV pænere og mindre på mobil
 Opdater engelsk-kundskaber med info om at semestret i London har gjort mig meget bedre
+
+Mobil:
 Ret "profil-billede" på mobil
+Ret feedback på mobil
+Ret footer på mobil
+Gør dropdown-menu i CV pænere og mindre på mobil
