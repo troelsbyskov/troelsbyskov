@@ -21,7 +21,7 @@
     }
 
     #profpic:hover {
-        background-position: 0 -125px;
+        background-position: -12px -125px;
     }
 
     #logo {
@@ -148,7 +148,7 @@
     }
 
     #profpic:hover {
-        background-position: 0 -85px;
+        background-position: -12px -85px;
     }
 
     .navigation li {
