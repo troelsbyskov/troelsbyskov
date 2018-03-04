@@ -266,7 +266,7 @@
                     $from = 'From: Hjemmeside-feedback';
                     $to = 'troels.byskov@gmail.com';
                     $subject = 'Feedback fra hjemmeside';
-                    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+                    $body = 'From: $name\n E-Mail: $email\n Message:\n $message';
                     if ($_POST['submit']) {
                         if (mail ($to, $subject, $body, $from)) {
                         echo '<p>Din feedback er sendt. Mange tak!</p>';
