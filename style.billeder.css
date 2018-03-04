@@ -6,7 +6,7 @@
     text-decoration-color: white;
 }
 
-#table h1 {
+h1 {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -21,10 +21,6 @@
 #content {
     position: relative;
     top: 70px;
-}
-
-h1 {
-    font-family: Tahoma, Geneva, sans-serif;
 }
 
 .td {
