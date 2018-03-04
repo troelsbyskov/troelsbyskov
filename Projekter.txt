@@ -11,5 +11,4 @@ Opdater engelsk-kundskaber med info om at semestret i London har gjort mig meget
 
 Mobil:
     Ret feedback på mobil
-    Ret footer på mobil
     Gør dropdown-menu i CV pænere og mindre på mobil
