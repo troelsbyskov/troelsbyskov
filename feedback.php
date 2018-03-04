@@ -10,7 +10,7 @@
 
     if ($_POST['feedbacksubmit']) {
         if (mail ($to, $subject, $body, $from)) {
-        echo '<p>Din feedback er sendt. Mange tak!</p>';
+        echo "Din feedback er sendt. Mange tak!" . " -" . "<a href='/kontakt.html' style='text-decoration:none;color:#ff0099;'> Tilbage</a>";
     } else {
         echo '<p>Noget gik galt. Prøv venligst igen!</p>';
     }
