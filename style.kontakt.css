@@ -162,8 +162,9 @@ label {
     color: rgba(29,178,61,0.75);
     font-family: Tahoma, Geneva, sans-serif;
     border-radius: 10px;
-    padding: 3px;
+    padding: 5px;
     font-style: italic;
     background-color: rgba(247,247,247,1);
     font-size: 0.9rem;
+    text-align: center;
 }
