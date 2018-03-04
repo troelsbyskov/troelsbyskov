@@ -118,12 +118,15 @@ h1 {
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
     width: 30%;
     min-width: 300px;
     resize: vertical;
 }
 
+#feedbackcontent {
+    height: 8rem;
+}
 
 #feedbacksubmit {
     background-color: rgba(29,178,61,0.75);

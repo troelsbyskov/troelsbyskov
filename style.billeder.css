@@ -24,6 +24,11 @@ h1 {
     margin: 0;
 }
 
+#content {
+    position: relative;
+    top: 70px;
+}
+
 .td {
     padding: 1.5%;
     width: 10px;

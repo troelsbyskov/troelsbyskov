@@ -311,6 +311,7 @@ html, body {
 h1 {
     position: relative;
     top: 0px;
+    text-align: center;
 }
 
 #logoli {
