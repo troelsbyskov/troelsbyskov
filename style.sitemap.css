@@ -45,7 +45,7 @@
 }
 
 .link {
-    width: 150px;
+    width: 202px;
     border: 1px solid rgba(0,0,0,1);
     height: 25px;
     position: relative;
@@ -61,7 +61,7 @@
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 1.1rem;
     position: absolute;
-    width: 148px;
+    width: 200px;
     height: 23px;
     left: 0;
     top: 0;
