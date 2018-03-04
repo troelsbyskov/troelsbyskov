@@ -14,3 +14,6 @@ Kodning:
 
 Mobil:
     Gør dropdown-menu i CV pænere og mindre på mobil
+    
+Analytics:
+    Opsæt mål (konvertering) om at submitte feedback
