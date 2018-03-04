@@ -13,5 +13,4 @@ Kodning:
         Lav en expand all education osv. knap ved hvert emne
 
 Mobil:
-    Ret feedback på mobil
     Gør dropdown-menu i CV pænere og mindre på mobil

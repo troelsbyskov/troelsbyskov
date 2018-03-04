@@ -65,16 +65,45 @@
     label {
         font-size: 2.5rem;
     }
+
+    #feedbackdone {
+        border-radius: 30px;
+        font-size: 2.5rem;
+    }
 }
 
 /* FOR PHONES (LANDSCAPE) */
 @media only screen and (max-device-width: 413px) and (orientation: landscape) {
 
-    .kontakttekst h1 {
+    h1 {
         font-size: 2.5rem;
     }
 
     .kontakttekst h3 {
         font-size: 1.9rem;
+    }
+
+    .feedback {
+        margin: 0 auto -50px auto;
+        width: 30%;
+        min-width: 500px;
+    }
+
+    #feedbackname, #feedbackemail, #feedbackcontent {
+        font-size: 1.5rem;
+    }
+
+    #feedbacksubmit {
+        background-color: rgba(29,178,61,       1);
+        font-size: 1.5rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    #feedbackdone {
+        border-radius: 15px;
+        font-size: 1.5rem;
     }
 }
