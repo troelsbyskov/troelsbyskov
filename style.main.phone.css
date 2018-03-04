@@ -17,11 +17,11 @@
         height: 125px;
         width: 125px;
         top: 15px;
-        background-size: 150px;
+        background-size: 125px;
     }
 
     #profpic:hover {
-        background-position: 0 -155px;
+        background-position: 0 -125px;
     }
 
     #logo {
@@ -144,11 +144,11 @@
         height: 90px;
         width: 90px;
         top: 8px;
-        background-size: 105px;
+        background-size: 85px;
     }
 
     #profpic:hover {
-        background-position: 0 -108px;
+        background-position: 0 -85px;
     }
 
     .navigation li {
