@@ -1,5 +1,6 @@
 User-agent: Googlebot
-Disallow:
+Disallow: /takforfeedback.html
+Disallow: /en/thanksforfeedback.html
 
 User-agent: Googlebot-Image
 Disallow: /Images/
