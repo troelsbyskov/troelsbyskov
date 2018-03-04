@@ -13,3 +13,5 @@ Disallow: /Images/
 Disallow:/Images/*
 Allow: /Images/Mig/
 Allow: /Images/Mig/*
+Disallow: /Images/Mig/Ikoner/
+Disallow: /Images/Mig/Ikoner/*
