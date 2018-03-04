@@ -259,7 +259,7 @@
             </div>
 
             <div class="feedback">
-                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+                <form method="POST" action="/feedback.php">
                     <h1>Feedback</h1>
                     <label for="feedbackname">Navn</label>
                     <input type="text" id="feedbackname" name="feedbackname" placeholder="Skriv dit navn her.">
@@ -267,23 +267,8 @@
                     <input type="email" id="feedbackemail" name="feedbackemail" placeholder="Skriv din emailadresse her.">
                     <label for="feedbackcontent">Feedback</label>
                     <textarea id="feedbackcontent" name="feedbackcontent" placeholder="Skriv din feedback her."></textarea>
-                    <input id="feedbacksubmit" name="submit" type="submit" value="Indsend">
+                    <input id="feedbacksubmit" name="feedbacksubmit" type="submit" value="Indsend">
                 </form>
-                <?php
-                    $name = $_POST['feedbackname'];
-                    $email = $_POST['feedbackemail'];
-                    $message = $_POST['feedbackcontent'];
-                    $from = 'From: Hjemmeside-feedback';
-                    $to = 'troels.byskov@gmail.com';
-                    $subject = 'Feedback fra hjemmeside';
-                    $body = 'From: $name\n E-Mail: $email\n Message:\n $message';
-                    if ($_POST['submit']) {
-                        if (mail ($to, $subject, $body, $from)) {
-                        echo '<p>Din feedback er sendt. Mange tak!</p>';
-                    } else {
-                        echo '<p>Noget gik galt. Prøv venligst igen!</p>';
-                    }
-                ?>
             </div>
             <!-- Slut på content -->
 
