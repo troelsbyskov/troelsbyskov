@@ -259,7 +259,17 @@
             </div>
 
             <div class="feedback">
-                <form method="post" action="<?php
+                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+                    <h1>Feedback</h1>
+                    <label for="feedbackname">Navn</label>
+                    <input type="text" id="feedbackname" name="feedbackname" placeholder="Skriv dit navn her.">
+                    <label for="feedbackemail">Email</label>
+                    <input type="email" id="feedbackemail" name="feedbackemail" placeholder="Skriv din emailadresse her.">
+                    <label for="feedbackcontent">Feedback</label>
+                    <textarea id="feedbackcontent" name="feedbackcontent" placeholder="Skriv din feedback her."></textarea>
+                    <input id="feedbacksubmit" name="submit" type="submit" value="Indsend">
+                </form>
+                <?php
                     $name = $_POST['feedbackname'];
                     $email = $_POST['feedbackemail'];
                     $message = $_POST['feedbackcontent'];
@@ -273,16 +283,7 @@
                     } else {
                         echo '<p>Noget gik galt. Prøv venligst igen!</p>';
                     }
-                ?>">
-                    <h1>Feedback</h1>
-                    <label for="feedbackname">Navn</label>
-                    <input type="text" id="feedbackname" name="feedbackname" placeholder="Skriv dit navn her.">
-                    <label for="feedbackemail">Email</label>
-                    <input type="email" id="feedbackemail" name="feedbackemail" placeholder="Skriv din emailadresse her.">
-                    <label for="feedbackcontent">Feedback</label>
-                    <textarea id="feedbackcontent" name="feedbackcontent" placeholder="Skriv din feedback her."></textarea>
-                    <input id="feedbacksubmit" name="submit" type="submit" value="Indsend">
-                </form>
+                ?>
             </div>
             <!-- Slut på content -->
 
