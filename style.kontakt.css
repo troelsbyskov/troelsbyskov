@@ -113,6 +113,14 @@ h1 {
     min-width: 300px;
 }
 
+#feedback:before {
+  display: block;
+  content: " ";
+  margin-top: -74px;
+  height: 74px;
+  visibility: hidden;
+}
+
 #feedbackname, #feedbackemail, #feedbackcontent {
     padding: 5px;
     border: 1px solid grey;
