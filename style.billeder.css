@@ -12,13 +12,12 @@ h1 {
 
 .table {
     position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 0 auto;
     width: 75%;
     text-align: center;
 }
 
-#content {
+#billede-grid {
     position: relative;
     top: 70px;
 }
