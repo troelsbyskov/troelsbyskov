@@ -8,6 +8,5 @@ Evt. mere opmærksomhed på "expandable"-emner ved :hover. Understregning? Forkl
     Lav i forbindelse med forklaring en expand all-knap
     Lav en expand all education osv. knap ved hvert emne
 Gør dropdown-menu i CV pænere og mindre på mobil
-Lav en feedback-formular på Kontakt-siden (lær php)
 Opdater engelsk-kundskaber med info om at semestret i London har gjort mig meget bedre
-Ret "profil-billede" ved mindre vinduer og på mobil
+Ret "profil-billede" på mobil

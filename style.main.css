@@ -581,13 +581,13 @@ ul {
     }
 
     #profpic {
-        background-size: 75px;
+        background-size: 60px;
         height: 65px;
         width: 65px;
     }
 
     #profpic:hover {
-        background-position: 0 -75px;
+        background-position: -3px -60px;
     }
 }
 
@@ -607,5 +607,19 @@ ul {
     .links {
         background-color: rgba(240,240,240,1);
         box-shadow: 0 8px 20px rgba(220,220,220,1);
+    }
+
+    #footer {
+        height: 60px;
+    }
+
+    .foot p {
+        bottom: 35px;
+    }
+
+    #foot25 {
+        bottom: 5px;
+        left: 50%;
+        transform: translate(-50%);
     }
 }
