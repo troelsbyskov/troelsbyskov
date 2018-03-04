@@ -133,7 +133,8 @@ label {
 }
 
 #feedbackcontent {
-    min-height: 8rem;
+    height: 8rem;
+    min-height: 5rem;
 }
 
 #feedbacksubmit {
