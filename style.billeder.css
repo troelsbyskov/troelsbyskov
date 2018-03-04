@@ -6,17 +6,21 @@
     text-decoration-color: white;
 }
 
-table h1 {
+#table h1 {
     font-family: 'Raleway', sans-serif;
 }
 
 .table {
     position: relative;
-    top: 70px;
     left: 50%;
     transform: translate(-50%);
     width: 75%;
     text-align: center;
+}
+
+#content {
+    position: relative;
+    top: 70px;
 }
 
 h1 {
