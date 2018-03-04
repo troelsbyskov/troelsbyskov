@@ -13,7 +13,7 @@
     margin: auto;
 }
 
-.kontakttekst h1 {
+h1 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
@@ -30,6 +30,7 @@
     margin: 0;
     font-size: 1.6rem;
     text-align: center;
+    margin-top: -20px;
 }
 
 .liste {
@@ -102,4 +103,37 @@
     height: 1.3rem;
     position: relative;
     top: -3px;
+}
+
+.feedback {
+    position: relative;
+    top: -150px;
+    margin: auto;
+    text-align: center;
+}
+
+#feedbackname, #feedbackemail, #feedbackcontent {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 30%;
+    min-width: 300px;
+    resize: vertical;
+}
+
+
+#feedbacksubmit {
+    background-color: rgba(29,178,61,0.75);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#feedbacksubmit:hover {
+   background-color: rgba(29,178,61,0.5);
 }

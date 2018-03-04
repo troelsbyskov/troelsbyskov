@@ -308,6 +308,11 @@ html, body {
     padding-bottom: 200px;
 }
 
+h1 {
+    position: relative;
+    top: 0px;
+}
+
 #logoli {
     width: 190px;
     display: inline-block;
