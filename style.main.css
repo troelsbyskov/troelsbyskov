@@ -428,14 +428,14 @@ ul {
 .dropdown-content {
     display: none;
     position: relative;
-    right: 75px;
+    right: 85px;
     top: -3px;
     background-color: rgba(235,235,235,1);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 9999;
     width: 150px;
     border-radius: 5px;
-    border: 3px solid rgba(25,25,25,0.75);
+    border: 3px solid rgba(29,178,61,0.75);
 }
 
 .dropdown-content a {

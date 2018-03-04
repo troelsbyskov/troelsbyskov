@@ -4,12 +4,19 @@
         top: 150px;
     }
 
-    .kontakttekst h1 {
+    h1 {
         font-size: 5rem;
     }
 
     .kontakttekst h3 {
         font-size: 3.5rem;
+    }
+
+    .kontakttekst {
+        top: 200px;
+        width: 75%;
+        margin: auto auto 200px auto;
+        border-bottom: 1px solid black
     }
 
     .socimg {
@@ -38,6 +45,25 @@
 
     .liste {
         width: 750px;
+    }
+
+    .feedback {
+        margin: 0 auto -50px auto;
+        width: 30%;
+        min-width: 500px;
+    }
+
+    #feedbackname, #feedbackemail, #feedbackcontent {
+        font-size: 2.3rem;
+    }
+
+    #feedbacksubmit {
+        background-color: rgba(29,178,61,       1);
+        font-size: 2.5rem;
+    }
+
+    label {
+        font-size: 2.5rem;
     }
 }
 
