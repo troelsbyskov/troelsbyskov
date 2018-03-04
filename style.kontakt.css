@@ -116,8 +116,8 @@ h1 {
 #feedback:before {
   display: block;
   content: " ";
-  margin-top: -74px;
-  height: 74px;
+  margin-top: -70px;
+  height: 70px;
   visibility: hidden;
 }
 
