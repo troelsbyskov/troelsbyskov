@@ -542,7 +542,18 @@ ul {
     border-radius: 5px;
 }
 
-.footleft a:hover {
+#foot25 {
+    float: right;
+    right: 20%;
+    font-style: italic;
+}
+
+#foot25 a {
+    color: rgba(29,178,61,1);
+    text-decoration: none;
+}
+
+.foot a:hover, #foot25 a:hover {
     color: black;
     text-decoration: underline;
 }
