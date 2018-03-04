@@ -108,13 +108,19 @@
     }
 
     #footer {
-        height: 75px;
+        height: 150px;
         border-top: 3px solid rgba(0,0,0,0.25);
     }
 
     .foot p {
         font-size: 2.5rem;
+        bottom: 84px;
+    }
+
+    #foot25 {
         bottom: 12px;
+        left: 50%;
+        transform: translate(-50%);
     }
 
     #content {
