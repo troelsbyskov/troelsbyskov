@@ -624,8 +624,7 @@ ul {
 
    #foot25 {
         bottom: 5px;
-        left: 50%;
-        transform: translate(-50%);
+        right: 2.5%;
     }
 
     #foot75 {
