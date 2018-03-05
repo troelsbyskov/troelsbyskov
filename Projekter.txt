@@ -2,15 +2,13 @@ Info:
     Opdater engelsk-kundskaber med info om at semestret i London har gjort mig meget bedre
 
 Kodning:
+    Opret et Javascript-dokument
     Lav overskriften i popups (fra CV) fixed, så man ikke kan scrolle ned over dette
     Lær jQuery og tilføj dette til:
         1. Billedsiden med slideshow
         2. CV, "back-to-top"-knap: FadeIn/Out('slow') og blød bevægelse til toppen
         3. Husk at tilføje jQuery/javascript-skill til "Om"
     Ret "collapsable"-links, ved de ting, der har +70 pixel over dem
-    Evt. mere opmærksomhed på "expandable"-emner ved :hover. Understregning? Forklaring af ikon: når du ser dette kan du udvide?
-        Lav i forbindelse med forklaring en expand all-knap
-        Lav en expand all education osv. knap ved hvert emne
     Tilføj indholdsfortegnelse til meget smalle vinduer
 
 Mobil:
