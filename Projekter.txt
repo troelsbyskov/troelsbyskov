@@ -11,6 +11,7 @@ Kodning:
     Evt. mere opmærksomhed på "expandable"-emner ved :hover. Understregning? Forklaring af ikon: når du ser dette kan du udvide?
         Lav i forbindelse med forklaring en expand all-knap
         Lav en expand all education osv. knap ved hvert emne
+    Tilføj indholdsfortegnelse til meget smalle vinduer
 
 Mobil:
     Gør dropdown-menu i CV pænere og mindre på mobil
