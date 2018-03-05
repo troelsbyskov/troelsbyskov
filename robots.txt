@@ -7,6 +7,8 @@ Disallow: /takforfeedback.html
 Disallow: /en/thanksforfeedback.html
 Disallow: /sitemap.html
 Disallow: /en/sitemap.html
+Disallow: /Projekter.txt
+Disallow: /README.md
 
 User-agent: Googlebot-Image
 Disallow: /Images/
