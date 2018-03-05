@@ -622,9 +622,15 @@ ul {
         bottom: 35px;
     }
 
-    #foot25 {
+    .foot25 {
         bottom: 5px;
         left: 50%;
         transform: translate(-50%);
+    }
+
+    .foot75 {
+        bottom: 5px;
+        float: left;
+        left: 2.5%;
     }
 }
