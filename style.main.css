@@ -536,24 +536,24 @@ ul {
     left: 2.5%;
 }
 
-.footleft a, .foot75 a {
+.footleft a, #foot75 a {
     color: rgba(120,120,120,1);
     text-decoration: none;
     border-radius: 5px;
 }
 
-.foot25 {
+#foot25 {
     float: right;
     right: 20%;
     font-style: italic;
 }
 
-.foot75 {
+#foot75 {
     float: left;
     left: 20%;
 }
 
-.foot25 a {
+#foot25 a {
     color: rgba(29,178,61,0.75);
     text-decoration: none;
 }
@@ -622,15 +622,14 @@ ul {
         bottom: 35px;
     }
 
-    .foot25 {
+   #foot25 {
         bottom: 5px;
         left: 50%;
         transform: translate(-50%);
     }
 
-    .foot75 {
+    #foot75 {
         bottom: 5px;
-        float: left;
         left: 2.5%;
     }
 }
