@@ -13,7 +13,7 @@ Kodning:
         2. CV, "back-to-top"-knap: FadeIn/Out('slow') og blød bevægelse til toppen
         3. Husk at tilføje jQuery/javascript-skill til "Om"
     Ret "collapsable"-links, ved de ting, der har +70 pixel over dem
-    Tilføj indholdsfortegnelse (som dropdown, som mobil) til meget smalle vinduer
+    Tilføj indholdsfortegnelse (som dropdown (måske dropout (fra siden)?), som mobil) til meget smalle vinduer
 
 Mobil:
     Gør dropdown-menu i CV pænere og mindre på mobil
