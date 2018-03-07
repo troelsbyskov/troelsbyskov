@@ -6,7 +6,7 @@ Indhold:
     Slet onlinekurser.dk og alt der har noget at gøre med det.
 
 Kodning:
-    Opret et Javascript-dokument
+    Opret et Javascript-dokument og saml al <script> i det
     Lav overskriften i popups (fra CV) fixed, så man ikke kan scrolle ned over dette
     Lær jQuery og tilføj dette til:
         1. Billedsiden med slideshow
