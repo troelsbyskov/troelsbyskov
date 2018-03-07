@@ -1,4 +1,4 @@
-Info:
+Indhold:
     Opdater engelsk-kundskaber med info om at semestret i London har gjort mig meget bedre
     Opdater Google Parters-tilknytning
         Ændre til academy for ads og tilføj Google analytics academy
