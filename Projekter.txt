@@ -15,7 +15,9 @@ Kodning:
     Ret "collapsable"-links, ved de ting, der har +70 pixel over dem
     Tilføj indholdsfortegnelse (som dropdown (måske dropout (fra siden)?), som mobil) til meget smalle vinduer
     Streamline "om", så den er konsistent med temaerne på de andre sider
-    Tilføj hreflang til sitemap: https://support.google.com/webmasters/answer/2620865
+    Tilføj hreflang til sitemap: 
+        https://support.google.com/webmasters/answer/2620865
+        https://www.aleydasolis.com/english/international-seo-tools/hreflang-tags-generator/
 
 Mobil:
     Gør dropdown-menu i CV pænere og mindre på mobil
