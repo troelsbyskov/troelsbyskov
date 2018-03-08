@@ -14,6 +14,7 @@ Kodning:
         3. Husk at tilføje jQuery/javascript-skill til "Om"
     Ret "collapsable"-links, ved de ting, der har +70 pixel over dem
     Tilføj indholdsfortegnelse (som dropdown (måske dropout (fra siden)?), som mobil) til meget smalle vinduer
+    Streamline "om", så den er konsistent med temaerne på de andre sider
 
 Mobil:
     Gør dropdown-menu i CV pænere og mindre på mobil
