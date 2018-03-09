@@ -3,7 +3,6 @@ Indhold:
     Opdater Google Parters-tilknytning
         Ændre til academy for ads og tilføj Google analytics academy
         Skriv at jeg har planer om at gå i gang.
-    Slet onlinekurser.dk og alt der har noget at gøre med det.
 
 Kodning:
     Opret et Javascript-dokument og saml al <script> i det
