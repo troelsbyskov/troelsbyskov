@@ -508,13 +508,19 @@ ul {
     border: 2px dotted red;
     border-radius: 5px;
     background-color: rgba(255, 253, 145,0.9);
-    position: fixed;
-    width: 500px;
-    top: 40px;
+    position: absolute;
+    top: 55px;
     left: 50%;
+    width: 75%;
     transform: translate(-50%);
-    z-index: 10000;
+    margin: 0 auto;
+    z-index: 8900;
     text-align: center;
+    padding: 5px;
+}
+
+.noscript p {
+    margin: 0;
 }
 
 .noscriptwarn {
