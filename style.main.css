@@ -308,6 +308,21 @@ html, body {
     padding-bottom: 150px;
 }
 
+.boks {
+    position: relative;
+    border: 1px solid rgba(230,230,230,1);
+    width: 63.7%;
+    margin: 0 auto 50px auto;
+    padding: 0 30px 30px 30px;
+    background-color: rgba(245,245,245,1);
+    box-shadow: 0 8px 20px rgba(220,220,220,1);
+}
+
+.linje {
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    width: 250px;
+}
+
 h1 {
     position: relative;
     top: 0px;
@@ -576,6 +591,12 @@ ul {
 }
 
 @media only screen and (max-width: 1080px) {
+    .boks {
+        margin-left: 0;
+        left: 200px;
+        width: 63.7%;
+    }
+
     .navigation li {
     width: 100px;
     }
@@ -598,6 +619,12 @@ ul {
 
     #dropli {
         display: inline-block;
+    }
+
+    .boks {
+        margin-left: inherit;
+        left: 9.5%;
+        width: 81.1%;
     }
 
     .links tr {

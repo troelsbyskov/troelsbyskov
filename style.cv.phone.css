@@ -6,12 +6,6 @@
     }
     /*INDTIL LØSNING MED BILLEDER ER FUNDET*/
 
-    .boks {
-        top: -80px;
-        width: 90%;
-        padding: 0 30px 60px 30px;
-    }
-
     .altekst {
         position: relative;
         top: 280px;
@@ -232,11 +226,6 @@
         width: 90%;
     }
 
-    .linje {
-        border-bottom: 6px solid rgba(0,0,0,0.1);
-        width: 500px;
-    }
-
     .modleft {
         margin-left: 50px;
     }
@@ -352,12 +341,6 @@
 
 /* FOR PHONES (LANDSCAPE) */
 @media only screen and (max-device-width: 413px) and (orientation: landscape) {
-    .boks, .centrer {
-        margin-left: 0;
-        left: 185px;
-        width: 68%;
-    }
-
     .scrollmenu {
         top: 130px;
         margin: auto;

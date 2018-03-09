@@ -6,37 +6,27 @@
     text-decoration-color: white;
 }
 
-.presentation {
+.om-tekst {
     position: relative;
-    left: 50%;
-    transform: translate(-50%, 18%);
-    width: 600px;
-    border: 1px solid black;
-    line-height: 1.5rem;
+    width: 100%;
+    top: 70px;
+    margin: auto;
 }
 
-#tab {
-    margin-top: -15px;
-}
-
-span {
-    position: relative;
-    left: 25px;
-    width: 500px;
+.om-tekst h1 {
+    font-family: 'Raleway', sans-serif;
 }
 
 .ca-link {
     color: black;
 }
 
-.presentation h3 {
+h2 {
     font-family: Tahoma, Geneva, sans-serif;
-    margin-bottom: 0;
-    width: 550px;
-    font-size: 1.1rem;
 }
 
-.presentation p {
-    width: 550px;
-    font-size: 1rem;
+.boks p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
 }
