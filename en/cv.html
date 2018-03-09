@@ -769,46 +769,6 @@
             <a href="#" id="back-to-top">Top</a>
             <!-- Slut på Back to top -->
 
-            <!-- Scrollmenu-dropdown menu -->
-            <script>
-                function smDropdownMenu() {
-                    document.getElementById("smDropdown").classList.toggle("show");
-                }
-
-                window.onclick = function(event) {
-                  if (!event.target.matches('.smdropbtn')) {
-
-                    var dropdowns = document.getElementsByClassName("smdropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                      var openDropdown = dropdowns[i];
-                      if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                      }
-                    }
-                  }
-                }
-            </script>
-            <!-- Slut på Scrollmenu-dropdown menu -->
-
-            <!-- Expand/collapse text -->
-                <script>
-                function toggleMe(a){
-                var e=document.getElementById(a);
-                var i = document.getElementById(a+'_image');
-                    if(!e)return true;
-                    if(e.style.display=="none"){
-                        e.style.display="block"
-                        i.style.backgroundPosition="0 -100%";
-                    } else {
-                        e.style.display="none"
-                        i.style.backgroundPosition="0 0";
-                    }
-                    return true;
-                }
-                </script>
-            <!-- Slut på Expand/collapse text -->
-
             <noscript>
                 <div class="noscript">
                     <p>Some features on this site won't work properly without Javascript turned on.</p>
