@@ -89,7 +89,7 @@
 
     .dropdown-content a {
         font-size: 3.5rem;
-        line-height: 7rem;
+        line-height: 7;
     }
 
     .dropbtn {
