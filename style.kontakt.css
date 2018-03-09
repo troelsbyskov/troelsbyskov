@@ -21,7 +21,7 @@ h1 {
 #kontakt-boks {
     text-align: center;
     width: 72.4%;
-    padding: 0 6px 30px 6px;
+    padding: 0 2px;
 }
 
 .overemne h2 {
@@ -104,12 +104,12 @@ h1 {
     top: -3px;
 }
 
-#feedback {
+.feedback {
     position: relative;
     margin: auto;
-    width: 95%;
     min-width: 300px;
     text-align: left;
+    padding: 0 30px 30px 30px;
 }
 
 #feedback:before {
@@ -191,6 +191,14 @@ label {
 
 @media only screen and (max-width: 770px) {
     #kontakt-boks {
-        width: 89.8%;
+        width: 87.8%;
+    }
+
+    #feedbackname, #feedbackemail, #feedbackcontent {
+        width: 82%;
+    }
+
+    label {
+        left: 9.25%;
     }
 }
