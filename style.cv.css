@@ -469,6 +469,12 @@ ul {
 }
 
 @media only screen and (max-width: 1080px) {
+    .boks {
+        margin-left: 0;
+        left: 200px;
+        width: 63.7%;
+    }
+
     .liste, .grad {
         width: 87.4%;
     }
@@ -491,6 +497,12 @@ ul {
 }
 
 @media only screen and (max-width: 770px) {
+    .boks {
+        margin-left: inherit;
+        left: 9.5%;
+        width: 81.1%;
+    }
+
     .popup {
         width: 65%;
     }

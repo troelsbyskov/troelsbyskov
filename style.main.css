@@ -591,12 +591,6 @@ ul {
 }
 
 @media only screen and (max-width: 1080px) {
-    .boks {
-        margin-left: 0;
-        left: 200px;
-        width: 63.7%;
-    }
-
     .navigation li {
     width: 100px;
     }
@@ -619,12 +613,6 @@ ul {
 
     #dropli {
         display: inline-block;
-    }
-
-    .boks {
-        margin-left: inherit;
-        left: 9.5%;
-        width: 81.1%;
     }
 
     .links tr {

@@ -6,12 +6,11 @@
     text-decoration-color: white;
 }
 
-.kontakttekst {
+.kontakttekst, .feedback {
     position: relative;
     top: 70px;
     width: 75%;
-    margin: auto auto 100px auto;
-    border-bottom: 1px solid black
+    margin: auto;
 }
 
 h1 {
@@ -19,19 +18,17 @@ h1 {
     text-align: center;
 }
 
-#overdiv {
+#kontakt-boks {
     text-align: center;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    width: 95%;
 }
 
-.kontakttekst h3 {
+.overemne h2 {
+    width: 100%;
+}
+
+.kontakttekst h2 {
     font-family: Tahoma, Geneva, sans-serif;
-    margin: 0;
-    font-size: 1.6rem;
-    text-align: center;
-    margin-top: -20px;
 }
 
 .liste {
@@ -108,8 +105,8 @@ h1 {
 
 .feedback {
     position: relative;
-    margin: 0 auto -50px auto;
-    width: 30%;
+    margin: auto;
+    width: 95%;
     min-width: 300px;
 }
 
@@ -128,7 +125,7 @@ h1 {
     box-sizing: border-box;
     resize: vertical;
     font-size: 0.9rem;
-    width: 100%;
+    width: 75%;
     display: block;
     position: relative;
     margin: 3px auto 12px auto;
@@ -138,6 +135,8 @@ h1 {
 label {
     font-family: sans-serif;
     display: block;
+    left: 12.5%;
+    position: relative;
 }
 
 #feedbackcontent {

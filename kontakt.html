@@ -181,10 +181,10 @@
             <div id="content">
                 <div class="kontakttekst">
                     <h1>Kontakt</h1>
-                    <div id="overdiv">
+                    <div class="boks" id="kontakt-boks">
                         <ul class="liste" id="left">
                             <li class="overemne">
-                                <h3>Profiler på sociale netværk</h3>
+                                <h2 class="linje">Profiler på sociale netværk</h2>
                                 <ul>
                                     <li>
                                         <div class="link" title="Besøg min LinkedIn-profil.">
@@ -228,7 +228,7 @@
                         </ul>
                         <ul class="liste" id="right">
                             <li class="overemne">
-                                <h3>Email og telefon</h3>
+                                <h2 class="linje">Email og telefon</h2>
                                 <ul>
                                     <li>
                                         <div class="link" title="Send mig en e-mail.">
@@ -280,15 +280,14 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="feedback" id="feedback">
+                <div class="feedback boks" id="feedback">
                     <form method="POST" action="https://formspree.io/troels.byskov@gmail.com">
-                        <h1>Feedback</h1>
-                        <label for="feedbackname">Navn</label>
+                        <h2 class="linje">Feedback</h2>
+                        <label class="feedback-label" for="feedbackname">Navn</label>
                         <input type="text" id="feedbackname" name="feedbackname" placeholder="Skriv dit navn her.">
-                        <label for="feedbackemail">Email</label>
+                        <label class="feedback-label" for="feedbackemail">Email</label>
                         <input type="email" id="feedbackemail" name="feedbackemail" placeholder="Skriv din emailadresse her.">
-                        <label for="feedbackcontent">Feedback</label>
+                        <label class="feedback-label" for="feedbackcontent">Feedback</label>
                         <textarea id="feedbackcontent" name="feedbackcontent" placeholder="Skriv din feedback her."></textarea>
                         <input id="feedbacksubmit" name="feedbacksubmit" type="submit" value="Indsend">
                         <input type="hidden" name="_next" value="/takforfeedback#feedback" />
