@@ -20,6 +20,8 @@ h1 {
 
 #kontakt-boks {
     text-align: center;
+    width: 72.4%;
+    padding: 0 6px 30px 6px;
 }
 
 .overemne h2 {
@@ -179,4 +181,16 @@ label {
     background-color: rgba(247,247,247,1);
     font-size: 0.9rem;
     text-align: center;
+}
+
+@media only screen and (max-width: 1080px) {
+    #kontakt-boks {
+        width: 81.1%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #kontakt-boks {
+        width: 89.8%;
+    }
 }
