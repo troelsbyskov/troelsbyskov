@@ -6,7 +6,7 @@
     text-decoration-color: white;
 }
 
-.kontakttekst, .feedback {
+.kontakttekst {
     position: relative;
     top: 70px;
     width: 75%;
@@ -103,11 +103,12 @@ h1 {
     top: -3px;
 }
 
-.feedback {
+#feedback {
     position: relative;
     margin: auto;
     width: 95%;
     min-width: 300px;
+    text-align: left;
 }
 
 #feedback:before {
