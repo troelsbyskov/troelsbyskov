@@ -183,6 +183,25 @@ label {
     text-align: center;
 }
 
+.needsjs {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(232,66,58,0.55);
+    border: 5px solid rgba(232,66,58,0.66);
+    border-radius: 2px;
+}
+
+noscript h1 {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+}
+
 @media only screen and (max-width: 1080px) {
     #kontakt-boks {
         width: 81.1%;
