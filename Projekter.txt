@@ -21,4 +21,3 @@ Mobil:
     
 Analytics:
     Opsæt mål (konvertering) om at submitte feedback
-    Find ud af hvordan google kan cache collapsed tekst
