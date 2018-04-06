@@ -7,9 +7,8 @@
 }
 
 .scrollmenu {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 120px;
+    position: fixed;
+    top: 16%;
     left: 15px;
     width: 11rem;
     border: 1px solid rgba(130,130,130,1);
@@ -61,7 +60,7 @@
 .cvtekst {
     position: relative;
     width: 100%;
-    top: -332px;
+    top: 70px;
     margin: auto;
 }
 
@@ -501,9 +500,15 @@ ul {
     }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 770px), screen and (max-height: 525px) {
     .popup {
         width: 65%;
+    }
+
+    .boks {
+        left: 0;
+        margin: auto;
+        width: 81.1%;
     }
 
     #kryds {

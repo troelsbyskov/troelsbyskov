@@ -674,7 +674,7 @@ ul {
     }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 770px), screen and (max-height: 525px) {
     #cvid, #billederid, #kontaktid, #omid {
         display: none;
     }
@@ -712,5 +712,9 @@ ul {
     #foot75 {
         bottom: 5px;
         left: 2.5%;
+    }
+
+    #back-to-top {
+        right: 15px;
     }
 }
