@@ -305,7 +305,8 @@ html, body {
 }
 
 #content {
-    padding-bottom: 174px;
+    padding-bottom: 250px;
+    margin-bottom: -250px;
 }
 
 .boks {
@@ -482,10 +483,10 @@ ul {
     display: none;
     width: 50px;
     height: 50px;
-    position: fixed;
+    position: sticky;
     z-index: 999;
     right: 50px;
-    bottom: 70px;
+    bottom: 170px;
     background: rgba(235,235,235,1) url(Images/up.png) no-repeat center 30%;
     background-size: 40px 25px;
     border-radius: 100%;
@@ -535,6 +536,7 @@ ul {
 	bottom:0;
 	left:0;
     background-color: rgba(0,0,0,0.4);
+    margin-top: 100px;
 }
 
 .foot p {
