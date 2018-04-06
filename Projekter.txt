@@ -15,7 +15,6 @@ Kodning:
     Tilføj hreflang til sitemap.xml: 
         https://support.google.com/webmasters/answer/2620865
         https://www.aleydasolis.com/english/international-seo-tools/hreflang-tags-generator/
-    Find måde at tilføje simpel oversigt over CV
 
 Mobil:
     Gør dropdown-menu i CV pænere og mindre på mobil
