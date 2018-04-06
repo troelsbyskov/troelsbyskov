@@ -12,12 +12,13 @@ Kodning:
         3. Husk at tilføje jQuery/javascript-skill til "Om"
     Ret "collapsable"-links, ved de ting, der har +70 pixel over dem
     Tilføj indholdsfortegnelse (som dropdown (måske dropout (fra siden)?), som mobil) til meget smalle vinduer
-    Tilføj hreflang til sitemap: 
+    Tilføj hreflang til sitemap.xml: 
         https://support.google.com/webmasters/answer/2620865
         https://www.aleydasolis.com/english/international-seo-tools/hreflang-tags-generator/
+    Find måde at tilføje simpel oversigt over CV
 
 Mobil:
     Gør dropdown-menu i CV pænere og mindre på mobil
     
 Analytics:
-    Opsæt mål (konvertering) om at submitte feedback
+    

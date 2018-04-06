@@ -189,17 +189,24 @@ label {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(232,66,58,0.55);
-    border: 5px solid rgba(232,66,58,0.66);
+    background-color: rgba(0,0,0,0.35);
+    border: 3px solid rgba(0,0,0,0.45);
     border-radius: 2px;
 }
 
-noscript h1 {
+.noscriptfeedback {
     position: absolute;
-    top: 43%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    width: 75%;
+    transform: translate(-50%, -70%);
+    z-index: 9000;
+    text-align: left;
+}
+
+.kontakttekst1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
 }
 
 @media only screen and (max-width: 1080px) {
