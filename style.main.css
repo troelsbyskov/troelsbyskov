@@ -305,7 +305,7 @@ html, body {
 }
 
 #content {
-    padding-bottom: 150px;
+    padding-bottom: 174px;
 }
 
 .boks {
@@ -529,7 +529,7 @@ ul {
 }
 
 #footer {
-	width: 100%;
+    width: 100%;
 	height: 60px;
 	position: absolute;
 	bottom:0;
