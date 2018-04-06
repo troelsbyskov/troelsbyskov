@@ -7,8 +7,9 @@
 }
 
 .scrollmenu {
-    position: fixed;
-    top: 16%;
+    position: sticky;
+    /*top: 16%;*/
+    bottom: 170px;
     left: 15px;
     width: 11rem;
     border: 1px solid rgba(130,130,130,1);
