@@ -15,6 +15,7 @@ Kodning:
     Tilføj hreflang til sitemap.xml: 
         https://support.google.com/webmasters/answer/2620865
         https://www.aleydasolis.com/english/international-seo-tools/hreflang-tags-generator/
+    Lav nav-bar fixed indtil overskrift og ellers kun hvis man scroller opad
 
 Mobil:
     Gør dropdown-menu i CV pænere og mindre på mobil
