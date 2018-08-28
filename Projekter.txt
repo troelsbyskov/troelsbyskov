@@ -1,11 +1,9 @@
 Indhold:
-    Opdater engelsk-kundskaber med info om at semestret i London har gjort mig meget bedre
     Opdater Google Parters-tilknytning
         Ændre til academy for ads og tilføj Google analytics academy
         Skriv at jeg har planer om at gå i gang.
 
 Kodning:
-    Lav overskriften i popups (fra CV) fixed, så man ikke kan scrolle ned over dette
     Lær jQuery og tilføj dette til:
         1. Billedsiden med slideshow
         2. CV, "back-to-top"-knap: FadeIn/Out('slow') og blød bevægelse til toppen
