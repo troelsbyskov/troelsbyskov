@@ -220,8 +220,8 @@ a .institution:hover, .tredje a:hover {
 .ittu {
     position: relative;
     top: -14px;
-    left: -32.5px;
-    margin-bottom: -15px;
+    left: -35px;
+    margin-bottom: -10px;
 }
 
 #grey {
@@ -235,6 +235,11 @@ a .institution:hover, .tredje a:hover {
     padding-left: 0.1rem;
     padding-top: 0.2rem;
     text-align: center;
+}
+
+.leftinpopup {
+    position: relative;
+    left: 1.7rem;
 }
 
 .underline {
