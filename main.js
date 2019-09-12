@@ -1,3 +1,16 @@
+/* Hide header / navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-220px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+/* Slut på Hide header / navbar */
+
 /* Dropdown menu */
 function dropdownMenu() {
     document.getElementById("myDropdown").classList.toggle("show");
