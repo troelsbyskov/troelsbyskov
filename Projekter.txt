@@ -6,9 +6,7 @@ Indhold:
     Snapchat-certifikat
     Tilføj erfaring med Facebook Business Manager
     Sjovere baggrund på "om.html"
-    Slet nederste to paragraffer i intro til CV
     Tilføj flere billeder - evt. lav større indtil jQuery er lært+implementeret
-    Slet gmail-adressen
     Tilføj praktikplads
     Tilføj AU som arbejdsplads
     Tilføj erfaring med Premiere Pro (og iMovie)

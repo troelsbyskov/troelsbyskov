@@ -237,11 +237,6 @@ a .institution:hover, .tredje a:hover {
     text-align: center;
 }
 
-.leftinpopup {
-    position: relative;
-    left: 1.7rem;
-}
-
 .underline {
     border-bottom: 1px solid black;
     width: 85px;
