@@ -3,9 +3,11 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("header").style.top = "0";
+    document.getElementsById("header").style.top = "0";
+    document.getElementsByClassName("navigation").style.top = "0";
   } else {
     document.getElementById("header").style.top = "-220px";
+    document.getElementsByClassName("navigation").style.top = "-220px";
   }
   prevScrollpos = currentScrollPos;
 }
