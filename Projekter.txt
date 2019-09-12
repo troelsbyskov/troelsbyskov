@@ -14,6 +14,7 @@ Indhold:
     Tilføj erfaring med Premiere Pro (og iMovie)
     Tilføj erfaring med billedredigering, specielt Pixelmator Pro og tilsvarende funktioner i Photoshop
     Tilføj flere fag til fagoversigt
+    Tilføj ikoner så mange steder som muligt (logoer fra programmer og online services)
 
 Kodning:
     Lær jQuery og tilføj dette til:
