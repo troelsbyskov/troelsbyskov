@@ -4,14 +4,13 @@ Indhold:
         Skriv at jeg har planer om at gå i gang.
     Nye Google-certifikater
     Snapchat-certifikat
-    Tilføj erfaring med Facebook Business Manager
     Sjovere baggrund på "om.html"
     Tilføj flere billeder - evt. lav større indtil jQuery er lært+implementeret
     Tilføj praktikplads
     Tilføj AU som arbejdsplads
+    Tilføj erfaring med Facebook Business Manager
     Tilføj erfaring med Premiere Pro (og iMovie)
     Tilføj erfaring med billedredigering, specielt Pixelmator Pro og tilsvarende funktioner i Photoshop
-    Tilføj flere fag til fagoversigt
     Tilføj ikoner så mange steder som muligt (logoer fra programmer og online services)
     
     FIX FORSIDEN
