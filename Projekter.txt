@@ -2,6 +2,18 @@ Indhold:
     Opdater Google Parters-tilknytning
         Ændre til academy for ads og tilføj Google analytics academy
         Skriv at jeg har planer om at gå i gang.
+    Nye Google-certifikater
+    Snapchat-certifikat
+    Tilføj erfaring med Facebook Business Manager
+    Sjovere baggrund på "om.html"
+    Slet nederste to paragraffer i intro til CV
+    Tilføj flere billeder - evt. lav større indtil jQuery er lært+implementeret
+    Slet gmail-adressen
+    Tilføj praktikplads
+    Tilføj AU som arbejdsplads
+    Tilføj erfaring med Premiere Pro (og iMovie)
+    Tilføj erfaring med billedredigering, specielt Pixelmator Pro og tilsvarende funktioner i Photoshop
+    Tilføj flere fag til fagoversigt
 
 Kodning:
     Lær jQuery og tilføj dette til:
