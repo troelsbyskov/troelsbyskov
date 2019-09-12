@@ -15,7 +15,10 @@ Indhold:
     Tilføj erfaring med billedredigering, specielt Pixelmator Pro og tilsvarende funktioner i Photoshop
     Tilføj flere fag til fagoversigt
     Tilføj ikoner så mange steder som muligt (logoer fra programmer og online services)
-
+    
+    FIX FORSIDEN
+        Tilføj fritidsinteresser
+    
 Kodning:
     Lær jQuery og tilføj dette til:
         1. Billedsiden med slideshow
@@ -30,6 +33,7 @@ Kodning:
 
 Mobil:
     Gør dropdown-menu i CV pænere og mindre på mobil
+    Fix mobilview - DEN ER HEL GAL
     
 Analytics:
     
