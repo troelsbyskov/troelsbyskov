@@ -4,7 +4,6 @@ Indhold:
         Skriv at jeg har planer om at gå i gang.
     Nye Google-certifikater
     Snapchat-certifikat
-    Sjovere baggrund på "om.html"
     Tilføj flere billeder - evt. lav større indtil jQuery er lært+implementeret
     Tilføj praktikplads
     Tilføj AU som arbejdsplads
