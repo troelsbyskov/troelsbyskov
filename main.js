@@ -1,16 +1,39 @@
 /* Hide header / navbar */
-var prevScrollpos = window.pageYOffset;
+
+/*document.ready(function () {
+
+  'use strict';
+
+   var c, currentScrollTop = 0,
+       navbar = '.navigation';
+
+   window.scroll(function () {
+      var a = window.scrollTop();
+      var b = navbar.height();
+
+      currentScrollTop = a;
+
+      if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollUp");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollUp");
+      }
+      c = currentScrollTop;
+  });
+
+});*/
+
+/*var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
     document.getElementsById("header").style.top = "0";
-    document.getElementsByClassName("navigation").style.top = "0";
   } else {
-    document.getElementById("header").style.top = "-220px";
-    document.getElementsByClassName("navigation").style.top = "-220px";
+    document.getElementById("header").style.top = "-40px";
   }
   prevScrollpos = currentScrollPos;
-}
+}*/
+
 /* Slut på Hide header / navbar */
 
 /* Dropdown menu */

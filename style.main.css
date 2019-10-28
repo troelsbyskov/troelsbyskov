@@ -293,6 +293,7 @@ html, body {
     left: 0;
     z-index: 9000;
     margin: 0;
+    transition: top 0.3s ease-in-out;
 }
 
 #header {
@@ -302,6 +303,11 @@ html, body {
     top: 0;
     position: fixed;
     z-index: 9000;
+    transition: top 0.3s ease-in-out;
+}
+
+.scrollUp {
+   transform: translateY(-80px);
 }
 
 .navigation li {
