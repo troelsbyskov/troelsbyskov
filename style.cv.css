@@ -298,6 +298,16 @@ a .institution:hover, .tredje a:hover {
     margin-left: 25px;
 }
 
+.software-logo {
+    position: relative;
+    left: 45px;
+}
+
+.software-logo img {
+    height: 70px;
+    margin: 5px 8px 0 0;
+}
+
 .tekst, .tekst0 {
     margin-bottom: 10px;
     margin-top: 0;
