@@ -1,3 +1,6 @@
+CV:
+    Bedre idé: Lav fast faner i toppen i stedet for "wiki"-oversigt. Dermed kan behovet for fold-ud-knapper fjernes, der kan laves en skarpere cv-startside osv.
+
 Indhold:
     Opdater Google Parters-tilknytning
         Ændre til academy for ads og tilføj Google analytics academy
@@ -9,9 +12,12 @@ Indhold:
     Tilføj AU som arbejdsplads
     Tilføj erfaring med Facebook Business Manager
     Tilføj ikoner så mange steder som muligt (logoer fra programmer og online services)
+    Tilføj skille-streger (lodrette) mellem kompetence-ikoner
+    Kontakt-side: tydelige knapper uden :hover
+    Om-side: mindre tydeligt værktøj som baggrund
     
     FIX FORSIDEN
-        Tilføj fritidsinteresser
+        Tilføj fritidsinteresser og personligt afsnit
     
 Kodning:
     Lær jQuery og tilføj dette til:
