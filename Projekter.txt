@@ -15,6 +15,7 @@ Indhold:
     Tilføj skille-streger (lodrette) mellem kompetence-ikoner
     Kontakt-side: tydelige knapper uden :hover
     Om-side: mindre tydeligt værktøj som baggrund
+    Opdatér billede (Mesa Verde) + tilføj til billede-side
     
     FIX FORSIDEN
         Tilføj fritidsinteresser og personligt afsnit
