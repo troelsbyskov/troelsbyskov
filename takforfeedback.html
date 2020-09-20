@@ -2,11 +2,11 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Troels Byskov – Sitemap</title>
+    <title>Troels Byskov – Kontakt</title>
     <link href="/style.main.css" type="text/css" rel="stylesheet" />
     <link href="/style.main.phone.css" type="text/css" rel="stylesheet" />
-    <link href="/style.cv.css" type="text/css" rel="stylesheet" />
-    <link href="/style.cv.phone.css" type="text/css" rel="stylesheet" />
+    <link href="/style.kontakt.css" type="text/css" rel="stylesheet" />
+    <link href="/style.kontakt.phone.css" type="text/css" rel="stylesheet" />
     <link href="/style.footer.css" type="text/css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Abel|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="/Images/favicon.ico" />
@@ -39,8 +39,8 @@
         <li><a href="/kontakt" class="navbut" id="kontakt">Kontakt</a></li>
     </ul>
     <ul id="sprogvalg">
-        <li><a href="/sitemap" title="Skift til dansk."><img src="/Images/dk.png" alt="Dansk."/></a></li>
-        <li><a href="/en/sitemap" title="Change to English."><img src="/Images/en.png" alt="English."/></a></li>
+        <li><a href="/kontakt" title="Skift til dansk."><img src="/Images/dk.png" alt="Dansk."/></a></li>
+        <li><a href="/en/contact" title="Change to English."><img src="/Images/en.png" alt="English."/></a></li>
     </ul>
 </div>
 <!-- Slut på Header -->
@@ -49,47 +49,71 @@
 <!-- Indhold -->
 <div id="content">
     <div class="overskrift">
-        <h1>Sitemap</h1>
-        <p>Oversigten over alle sider og undersider på min hjemmeside.</p>
+        <h1>Kontakt</h1>
+        <p>Du er meget velkommen til at kontakte mig. Jeg kan kontaktes følgende steder:</p>
     </div>
     <div id="fanelinje" style="display:none;"></div>
     <div class="boks">
-        <table class="table sitemap">
-                <thead>
-                    <td id="head-erhverv">Sider på dansk</td>
-                    <td id="head-kompetencer">Pages in English</td>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="oversigtstabel" id="body-erhverv">
-                            <ul class="institutionsliste">
-                                <li><a href="/">Troels Byskov – Forside</a></li>
-                                <li><a href="/cv/">Troels Byskov – CV</a></li>
-                                <li class="liste-indryk"><a href="/cv/erhvervserfaring">CV – Erhvervserfaring</a></li>
-                                <li class="liste-indryk"><a href="/cv/uddanelse">CV – Uddannelse</a></li>
-                                <li class="liste-indryk"><a href="/cv/kompetencer">CV – Kompetencer</a></li>
-                                <li><a href="/kontakt">Troels Byskov – Kontakt</a></li>
-                                <li class="liste-indryk"><a href="/takforfeedback">Kontakt – Tak for feedback!</a></li>
-                                <li><a href="/om">Troels Byskov – Om siden</a></li>
-                                <li><a href="/sitemap">Troels Byskov – Sitemap</a></li>
-                            </ul>
-                        </td>
-                        <td class="oversigtstabel" id="body-kompetencer">
-                            <ul class="institutionsliste">
-                                <li><a href="/en/">Troels Byskov – Front page</a></li>
-                                <li><a href="/en/cv/">Troels Byskov – CV</a></li>
-                                <li class="liste-indryk"><a href="/en/cv/work-experience">CV – Work experience</a></li>
-                                <li class="liste-indryk"><a href="/en/cv/education">CV – Education</a></li>
-                                <li class="liste-indryk"><a href="/en/cv/competencies">CV – Competencies</a></li>
-                                <li><a href="/en/contact">Troels Byskov – Contact</a></li>
-                                <li class="liste-indryk"><a href="/en/thanksforfeedback">Kontakt – Thanks for feedback!</a></li>
-                                <li><a href="/en/about">Troels Byskov – About the site</a></li>
-                                <li><a href="/en/sitemap">Troels Byskov – Sitemap</a></li>
-                            </ul>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+        <ul class="liste">
+            <li class="liste2">
+                <h2>Profiler på sociale netværk</h2>
+                <ul>
+                    <li>
+                        <a href="https://linkedin.com/in/troelsbyskov/da" target="_blank">
+                            <div class="link" id="likontakt" title="Besøg min LinkedIn-profil."></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/troels.byskov" target="_blank">
+                            <div class="link" id="fbkontakt" title="Besøg min Facebook-profil."></div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="liste2">
+                <h2>Email og telefon</h2>
+                <ul>
+                    <li>
+                        <a href="mailto:troelsbyskov@outlook.com">
+                            <div class="link" id="emailkontakt" title="Send mig en e-mail.">
+                                <p>troelsbyskov@outlook.com</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+4522441758">
+                            <div class="link" id="tlfkontakt" title="Ring mig op.">
+                                <p>(+45) 22 44 17 58</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="boks">
+        <div class="feedback">
+            <form method="POST" action="https://formspree.io/troelsbyskov@outlook.com">
+                <h2 class="linje" id="feedback"><br>Henvendelser og kommentarer</h2>
+                <label for="feedbackname">Navn</label>
+                <input type="text" id="feedbackname" name="feedbackname" placeholder="Skriv dit navn her.">
+                <label for="feedbackemail">Email</label>
+                <input type="email" id="feedbackemail" name="feedbackemail" placeholder="Skriv din emailadresse her.">
+                <label for="feedbackcontent">Kommentar</label>
+                <textarea id="feedbackcontent" name="feedbackcontent" placeholder="Skriv din henvendelse, kommentar eller andre inputs her."></textarea>
+                <input id="feedbacksubmit" name="feedbacksubmit" type="submit" value="Indsend">
+                <input type="hidden" name="_next" value="/takforfeedback#feedback" />
+                <input type="hidden" name="_language" value="da" />
+            </form>
+            <p id="feedbackdone">Din kommentar er blevet sendt. Mange tak!</p>
+        </div>
+        <noscript>
+            <div class="boks noscriptfeedback">
+                <h2>Kommentarer</h2>
+                <p class="kontakttekst1">For at sende en kommentar uden javascript, benyt venligst en af ovenstående kontaktmuligheder.</p>
+            </div>
+            <span class="needsjs"></span>
+        </noscript>
     </div>
 </div>
 <!-- Slut på indhold -->

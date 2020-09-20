@@ -209,3 +209,12 @@ label {
     margin-bottom: 10px;
     line-height: 1.5rem;
 }
+
+#feedbackdone {
+    color: rgba(91,175,108,1);
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 5px;
+    font-style: italic;
+    font-size: 0.9rem;
+    text-align: center;
+}
