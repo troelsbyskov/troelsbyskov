@@ -1,28 +1,14 @@
-#baggrundyes {
+#om {
+    text-decoration: underline;
+    color: black;
+}
+
+#ombaggrund {
     background-image: url(Images/om-baggrund.jpg);
     background-color: rgba(240,240,240,1);
     background-repeat: repeat;
     background-size: 70%;
     overflow: visible;
-}
-
-.omli, .dropdown-content a.omli {
-    text-decoration: underline;
-}
-
-.omli {
-    text-decoration-color: white;
-}
-
-.om-tekst {
-    position: relative;
-    width: 100%;
-    top: 70px;
-    margin: auto;
-}
-
-.om-tekst h1 {
-    font-family: 'Raleway', sans-serif;
 }
 
 .ca-link {

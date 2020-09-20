@@ -1,0 +1,158 @@
+#footer {
+    width: 100%;
+    height: 500px;
+	position: absolute;
+	bottom:0;
+	left:0;
+}
+
+.foot {
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(130,130,130,0.85);
+}
+
+.upperfoot {
+    width: 100%;
+	position: absolute;
+    bottom: 60px;
+	left:0;
+    background-color: rgba(130,130,130,0.85);
+    margin-top: 100px;
+}
+
+.upperfoot div {
+    width: 63.7%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 0 30px 15px 30px;
+    border-bottom: solid 1px rgba(100,100,100,1);
+}
+
+.upperfoot div p {
+    font-family: serif;
+    line-height: 22px;
+}
+
+.footkontakt li {
+    display: inline-block;
+}
+
+.footkontakt a {
+    display: inline-block;
+    color: rgba(242,242,242,1);
+    text-align: right;
+    padding: 16px 10px;
+    margin: 0 5px 0 0;
+    width: 270px;
+    border-radius: 4px;
+    background-color: rgba(170,170,170,1);
+    background-position: top left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+    text-decoration: none;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.upperfoot span {
+    position: relative;
+    left: -50px;
+}
+
+#emailfoot {
+    background-image: url(Images/email3.png);
+    background-position: 5px;
+}
+
+#emailfoot:hover {
+    background-color: rgba(45,166,242,1);
+}
+
+#tlffoot {
+    background-image: url(Images/phone2.png);
+    background-position: 7px;
+}
+
+#tlffoot:hover {
+    background-color: cornflowerblue;
+}
+
+#fbfoot {
+    background-image: url(Images/fb.png);
+}
+
+#fbfoot:hover {
+    background-color: rgba(59,89,152,1);
+}
+
+#lifoot {
+    background-image: url(Images/li.png);
+}
+
+#lifoot:hover {
+    background-color: rgba(2,117,179,1);
+}
+
+.foot p {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    margin: 0;
+    z-index: 9;
+}
+
+#footcenter {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    z-index: 2;
+}
+
+.footleft {
+    float: left;
+    left: 2.5%;
+}
+
+.footleft a, #foot75 a, #foot25 a, .footright a {
+    color: rgba(90,90,90,1);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#foot25 {
+    float: right;
+    right: 20%;
+}
+
+#foot75 {
+    float: left;
+    left: 20%;
+}
+
+.foot a:hover, #foot25 a:hover, #foot75 a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.footright {
+    float: right;
+    right: 2.5%;
+}
+
+#beta {
+    font-weight: bold;
+    color: red;
+    cursor: help;
+}
+
+#copyright {
+    color: black;
+}

@@ -1,126 +1,110 @@
-/* Hide header / navbar */
-
-/*document.ready(function () {
-
-  'use strict';
-
-   var c, currentScrollTop = 0,
-       navbar = '.navigation';
-
-   window.scroll(function () {
-      var a = window.scrollTop();
-      var b = navbar.height();
-
-      currentScrollTop = a;
-
-      if (c < currentScrollTop && a > b + b) {
-        navbar.addClass("scrollUp");
-      } else if (c > currentScrollTop && !(a <= b)) {
-        navbar.removeClass("scrollUp");
-      }
-      c = currentScrollTop;
-  });
-
-});*/
-
-/*var prevScrollpos = window.pageYOffset;
+/* Auto-fjern header */
+/*var prevScrollPos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementsById("header").style.top = "0";
+  if (prevScrollPos > currentScrollPos) {
+    document.getElementById("navbar").style.cssText = "top: 0;";
   } else {
-    document.getElementById("header").style.top = "-40px";
+    document.getElementById("navbar").style.cssText = "top: -82px;";
+  }
+  prevScrollpos = currentScrollPos;*/
+
+/* Auto-shrink header */
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.cssText = "background-color:rgba(91,175,108,1);height:58px;";
+    document.getElementById("sprogvalg").style.cssText = "top:15px;";
+    document.getElementById("navn").style.cssText = "color: rgba(242,242,242,1);padding:8px;";
+    document.getElementById("cv").style.cssText = "color: rgba(242,242,242,1);width:250px;padding:10px;";
+    document.getElementById("kontakt").style.cssText = "color: rgba(242,242,242,1);width:250px;padding:10px;";
+    document.getElementById("navn").onmouseover = function() {mouseOverNavn2()};
+    document.getElementById("cv").onmouseover = function() {mouseOverCv2()};
+    document.getElementById("kontakt").onmouseover = function() {mouseOverKontakt2()};
+    document.getElementById("navn").onmouseout = function() {mouseOutNavn2()};
+    document.getElementById("cv").onmouseout = function() {mouseOutCv2()};
+    document.getElementById("kontakt").onmouseout = function() {mouseOutKontakt2()};
+    document.getElementById("fanelinje").style.cssText = "top: 56px;";
+  } else {
+    document.getElementById("navbar").style.cssText = "background-color:rgba(91,175,108,1);height:44px;";
+    document.getElementById("sprogvalg").style.cssText = "top:8px;";
+    document.getElementById("navn").style.cssText = "color: rgba(242,242,242,1);padding:0;";
+    document.getElementById("cv").style.cssText = "color: color: rgba(242,242,242,1);width:150px;padding:0;";
+    document.getElementById("kontakt").style.cssText = "color: color: rgba(242,242,242,1);width:150px;padding:0;";
+    document.getElementById("navn").onmouseover = function() {mouseOverNavn()};
+    document.getElementById("cv").onmouseover = function() {mouseOverCv()};
+    document.getElementById("kontakt").onmouseover = function() {mouseOverKontakt()};
+    document.getElementById("navn").onmouseout = function() {mouseOutNavn()};
+    document.getElementById("cv").onmouseout = function() {mouseOutCv()};
+    document.getElementById("kontakt").onmouseout = function() {mouseOutKontakt()};
+    document.getElementById("fanelinje").style.cssText = "top: 44px;";
   }
   prevScrollpos = currentScrollPos;
-}*/
-
-/* Slut på Hide header / navbar */
-
-/* Dropdown menu */
-function dropdownMenu() {
-    document.getElementById("myDropdown").classList.toggle("show");
 }
 
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-/* Slut på Dropdown menu */
-
-/* Popups */
-function myPopup() {
-    document.getElementById('light').style.display='block';
-    document.getElementById('fade').style.display='block';
-    document.getElementById('kryds').style.display='block';
+function mouseOverKontakt() {
+  document.getElementById("kontakt").style.cssText = "color: color: rgba(242,242,242,1);width:150px;padding:0;text-decoration:underline;";
 }
 
-function myPopup2() {
-    document.getElementById('light2').style.display='block';
-    document.getElementById('fade').style.display='block';
-    document.getElementById('kryds').style.display='block';
+function mouseOverCv() {
+  document.getElementById("cv").style.cssText = "color: color: rgba(242,242,242,1);width:150px;padding:0;text-decoration:underline;";
 }
 
-function closePopup() {
-    document.getElementById('light').style.display='none';
-    document.getElementById('light2').style.display='none';
-    document.getElementById('fade').style.display='none';
-    document.getElementById('kryds').style.display='none';
+function mouseOverNavn() {
+  document.getElementById("navn").style.cssText = "color: color: rgba(242,242,242,1);padding:0;text-decoration:underline;";
 }
-/* Slut på Popups */
 
-/* Back to top */
-window.onscroll = function() {scrollFunction()};
+function mouseOutKontakt() {
+  document.getElementById("kontakt").style.cssText = "color: color: rgba(242,242,242,1);width:150px;padding:0;";
+}
+
+function mouseOutCv() {
+  document.getElementById("cv").style.cssText = "color: color: rgba(242,242,242,1);width:150px;padding:0;";
+}
+
+function mouseOutNavn() {
+  document.getElementById("navn").style.cssText = "color: color: rgba(242,242,242,1);padding:0;";
+}
+
+function mouseOverKontakt2() {
+  document.getElementById("kontakt").style.cssText = "";
+}
+
+function mouseOverCv2() {
+  document.getElementById("cv").style.cssText = "";
+}
+
+function mouseOverNavn2() {
+  document.getElementById("navn").style.cssText = "";
+}
+
+function mouseOutKontakt2() {
+  document.getElementById("kontakt").style.cssText = "";
+}
+
+function mouseOutCv2() {
+  document.getElementById("cv").style.cssText = "";
+}
+
+function mouseOutNavn2() {
+  document.getElementById("navn").style.cssText = "";
+}
+
+/* Shrink header med delay (kommer kun igen i toppen) */
+/*window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 515 || document.documentElement.scrollTop > 515) {
-        document.getElementById("back-to-top").style.display = "block";
-    } else {
-        document.getElementById("back-to-top").style.display = "none";
-    }
-}
-/*Slut på Back to top*/
-
-/* Expand/collapse text */
-function toggleMe(a){
-    var e=document.getElementById(a);
-    var i = document.getElementById(a+'_image');
-        if(!e)return true;
-        if(e.style.display=="none"){
-            e.style.display="block"
-            i.style.backgroundPosition="0 -100%";
-        } else {
-            e.style.display="none"
-            i.style.backgroundPosition="0 0";
-        }
-        return true;
-}
-/* Slut på Expand/collapse text */
-
-/* Scrollmenu-dropdown */
-function smDropdownMenu() {
-    document.getElementById("smDropdown").classList.toggle("show");
-}
-
-window.onclick = function(event) {
-  if (!event.target.matches('.smdropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("smdropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("navbar").style.cssText = "background-color:rgba(255,255,255,0.65);height:50px;";
+    document.getElementById("navn").style.cssText = "color: black;padding:0;";
+    document.getElementById("cv").style.cssText = "color: black;width:150px;padding:0;";
+    document.getElementById("kontakt").style.cssText = "color: black;width:150px;padding:0;";
+  } else {
+    document.getElementById("navbar").style.cssText = "top: -12px;";
+    document.getElementById("navn").style.cssText = "color: rgba(242,242,242,1);padding:10px;";
+    document.getElementById("cv").style.cssText = "color: rgba(242,242,242,1);width:250px;padding:10px;";
+    document.getElementById("kontakt").style.cssText = "color: rgba(242,242,242,1);width:250px;padding:10px;";
   }
-}
-/* Slut på Scrollmenu-dropdown */
+}*/

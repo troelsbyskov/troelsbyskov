@@ -1,23 +1,27 @@
-#logoli, .dropdown-content a.logoli {
+#navn {
     text-decoration: underline;
 }
 
-#logoli {
-    text-decoration-color: white;
-}
-
-.welcome h1 {
-    font-family: 'Raleway', sans-serif;
-}
-
-.welcome {
+#firsth2 {
     font-family: Tahoma, Geneva, sans-serif;
-    text-align: center;
-    position: relative;
-    top: 60px;
+    padding: 0 10px;
 }
 
-.welcome p {
+#firstp, #firsth2 {
+    left: 300px;
     position: relative;
-    top: -15px;
+    background-color: rgba(245,245,245,0.5);
+    border-radius: 3px;
+}
+
+#firstp {
+    width: 62%;
+    padding: 0 10px 10px;
+}
+
+#firstboks {
+    background-image: url("Images/Mig/IMG_2148@0.5x.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }

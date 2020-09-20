@@ -1,41 +1,27 @@
-.kontaktli, .dropdown-content a.kontaktli {
+#kontakt {
     text-decoration: underline;
-}
-
-.kontaktli {
-    text-decoration-color: white;
-}
-
-.kontakttekst {
-    position: relative;
-    top: 70px;
-    width: 100%;
-    margin: auto;
-}
-
-h1 {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-}
-
-#kontakt-boks {
-    text-align: center;
-    width: 72.4%;
-    padding: 0 2px;
-}
-
-.overemne h2 {
-    width: 100%;
-}
-
-.kontakttekst h2 {
-    font-family: Tahoma, Geneva, sans-serif;
 }
 
 .liste {
     text-align: center;
-    display: inline-table;
+    display: inline-block;
     padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.liste2 {
+    margin: auto 15px;
+    display: inline-table;
+}
+
+.liste2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.liste ul {
+    padding: 0;
 }
 
 .liste li {
@@ -45,71 +31,87 @@ h1 {
 .link {
     width: 300px;
     border-radius: 5px;
-    border: 1px solid rgba(0,0,0,0);
     margin: 15px 0;
     height: 55px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    transition: background-color 0.3s;
+    background-color: rgba(235,235,235,1);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 10px 0 0;
+    text-align: right;
+    background-size: contain;
 }
 
-.link a {
+.liste a {
     text-decoration: none;
     color: black;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 1.1rem
 }
 
-.link table {
+.liste p {
     position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.08rem;
 }
 
-.link:hover {
-    background-color: rgba(0,0,0,0.1);
-    border: 1px solid black;
+#likontakt {
+    background-image: url(Images/linkedin.png);
 }
 
-.socimg {
-    height: 50px;
+#likontakt:hover {
+    background-color: rgba(1,102,153,1);
 }
 
-#dk2 {
-    height: 1.2rem;
-    position: relative;
-    top: 3px;
+#glkontakt {
+    background-image: url(Images/graduateland.png);
 }
 
-#fyld {
-    width: 33px;
+#glkontakt:hover {
+    background-color: rgba(75,187,121,1);
 }
 
-.ubenyttet {
-    margin: 0;
-    position: relative;
-    font-size: 0.75rem;
-    top: -17px;
-    width: 150px;
-    left: 55px;
+#fbkontakt {
+    background-image: url(Images/facebook.png), url(Images/facebook-hvid.png);
 }
 
-.link2 {
-    height: 55px;
+#fbkontakt:hover {
+    background-image: url(Images/facebook-hvid.png);
+    background-color: rgba(62,90,150,1);
+}
+
+#emailkontakt {
+    background-image: url(Images/email3.png);
+    background-position: center left 10px;
+}
+
+#emailkontakt:hover {
+    background-color: rgba(45,166,242,1)
+}
+
+#tlfkontakt {
+    background-image: url(Images/phone2.png);
+    background-position: center left 10px;
+}
+
+#tlfkontakt:hover {
+    background-color: cornflowerblue;
 }
 
 .tekst {
-    height: 1.3rem;
     position: relative;
     top: -3px;
+    color: black;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.1rem;
 }
 
 .feedback {
-    position: relative;
-    margin: auto;
-    min-width: 300px;
     text-align: left;
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 10px 30px;
 }
 
 #feedback:before {
@@ -124,8 +126,6 @@ h1 {
     padding: 5px;
     border: 1px solid grey;
     border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
     font-size: 0.9rem;
     width: 75%;
     display: block;
@@ -144,11 +144,11 @@ label {
 #feedbackcontent {
     height: 8rem;
     min-height: 5rem;
+    resize: vertical;
     background-image: url(Images/feedback.png);
     background-size: 170px;
     background-repeat: no-repeat;
     background-position: bottom right;
-    background;
 }
 
 #feedbacksubmit {
@@ -162,6 +162,7 @@ label {
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    transition: 0.3s;
 }
 
 #feedbacksubmit:hover {
@@ -207,24 +208,4 @@ label {
     margin-top: 5px;
     margin-bottom: 10px;
     line-height: 1.5rem;
-}
-
-@media only screen and (max-width: 1080px) {
-    #kontakt-boks {
-        width: 81.1%;
-    }
-}
-
-@media only screen and (max-width: 770px) {
-    #kontakt-boks {
-        width: 87.8%;
-    }
-
-    #feedbackname, #feedbackemail, #feedbackcontent {
-        width: 82%;
-    }
-
-    label {
-        left: 9.25%;
-    }
 }
