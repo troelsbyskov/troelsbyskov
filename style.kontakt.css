@@ -1,0 +1,211 @@
+#kontakt {
+    text-decoration: underline;
+}
+
+.liste {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.liste2 {
+    margin: auto 15px;
+    display: inline-table;
+}
+
+.liste2 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.liste ul {
+    padding: 0;
+}
+
+.liste li {
+    list-style-type: none;
+}
+
+.link {
+    width: 300px;
+    border-radius: 5px;
+    margin: 15px 0;
+    height: 55px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    transition: background-color 0.3s;
+    background-color: rgba(235,235,235,1);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 10px 0 0;
+    text-align: right;
+    background-size: contain;
+}
+
+.liste a {
+    text-decoration: none;
+    color: black;
+}
+
+.liste p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.08rem;
+}
+
+#likontakt {
+    background-image: url(Images/linkedin.png);
+}
+
+#likontakt:hover {
+    background-color: rgba(1,102,153,1);
+}
+
+#glkontakt {
+    background-image: url(Images/graduateland.png);
+}
+
+#glkontakt:hover {
+    background-color: rgba(75,187,121,1);
+}
+
+#fbkontakt {
+    background-image: url(Images/facebook.png), url(Images/facebook-hvid.png);
+}
+
+#fbkontakt:hover {
+    background-image: url(Images/facebook-hvid.png);
+    background-color: rgba(62,90,150,1);
+}
+
+#emailkontakt {
+    background-image: url(Images/email3.png);
+    background-position: center left 10px;
+}
+
+#emailkontakt:hover {
+    background-color: rgba(45,166,242,1)
+}
+
+#tlfkontakt {
+    background-image: url(Images/phone2.png);
+    background-position: center left 10px;
+}
+
+#tlfkontakt:hover {
+    background-color: cornflowerblue;
+}
+
+.tekst {
+    position: relative;
+    top: -3px;
+    color: black;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.1rem;
+}
+
+.feedback {
+    text-align: left;
+    padding: 0 30px 10px 30px;
+}
+
+#feedback:before {
+  display: block;
+  content: " ";
+  margin-top: -70px;
+  height: 70px;
+  visibility: hidden;
+}
+
+#feedbackname, #feedbackemail, #feedbackcontent {
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    width: 75%;
+    display: block;
+    position: relative;
+    margin: 3px auto 12px auto;
+    font-family: sans-serif;
+}
+
+label {
+    font-family: sans-serif;
+    display: block;
+    left: 12.5%;
+    position: relative;
+}
+
+#feedbackcontent {
+    height: 8rem;
+    min-height: 5rem;
+    resize: vertical;
+    background-image: url(Images/feedback.png);
+    background-size: 170px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#feedbacksubmit {
+    background-color: rgba(29,178,61,0.75);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 0.3s;
+}
+
+#feedbacksubmit:hover {
+   background-color: rgba(29,178,61,0.5);
+}
+
+#feedbackname:focus, #feedbackemail:focus, #feedbackcontent:focus {
+    box-shadow: 0 8px 20px rgba(220,220,220,1);
+}
+
+#feedbackdone {
+    color: rgba(29,178,61,0.75);
+    font-family: Tahoma, Geneva, sans-serif;
+    border-radius: 10px;
+    padding: 5px;
+    font-style: italic;
+    background-color: rgba(247,247,247,1);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.needsjs {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.35);
+    border: 3px solid rgba(0,0,0,0.45);
+    border-radius: 2px;
+}
+
+.noscriptfeedback {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    z-index: 9000;
+    text-align: left;
+}
+
+.kontakttekst1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+}

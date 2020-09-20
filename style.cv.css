@@ -1,0 +1,279 @@
+#cv {
+    text-decoration: underline;
+}
+
+#fanelinje {
+    margin: 0 -30px 0 -30px;
+    height: 35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px;
+    z-index: 2;
+}
+
+#fanelinje a {
+    height: 35px;
+    margin: 0 auto;
+    width: 25%;
+    border: none;
+    font-size: 14px;
+    background-color: rgba(235,235,235,1);
+    border-bottom: 1px solid rgb(200,200,200);
+    text-align: center;
+    line-height: 35px;
+    color: black;
+}
+
+#fanelinje a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgba(245,245,245,1);
+}
+
+#fanelinje a.aktiv {
+    background-color: rgba(245,245,245,1);
+    border-bottom: none;
+    border-left: 1px solid rgb(200,200,200);
+    border-top: 1px solid rgb(200,200,200);
+    border-right: 1px solid rgb(200,200,200);
+}
+
+.fane {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.institution {
+    margin-bottom: 2px;
+    margin-top: 40px;
+}
+
+.institution:before {
+    display: block;
+    content: " ";
+    margin-top: -90px;
+    height: 90px;
+    visibility: hidden;
+}
+
+td {
+    vertical-align: top;
+    max-width: 400px;
+}
+
+thead td {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+thead td a {
+    color: black;
+}
+
+#head-erhverv, #head-uddannelse {
+    border-right: 1px solid grey;
+}
+
+#head-uddannelse, #head-kompetencer {
+    padding-left: 4px;
+}
+
+.oversigtstabel {
+    width: 33%;
+    padding-left: 10px;
+}
+
+#cv-download {
+    height: 70px;
+    width: 33%;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgba(242,242,242,1);
+    background-color: rgba(255,111,54,1);
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border: none;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    appearance:button;
+    -moz-appearance:button;
+    -webkit-appearance:button;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+#cv-download:hover {
+    box-shadow: 0 6px 18px 0 rgba(0,0,0,0.2), 0 8px 18px 0 rgba(0,0,0,0.15);
+    font-size:1.26rem;
+    background-color: rgba(255,124,71,1);
+}
+
+#cv-download span {
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    display: inline-block;
+}
+
+#cv-download span:after {
+    content: '⬇';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#cv-download:hover span {
+    padding-right: 25px;
+}
+
+#cv-download:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#body-erhverv, #body-uddannelse {
+    border-right: 1px solid grey;
+}
+
+.beskrivelse {
+    margin: 0 auto;
+}
+
+.oversigt {
+    margin: 6px auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oversigtsliste {
+    margin: 0 auto 0;
+}
+
+.institutionsliste {
+    margin-top:0;
+    list-style: none outside none;
+    padding: 0;
+}
+
+.institutionsliste li {
+    padding-left: 16px;
+    margin: 5px 0 0 8px;
+}
+
+.institutionsliste li:before {
+    content: "➝";
+    padding-right: 8px;
+    margin-left: -24px;
+}
+
+.institutionsliste a {
+    color:black;
+    text-decoration: none;
+}
+
+.institutionsliste a:hover {
+    text-decoration: underline;
+}
+
+.institutionsimg {
+    position: relative;
+    height: 110px;
+    top: 5px;
+}
+
+.softwareikoner img {
+    height: 50px;
+    margin: 5px 8px 0 0;
+}
+
+.tabel td {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.tabel td ul {
+    margin: 0;
+}
+
+.sprogimg {
+    height: 25px;
+    position: relative;
+    top: 5px;
+}
+
+.sprog td {
+    padding: 0 10px 0 0;
+    width: 33.3%;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 5px 0 0 0;
+}
+
+.liste-indryk {
+    position: relative;
+    left: 25px;
+}
+
+.sitemap {
+    margin: 20px auto;
+}
+
+h4 {
+    margin-bottom: 2px;
+}
+
+.opgaveliste {
+    margin:0;
+    list-style-type: none;
+}
+
+.opgaveliste li {
+    text-indent: -5px;
+}
+
+.opgaveliste li:before {
+    content: "-";
+    position: relative;
+    left: -16px;
+}
+
+#GAIQ {
+    background-image: url(Images/Google%20Analytics%20Individual%20Qualification.png);
+}
+
+#GASC {
+    background-image:url(Images/Google%20Ads%20Search%20Certification.png);
+}
+
+#GAIQ, #GASC {
+    list-style-type: none;
+    padding-left: 90px;
+    background-position: left;
+    background-size: auto 85px;
+    background-repeat: no-repeat;
+}
+
+#youtube-embed {
+    height: 315px;
+    width: 560px;
+}
