@@ -25,3 +25,17 @@
     background-repeat: no-repeat;
     background-position: bottom left;
 }
+
+#fritidsinteresser {
+    width: 100%;
+}
+
+#fritidsinteresser td {
+    width: 33%;
+    padding: 0 8px;
+    vertical-align: top;
+}
+
+#fritidsinteresser thead img {
+    height: 90px;
+}
