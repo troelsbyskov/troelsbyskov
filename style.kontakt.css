@@ -173,17 +173,6 @@ label {
     box-shadow: 0 8px 20px rgba(220,220,220,1);
 }
 
-#feedbackdone {
-    color: rgba(29,178,61,0.75);
-    font-family: Tahoma, Geneva, sans-serif;
-    border-radius: 10px;
-    padding: 5px;
-    font-style: italic;
-    background-color: rgba(247,247,247,1);
-    font-size: 0.9rem;
-    text-align: center;
-}
-
 .needsjs {
     height: 100%;
     width: 100%;
